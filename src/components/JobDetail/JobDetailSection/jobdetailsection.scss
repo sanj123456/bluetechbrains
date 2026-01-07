@@ -1,0 +1,109 @@
+@import "../../../styles/mixin.scss";
+
+#job-detail-section {
+  width: 100%;
+  @include wrapper-padding;
+  padding-inline:32px;
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    line-height: 140%;
+
+    @include media-sm-laptop {
+      font-size: 1.75em;
+      margin-bottom: 10px;
+    }
+    @include media-mobile {
+      font-size: 1.5em;
+    }
+  }
+
+  .info-box {
+    padding: 35px 0;
+
+    @include media-sm-laptop{
+        padding: 24px 0;
+    }
+
+    p {
+      font-size: 1.25em;
+      line-height: 1.5;
+
+      @include media-sm-laptop {
+        font-size: 1.125em;
+      }
+      @include media-tablet {
+        font-size: 1em;
+      }
+    }
+  }
+  .responsibility-box {
+    padding: 35px 0;
+    
+    @include media-sm-laptop{
+        padding: 24px 0;
+    }
+
+    .grid-box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 130px;
+
+      @include media-sm-laptop {
+        grid-gap: 60px;
+      }
+      @include media-tablet {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+      }
+
+      .box {
+        ul {
+          margin-top: 30px;
+          list-style: none;
+
+          @include media-tablet {
+            margin: 0;
+          }
+
+          li {
+            font-weight: 400;
+            padding-left: 35px;
+            position: relative;
+            font-size: 1.25em;
+            margin-bottom: 24px;
+
+            @include media-xlg-laptop {
+              font-size: 1.25em;
+              padding-left: 30px;
+              margin-bottom: 20px;
+            }
+            @include media-sm-laptop {
+              font-size: 1.125em;
+              padding-left: 30px;
+              margin-bottom: 20px;
+            }
+            @include media-tablet{
+                margin-bottom: 10px;
+            }
+            @include media-mobile{
+                font-size: 1em;
+            }
+
+            &::before {
+              content: "";
+              position: absolute;
+              background: url("../../../assets/images/right-circle-svg2.svg")
+                no-repeat center center;
+              height: 16px;
+              width: 16px;
+              left: 0;
+              top: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

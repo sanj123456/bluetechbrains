@@ -1,0 +1,100 @@
+@import "../../../styles/mixin.scss";
+
+#services-banner {
+  @include wrapper-padding;
+  padding-inline: 32px;
+  width: 100%;
+
+  .banner-container {
+    display: flex;
+    align-items: center;
+    grid-gap: 72px;
+
+    @include media-1200 {
+      grid-gap: 50px;
+    }
+    @include media-sm-laptop {
+      flex-wrap: wrap;
+    }
+
+    .hero-content {
+      width: 50%;
+
+      @include media-sm-laptop {
+        width: 100%;
+      }
+      h1 {
+        color: $content-color;
+        margin-bottom: 24px;
+        @include custom-font(600, 54px, 1);
+
+        @include media-1200 {
+          @include custom-font(600, 45px, 1);
+        }
+        @include media-sm-laptop {
+          @include custom-font(600, 40px, 1);
+        }
+        @include media-tablet {
+          @include custom-font(600, 35px, 1);
+        }
+      }
+      p {
+        @include custom-font(400, 16px, 1.6);
+        opacity: 0.8;
+      }
+      .tech-listing {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        list-style: none;
+
+        @include media-1200 {
+          grid-template-columns: 1fr;
+          margin-bottom: 30px;
+        }
+        @include media-sm-laptop {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @include media-mobile {
+          grid-template-columns: 1fr;
+        }
+
+        li {
+          display: flex;
+          flex-wrap: wrap;
+          padding-left: 20px;
+          position: relative;
+
+          &::before {
+            content: url("../../../assets/Icons/bullet.svg");
+            font-size: 10px;
+            position: absolute;
+            left: 0;
+            top: 6px;
+          }
+        }
+      }
+      .connect-btn {
+        @include media-sm-mobile {
+          margin: auto;
+        }
+      }
+    }
+    .hero-image-box {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      @include media-sm-laptop {
+        width: 100%;
+      }
+      img {
+        max-width: 638px;
+        height: auto;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}

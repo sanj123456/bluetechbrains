@@ -1,0 +1,144 @@
+@import "../../../styles/mixin.scss";
+
+#lets-connect {
+  @include wrapper-padding;
+  width: 100%;
+  padding-inline: 32px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+
+  @include media-tablet {
+    padding-inline: 0;
+  }
+
+  //   .connect-container {
+  .connect-banner {
+    // background: linear-gradient(145.51deg, #ac5dd9 7.21%, #004fc4 94.47%);
+    background: $primary-color;
+    // background: rgb(2,0,36);
+// background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+
+    @include media-sm-laptop {
+      flex-direction: column;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 60%);
+      height: 100%;
+      top: 0;
+      background: url(//www.siciliantech.com/wp-content/themes/siciliantech/img/cta-shape.svg)
+        no-repeat center top;
+      left: 54px;
+      background-size: 100% 100%;
+      pointer-events: none;
+      z-index: -1;
+
+      @include media-sm-laptop {
+        left: 0;
+        right: 0;
+        top: auto;
+        background-position: bottom center;
+        height: 250px;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+
+    .image-box {
+      position: relative;
+      margin-top: -32px;
+      width: 50%;
+      padding: 0 32px;
+
+      @include media-sm-laptop {
+        width: 100%;
+        order: 1;
+        margin: 0;
+        padding: 0 32px;
+      }
+
+      figure {
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
+        @include media-sm-laptop {
+          position: relative;
+        }
+
+        img {
+          width: 405px;
+          height: 100%;
+          object-fit: contain;
+          max-width: 100%;
+
+          @include media-sm-laptop {
+            height: 405px;
+          }
+
+          @include media-tablet {
+            height: 300px;
+          }
+        }
+      }
+    }
+
+    .content {
+      color: black;
+      padding: 30px 100px 30px 0;
+      width: 50%;
+
+      @include media-sm-laptop {
+        padding: 25px 32px;
+        text-align: center;
+        width: 100%;
+
+        .cover-swipe {
+          margin: auto;
+        }
+      }
+
+      h2 {
+        @include custom-font(600, 40px, 54px);
+        margin-bottom: 15px;
+
+        @include media-xlg-laptop {
+          @include custom-font(600, 35px, 45px);
+        }
+        @include media-sm-laptop {
+          @include custom-font(600, 30px, 40px);
+        }
+
+        @include media-mobile {
+          @include custom-font(600, 24px, 30px);
+        }
+      }
+
+      p {
+        margin-bottom: 30px;
+        @include custom-font(400, 20px, 1.5);
+
+        @include media-sm-laptop {
+          @include custom-font(400, 18px, 1.5);
+        }
+        @include media-mobile {
+          @include custom-font(400, 16px, 1.5);
+        }
+      }
+    }
+  }
+}
+// }

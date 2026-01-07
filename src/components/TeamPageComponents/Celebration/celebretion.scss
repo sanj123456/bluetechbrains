@@ -1,0 +1,113 @@
+ @import "../../../styles/mixin.scss";
+.main-infrastructuree{
+  padding-inline: 32px;
+  @include wrapper-padding;
+  overflow: clip;
+  background: #fafafc;
+  overflow: hidden;
+  line-height: 1.5;
+  font-weight: 400;
+  .wrapper-div {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+    .content-wrapper {
+      margin-bottom: 48px;
+      text-align: center;
+      max-width: 100%;
+      .top-title {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        font-weight: 600;
+        color: $content-color;
+        padding-left: 44px;
+        padding-right: 44px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        &::before {
+          content: "";
+          position: absolute;
+          background: #c7c9d9;
+          width: 37px;
+          height: 1px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          left: 0;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          background: #c7c9d9;
+          width: 37px;
+          height: 1px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          right: 0;
+          left: auto;
+        }
+      }
+      .bottom-title {
+        color: $content-color;
+        margin: 0;
+        font-size: 3.125em;
+        line-height: 118%;
+        @include media-mobile {
+          font-size: 1.25em;
+        }
+      }
+      .bottom-para {
+        line-height: 1.5;
+        font-weight: 400;
+        color: #12141d;
+        margin-top: 24px;
+        max-width: 985px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 16px;
+        opacity: 0.8;
+      }
+    }
+  }
+  .Image-gallery {
+    overflow: hidden;
+    cursor: -webkit-grab;
+    cursor: grab;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    // height: 500px;
+    .swiper-slide {
+      transition: all 0.6s ease;
+      display: flex;
+      height: auto;
+      .card-box {
+        width: 100%;
+        height: 100%;
+        flex: 1;
+        margin: auto;
+        transition: all 0.6s ease;
+        object-fit: cover;
+      }
+      .scale-down {
+        transform: scale(0.9);
+      }
+    }
+  }
+  .btn-div {
+    text-align: center;
+    margin-top: 60px;
+    >div{
+      margin: auto;
+    }
+  }
+}

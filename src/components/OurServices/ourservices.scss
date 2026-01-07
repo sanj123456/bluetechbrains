@@ -1,0 +1,89 @@
+@import "../../styles/mixin.scss";
+
+#ourServices {
+  figure {
+    position: relative;
+    padding: 48px;
+    margin-left: 45px;
+    width: 200px;
+    height: 200px;
+    margin-top: 45px;
+
+    &::before {
+      content: "";
+      background: -o-linear-gradient(
+        230deg,
+        rgba(255, 136, 0, 0.36) 0%,
+        rgba(255, 255, 255, 0) 52.09%
+      );
+      background: linear-gradient(
+        -140deg,
+        rgba(255, 136, 0, 0.36) 0%,
+        rgba(255, 255, 255, 0) 52.09%
+      );
+      opacity: 0.5;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%) rotate(-45deg);
+      -ms-transform: translateY(-50%) rotate(-45deg);
+      transform: translateY(-50%) rotate(-45deg);
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .card-content {
+    color: $content-color;
+    .service-title {
+      @include custom-font(600, 24px, 26px);
+      position: relative;
+      padding-bottom: 12px;
+      display: inline;
+
+      @include media-lg-laptop {
+        @include custom-font(600, 20px, 22px);
+      }
+      @include media-mobile {
+        @include custom-font(600, 18px, 20px);
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 0;
+        width: 90px;
+        height: 1px;
+        background: $content-color;
+      }
+    }
+    .service-list {
+      margin-top: 24px;
+
+      .list-item {
+        margin-bottom: 8px;
+        list-style: none;
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+          content: url("../../assets/Icons/bullet.svg");
+          font-size: 10px;
+          position: absolute;
+          left: 0;
+          top: 6px;
+        }
+
+        a {
+          color: $content-color;
+          
+          &:hover {
+            color: $hover-active-color;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@import "../../../styles/mixin.scss";
+.WwwBeliefMain {
+  padding-inline: 32px;
+  @include wrapper-padding;
+  .peragraph {
+    max-width: 985px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    color: #12141d;
+    font-size: 20px;
+    @media (max-width: 991px) {
+      font-size: 1em;
+    }
+  }
+
+  .cards-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+    @media (width<=900px) {
+      flex-direction: column;
+    }
+
+    .left {
+      flex: 1;
+      flex-grow: 1;
+      max-width: 550px;
+      //   margin: 0 auto;
+      @media (max-width: 767px) {
+        // margin: 0 auto;
+        max-width: 500px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+
+    .right {
+      flex: 1;
+      flex-grow: 1;
+      .card {
+        width: 100%;
+        position: relative;
+        padding: 40px 30px 40px 30px;
+        background: #f9fbff;
+        border-top-width: 3px;
+        border-top-style: solid;
+        display: flex;
+        justify-content: start;
+        gap: 3rem;
+        > figure {
+          max-width: 65px;
+          img {
+            width: 100;
+          }
+
+          @media (max-width: 991px) {
+            max-width: 50px;
+          }
+          @media (max-width: 1199px) {
+            max-width: 55px;
+          }
+        }
+        .content {
+          > h4 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+
+            color: $content-color;
+            @media (max-width: 991px) {
+              font-size: 20px;
+            }
+          }
+          p {
+            font-weight: 400;
+            color: #12141d;
+          }
+        }
+        &:first-child {
+          background: #f2f8ff !important;
+          border-color: #136cf5;
+        }
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+        &:nth-child(2) {
+          border-color: #ec4326;
+          background: #fff2f0 !important;
+        }
+        &:nth-child(3) {
+          border-color: #04ad77;
+          background: #f1fbf2 !important;
+        }
+      }
+    }
+  }
+}

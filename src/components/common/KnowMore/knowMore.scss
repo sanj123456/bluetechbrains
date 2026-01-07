@@ -1,0 +1,79 @@
+@import "../../../styles/mixin.scss";
+.knowMoreMain {
+  @include wrapper-padding;
+  background-color: #fefefe;
+  padding-inline: 32px;
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+
+    @media (max-width: 991px) {
+      grid-gap: 30px 30px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 575px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+      padding: 40px;
+      background: #fff;
+      -webkit-box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 60px rgba(0, 0, 0, 0.08);
+      @include media-sm-mobile{
+        padding: 25px 20px;
+      }
+
+      &:hover {
+        > img {
+          animation: bounceIn 1s;
+        }
+        >svg{
+          animation: bounceIn 1s;
+        }
+        @keyframes bounceIn {
+          0%,
+          20%,
+          50%,
+          80%,
+          100% {
+            transform: translateY(0);
+            opacity: 1;
+          }
+          40% {
+            transform: translateY(-11px);
+          }
+          60% {
+            transform: translateY(-8px);
+          }
+        }
+      }
+      >svg{
+        font-size: 55px;
+        margin-bottom: 25px;
+        color: green;
+      }
+      > img {
+        max-height: 55px;
+        width: auto;
+        margin-bottom: 25px;
+        max-width: 100%;
+      }
+      h4 {
+        margin: 0 0 24px;
+        font-weight: 700px;
+        line-height: 33px;
+        color: $content-color;
+        font-size: 1.5em;
+      }
+      > p {
+        margin-top: 16px;
+        color: rgba(18, 20, 29, 0.8);
+        margin-bottom: 0;
+        margin: 0 0 30px;
+      }
+    }
+  }
+}

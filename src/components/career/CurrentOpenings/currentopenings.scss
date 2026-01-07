@@ -1,0 +1,218 @@
+@import "../../../styles/mixin.scss";
+
+#current-openings {
+  @include wrapper-padding;
+
+  .section-container {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+    
+    .current-opening-box {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 32px;
+
+      @include media-sm-laptop {
+        grid-template-columns: 1fr;
+      }
+
+      .openings-list {
+        .item-box {
+          display: flex;
+          border: 1px solid #dadada;
+          border-radius: 6px;
+          padding: 36px 30px;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          grid-gap: 30px 74px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          &:not(:last-child) {
+            margin-bottom: 20px;
+            @include media-sm-laptop {
+              margin-bottom: 10px;
+              justify-content: space-between;
+            }
+          }
+
+          @include media-1200 {
+            padding: 30px;
+            grid-gap: 30px 20px;
+          }
+
+          @include media-mobile {
+            grid-gap: 15px;
+            padding: 20px;
+          }
+
+          .opening-title-box {
+            @include media-1200 {
+              width: calc(100% - 175px);
+            }
+            @include media-mobile {
+              width: 100%;
+              grid-gap: 20px;
+            }
+            h4 {
+              @include custom-font(0, 24px, 140%);
+              margin-bottom: 8px;
+
+              @include media-1200 {
+                @include custom-font(0, 20px, 140%);
+              }
+              @include media-tablet {
+                @include custom-font(0, 18px, 140%);
+              }
+            }
+            p {
+              @include custom-font(400, 20px, 1.5);
+
+              @include media-1200 {
+                @include custom-font(400, 18px, 1.5);
+              }
+              @include media-tablet {
+                @include custom-font(400, 16px, 1.5);
+              }
+            }
+          }
+          .vacancy {
+            margin-left: auto;
+            @include media-mobile {
+              margin: 0;
+            }
+
+            p {
+              margin-bottom: 7px;
+            }
+            h5 {
+              @include custom-font(600, 20px, 140%);
+            }
+          }
+        }
+      }
+      .openings-sidebar {
+        .sticky-sidebar {
+          position: sticky;
+          top: calc($navbar-height + 32px);
+          z-index: 2;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          grid-gap: 30px;
+
+          .find {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 100%;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #dadada;
+            border-radius: 6px;
+            padding: 48px 30px;
+
+            figure {
+              img {
+                object-fit: contain;
+                max-width: 100%;
+              }
+            }
+            h2 {
+              @include custom-font(0, 32px, 140%);
+              margin: 10px 0 30px;
+
+              @include media-sm-laptop {
+                @include custom-font(0, 26px, 140%);
+              }
+              @include media-mobile{
+                margin: 10px 0 20px;
+              }
+            }
+          }
+          .rating {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border-radius: 5px;
+            max-width: 524px;
+            margin: 0 0 0 auto;
+            width: 100%;
+            flex-direction: column;
+            grid-gap: 12px;
+
+            @include media-sm-laptop {
+              max-width: 100%;
+            }
+
+            .glassdoor-box {
+              background-color: #fafafa;
+              width: 100%;
+              border: 1px solid #dadada;
+              overflow: hidden;
+              border-radius: 5px;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              padding: 8px 22px;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+
+              figure {
+                min-width: 26px;
+                max-width: 26px;
+                display: flex;
+                margin-right: 16px;
+
+                img {
+                  width: 100%;
+                  object-fit: contain;
+                }
+              }
+              h2 {
+                font-size: 42px;
+                color: #12141d;
+                font-weight: 400;
+                margin: 0;
+                line-height: 140%;
+
+                @include media-tablet{
+                  font-size: 30px;
+                }
+                @include media-mobile{
+                  font-size: 20px;
+                }
+              }
+              p {
+                margin: 0 0 0 12px;
+              }
+            }
+            .google-box {
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              width: 100%;
+              border: 1px solid #dadada;
+              overflow: hidden;
+              border-radius: 5px;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              padding: 8px 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

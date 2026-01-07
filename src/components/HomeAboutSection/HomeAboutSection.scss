@@ -1,0 +1,184 @@
+@import "../../styles/mixin.scss";
+
+.HomeAboutSection-main {
+  @include wrapper-padding;
+  background-color: $primary-color;
+  padding-inline: 32px;
+  .firstSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include media-850 {
+      flex-wrap: wrap;
+    }
+    @media (width <= 766px) {
+      align-items: start;
+      flex-direction: column;
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      row-gap: 1rem;
+
+      @include media-sm-mobile{
+        align-items: center;
+      }
+
+      .head {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 118%;
+        color: $content-color;
+        display: flex;
+
+        @include media-xlg-laptop {
+          font-size: 40px;
+        }
+        @include media-sm-laptop {
+          font-size: 30px;
+        }
+
+        // > span {
+        //   color: $secondary-color;
+        // }
+      }
+      .content {
+        font-size: 16px;
+        line-height: 24px;
+        color: $content-color;
+        opacity: 0.8;
+        max-width: 389px;
+        @include media-850 {
+          max-width: unset;
+        }
+        @include media-sm-mobile{
+          text-align: center;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 2rem;
+      width: 50%;
+      @include media-850 {
+        width: 100%;
+      }
+      img {
+        height: 400px;
+        width: 100%;
+        max-width: 770px;
+        object-fit: contain;
+        @include media-mobile {
+          height: 280px;
+        }
+        @include media-sm-mobile{
+          height: 200px;
+        }
+      }
+    }
+  }
+  .secondSection {
+    // margin-top: 3rem;
+    // display: grid;
+    // //   grid-template-columns:    215px     215px   215px  215px   215px;
+    // grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+    // gap: 0.7rem;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 60px;
+    @include media-850 {
+      margin-top: unset;
+    }
+    .box {
+      width: calc(20% - 24px);
+      text-align: center;
+      padding: 40px 20px;
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      @media (width<= 991px) {
+        padding: 30px 20px;
+        width: calc(33.33% - 20px);
+      }
+      @media (width<= 1400px) {
+        padding: 30px 20px;
+      }
+      @media (width<= 575px) {
+        width: calc(50% - 15px);
+      }
+      @media (width<= 479px) {
+        width: 100%;
+      }
+
+      .digits {
+        overflow: hidden;
+        @include custom-font(700, 50px, 140%);
+
+        @include media-1200 {
+          @include custom-font(700, 35px, 140%);
+        }
+
+        @include media-mobile {
+          @include custom-font(700, 35px, 140%);
+        }
+        span {
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-image: linear-gradient(
+            147.14deg,
+            #00cfde 6.95%,
+            #05a660 93.05%
+          );
+        }
+      }
+      .name {
+        color: $content-color;
+        font-size: 1.125em;
+        font-weight: 500;
+      }
+    }
+    .box1 .digits > span {
+      background-image: linear-gradient(
+        147.14deg,
+        #00cfde 6.95%,
+        #05a660 93.05%
+      );
+    }
+    .box2 .digits > span {
+      background-image: linear-gradient(
+        147.14deg,
+        #5b8def 6.95%,
+        #0063f7 93.05%
+      );
+    }
+    .box3 .digits > span {
+      background-image: linear-gradient(
+        147.14deg,
+        #00cfde 6.95%,
+        #05a660 93.05%
+      );
+    }
+
+    .box4 .digits > span {
+      background-image: linear-gradient(90deg, #ff6900 0%, #e63535 100%);
+    }
+    .box5 .digits > span {
+      background-image: linear-gradient(
+        147.14deg,
+        #5b8def 6.95%,
+        #0063f7 93.05%
+      );
+    }
+  }
+}

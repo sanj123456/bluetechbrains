@@ -1,0 +1,145 @@
+@import "../../../styles/mixin.scss";
+
+#job-detail-banner {
+  @include wrapper-padding;
+  padding-inline:32px;
+  width: 100%;
+  .section-container {
+    display: flex;
+    grid-gap: 72px;
+    align-items: center;
+
+    @include media-1200 {
+      grid-gap: 50px;
+    }
+    @include media-sm-laptop {
+      flex-wrap: wrap;
+    }
+
+    .left-box {
+      width: 50%;
+      @include media-sm-laptop {
+        width: 100%;
+      }
+
+      > a {
+        color: $content-color;
+        display: inline-flex;
+        font-weight: 600;
+        font-size: 1.125em;
+        margin-bottom: 25px;
+        align-items: center;
+        grid-gap: 10px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+
+        @include media-tablet {
+          font-size: 1em;
+        }
+      }
+      h1 {
+        font-size: 3.625em;
+        line-height: 1;
+        margin: 0 0 24px;
+
+        @include media-1200 {
+          font-size: 3.125em;
+        }
+        @include media-sm-laptop {
+          font-size: 2.5em;
+        }
+        @include media-tablet {
+          font-size: 2.1875em;
+        }
+      }
+      p {
+        font-size: 1em;
+        line-height: 1.6;
+      }
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        list-style: none;
+        line-height: 1.5;
+
+        @include media-1200 {
+          grid-template-columns: 1fr;
+          margin-bottom: 30px;
+        }
+        @include media-sm-laptop {
+          grid-template-columns: 1fr 1fr;
+        }
+        @include media-mobile {
+          grid-template-columns: 1fr;
+        }
+
+        li {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          position: relative;
+
+          span {
+            margin-right: 15px;
+
+            img {
+              width: 20px;
+              height: 20px;
+              object-fit: contain;
+            }
+          }
+
+          strong {
+            margin-right: 5px;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .button-box {
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px 28px;
+
+        @include media-tablet {
+          grid-gap: 20px;
+        }
+        @include media-mobile {
+          grid-gap: 15px 10px;
+        }
+      }
+    }
+    .right-box {
+      width: 50%;
+      @include media-sm-laptop {
+        width: 100%;
+      }
+
+      figure {
+        text-align: center;
+        img {
+          max-width: 638px;
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+.swal-title {
+  font-family: var(--font-bressay-regular) !important;
+}
+.swal-text{
+  font-family: var(--font-avenir-regular) !important;
+}
+.swal-confirm-button {
+  background-color: $hover-active-color !important;
+}

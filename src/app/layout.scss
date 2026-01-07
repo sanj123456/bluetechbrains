@@ -1,0 +1,9 @@
+@import '../styles/mixin.scss';
+
+.main-wrapper{
+    margin-top: 88px;
+
+    @include media-1039{
+        margin-top: 68px;
+    }
+}

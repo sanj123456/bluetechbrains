@@ -1,0 +1,13 @@
+.reveal-text {
+    display: flex;
+    flex-wrap: wrap;
+    width:fit-content;
+    font-size: 2rem;
+    font-weight: bold;
+    white-space: pre; /* Ensure spaces are respected */
+  }
+  
+  .char {
+    display: inline-block;
+    opacity: 0;
+  }

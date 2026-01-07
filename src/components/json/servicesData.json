@@ -1,0 +1,1704 @@
+{
+    "wordpress": {
+      "title": "WordPress Development Services",
+      "description": "Outshine your brand with standard-looking WordPress Websites. ScilianTech is a leading WordPress Development Company. With our 15+ years of experience, you can ensure to get stunning and result-driven custom WordPress development services that skyrocket your digital presence.",
+      "description2": "We are a top WordPress development company in India that has successfully delivered WordPress website development, WP themes, and plugin development. We believe in tailored solutions, so share your ideas to get customized WordPress development solutions that will match all your business needs. Feel free to contact us now.",
+      "services": [
+        "WordPress Design & Development Services",
+        "Custom WordPress Web Development",
+        "WordPress CMS Development",
+        "WordPress Migration Services",
+        "WordPress Responsive Website Design",
+        "Design To WordPress Conversion",
+        "WordPress Plugins Development",
+        "WordPress Support & Maintenance",
+        "WordPress WooCommerce Development",
+        "WordPress Theme Development"
+      ],
+      "bannerImage": "/Wordpress.png",
+      "cards": [
+        {
+          "img": "Icons.wwwClient",
+          "head": "WordPress Design & Development Services",
+          "content": "We assist our clients in scaling their web projects by enabling technology consulting. Hire WordPress development & design specialists at the best price and get quality services. Contact us today to discuss your project and how we can help bring your vision to life."
+        },
+        {
+          "img": "Icons.wwwCompany",
+          "head": "WordPress Responsive Website Design",
+          "content": "We offer professional and WP responsive web design to win the immense crowd coming to your website through steady encounters over different gadgets and platforms. Whether you need a brand-new website or are looking to revamp your existing one, we're here to help."
+        },
+        {
+          "img": "Icons.wwwResource",
+          "head": "WordPress WooCommerce Development",
+          "content": "We build WordPress eCommerce websites with the help of WooCommerce by adding custom features to WordPress websites like order monitoring, delivery status, inventory management, and others. We focus on creating a highly responsive and customer-friendly eCommerce store"
+        },
+        {
+          "img": "Icons.wwwResource",
+          "head": "WordPress Theme Development",
+          "content": "As a WordPress theme development services company, we develop themes that enhance every functional feature of your website while attracting your user base visually. We craft themes to substantially meet our client's custom requirements"
+        },
+        {
+          "img": "Icons.wwwResource",
+          "head": "Custom WordPress Web Development",
+          "content": "We build custom websites with exclusive themes and templates designed from scratch to craft appealing user experiences. Our teams have built customized WordPress websites and great looks that are functionality-rich, exceptional in performance, and highly optimized."
+        },
+        {
+          "img": "Icons.wwwResource",
+          "head": "WordPress Migration Services",
+          "content": "As a professional WordPress development agency, we help our clients switch their prevailing website to the WordPress platform to refine their features, functionality, and database without negotiating on pages, posts, data, content, images, security, and SEO functionalities."
+        },
+        {
+          "img": "Icons.wwwResource",
+          "head": "Design To WordPress Conversion",
+          "content": "Our WordPress team converts pixel-rich Design files to responsive ones and enables W3C-validated WordPress themes. We offer HTML, Figma, XD, Sketch, and PSD to WordPress website conversion Services and deliver 100% hand-coded higher quality, speed-optimized, seo friendly, and pixel-perfect coding."
+        }
+      ]
+    },
+    "python": {
+        "title": "Python Development Services",
+        "description": "Trust ScilianTech for secure and advanced Python web development that sets you apart from the competition. Our skilled teams specialize in Python development, providing feature-rich web portals and websites that power businesses in every industry.",
+        "description2": "Step up your digital game with ScilianTech, our experienced team of certified professionals creates tailored Python web solutions. They bring the latest technology and tools to diverse industry domains. Tap into cutting-edge Python-based technology solutions today!",
+        "services": [
+            "Python Web Development",
+            "Python API Development",
+            "Data Science & Machine Learning",
+            "Python Desktop Applications",
+            "Python Scripting & Automation",
+            "Python Backend Development"
+          ],
+        "bannerImage": "/Python.jpg",
+        "cards": [
+            {
+              "img": "Icons.pythonWeb",
+              "head": "Python Web Application Development",
+              "content": "We develop robust and scalable web applications using Python frameworks like Django and Flask. Our expert developers create custom solutions that meet your specific business needs, ensuring high performance and security."
+            },
+            {
+              "img": "Icons.pythonAPI",
+              "head": "Python API Development",
+              "content": "Our team specializes in building RESTful APIs and microservices using Python. We create efficient, secure, and well-documented APIs that enable seamless integration with other systems and enhance your application's functionality."
+            },
+            {
+              "img": "Icons.pythonDataScience",
+              "head": "Data Science and Machine Learning",
+              "content": "Leverage the power of Python for data analysis, machine learning, and AI. We build intelligent systems that can process large datasets, derive insights, and make predictions to drive your business forward."
+            },
+            {
+              "img": "Icons.pythonAutomation",
+              "head": "Python Automation and Scripting",
+              "content": "Streamline your business processes with custom Python scripts and automation tools. We develop efficient solutions for task automation, data processing, and system integration to save time and reduce errors."
+            },
+            {
+              "img": "Icons.pythonDesktop",
+              "head": "Python Desktop Application Development",
+              "content": "Create cross-platform desktop applications using Python and frameworks like PyQt or Tkinter. We design user-friendly interfaces and implement complex functionalities to deliver powerful desktop solutions."
+            },
+            {
+              "img": "Icons.pythonTesting",
+              "head": "Python Testing and Quality Assurance",
+              "content": "Ensure the reliability and performance of your Python applications with our comprehensive testing services. We employ unit testing, integration testing, and automated testing frameworks to deliver bug-free and robust software."
+            },
+            {
+              "img": "Icons.pythonMigration",
+              "head": "Legacy System Migration to Python",
+              "content": "Modernize your legacy systems by migrating them to Python. Our experienced team can help you transition smoothly, optimizing your codebase and leveraging Python's extensive libraries to enhance functionality and performance."
+            }
+          ]
+    },
+    "reactjs": {
+        "title": "React.js Development Services",
+        "description": "ScilianTech is a leading Reactjs application development company. We help you to stay ahead of the competition with innovative Reactjs development services. With highly experienced professionals dedicated to providing reliable, secure web and robust applications. Contact our team to hire the top Reactjs developers for your business growth",
+        "description2": "ScilianTech is a team of certified React JS professionals who specialize in crafting custom web applications and websites to keep your business competitive. We’re a top reactjs development company in India, due to our advanced technology expertise, stringent security measures, and comprehensive testing protocols",
+        "services": [
+          "Custom React JS App Development",
+          "React JS Integration Services",
+          "ReactJS PWA Development",
+          "React JS Migration Services",
+          "ReactJS Theme Development ",
+          "React JS Maintenance and Support"
+        ],
+        "bannerImage": "/react.png",
+        "cards": [
+            {
+              "img": "Icons.reactCustomApp",
+              "head": "Custom React JS App Development",
+              "content": "Our developers build dynamic, high-performing, and scalable web applications using React JS. We tailor our solutions to meet your specific business requirements, ensuring a seamless user experience."
+            },
+            {
+              "img": "Icons.reactIntegration",
+              "head": "React JS Integration Services",
+              "content": "We provide integration services to connect your React JS applications with other systems and platforms, ensuring smooth data flow and enhancing overall functionality."
+            },
+            {
+              "img": "Icons.reactPWA",
+              "head": "ReactJS PWA Development",
+              "content": "Develop Progressive Web Apps (PWAs) using ReactJS to deliver a fast, reliable, and engaging user experience across all devices. Our PWAs offer the best of both web and mobile apps."
+            },
+            {
+              "img": "Icons.reactMigration",
+              "head": "React JS Migration Services",
+              "content": "Upgrade your existing applications to React JS for improved performance and scalability. Our migration services ensure a smooth transition with minimal downtime and disruption."
+            },
+            {
+              "img": "Icons.reactTheme",
+              "head": "ReactJS Theme Development",
+              "content": "Create visually stunning and highly functional themes for your React JS applications. Our designers and developers work together to deliver themes that enhance user engagement and satisfaction."
+            },
+            {
+              "img": "Icons.reactSupport",
+              "head": "React JS Maintenance and Support",
+              "content": "Ensure your React JS applications run smoothly with our comprehensive maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your applications at their best."
+            }
+          ]
+    },
+    "webflow": {
+        "title": "Webflow Development Services",
+        "description": "Create stunning, responsive websites with Webflow's powerful visual development platform.",
+        "description2": "Our expert Webflow developers bring your design visions to life without compromising on functionality or performance.",
+        "services": [
+          "Custom Webflow Website Design",
+          "Responsive Webflow Development",
+          "Webflow CMS Integration",
+          "Webflow E-commerce Solutions",
+          "Webflow to HTML/CSS Conversion"
+        ],
+        "bannerImage": "/Webflow.png",
+        "cards": [
+          {
+            "img": "Icons.webflowDesign",
+            "head": "Custom Webflow Website Design",
+            "content": "Our designers create unique, visually stunning websites tailored to your brand using Webflow's powerful design capabilities."
+          },
+          {
+            "img": "Icons.responsiveDev",
+            "head": "Responsive Webflow Development",
+            "content": "Ensure your website looks great and functions perfectly on all devices with our responsive Webflow development services."
+          },
+          {
+            "img": "Icons.cmsIntegration",
+            "head": "Webflow CMS Integration",
+            "content": "Integrate a powerful CMS into your Webflow site to easily manage and update your content."
+          },
+          {
+            "img": "Icons.ecommerce",
+            "head": "Webflow E-commerce Solutions",
+            "content": "Build a fully functional online store with our Webflow e-commerce solutions, tailored to your business needs."
+          },
+          {
+            "img": "Icons.htmlCssConversion",
+            "head": "Webflow to HTML/CSS Conversion",
+            "content": "Convert your Webflow designs into clean, optimized HTML/CSS code for better performance and flexibility."
+          }
+        ]
+      },
+      "joomla": {
+        "title": "Joomla Development Services",
+        "description": "Build powerful and flexible websites with Joomla, the feature-rich content management system.",
+        "description2": "Our Joomla experts create custom solutions that leverage the platform's extensive capabilities for your business needs.",
+        "services": [
+          "Custom Joomla Website Development",
+          "Joomla Template Design",
+          "Joomla Extension Development",
+          "Joomla Migration and Upgrade",
+          "Joomla E-commerce Integration"
+        ],
+        "bannerImage": "/joomla.png",
+        "cards": [
+          {
+            "img": "Icons.joomlaDev",
+            "head": "Custom Joomla Website Development",
+            "content": "We create tailor-made Joomla websites that align with your brand identity and business requirements."
+          },
+          {
+            "img": "Icons.templateDesign",
+            "head": "Joomla Template Design",
+            "content": "Design custom Joomla templates that reflect your brand's style and enhance user experience."
+          },
+          {
+            "img": "Icons.extensionDev",
+            "head": "Joomla Extension Development",
+            "content": "Develop custom Joomla extensions to add new features and functionalities to your website."
+          },
+          {
+            "img": "Icons.migration",
+            "head": "Joomla Migration and Upgrade",
+            "content": "Seamlessly migrate your website to the latest version of Joomla with minimal downtime and data loss."
+          },
+          {
+            "img": "Icons.ecommerceIntegration",
+            "head": "Joomla E-commerce Integration",
+            "content": "Integrate e-commerce capabilities into your Joomla site to boost your online sales and business growth."
+          }
+        ]
+      },
+      "drupal": {
+        "title": "Drupal Development Services",
+        "description": "Leverage the power of Drupal for scalable and secure enterprise-level websites and applications.",
+        "description2": "Our Drupal specialists deliver robust solutions that cater to complex content management needs and high-traffic demands.",
+        "services": [
+          "Custom Drupal Website Development",
+          "Drupal Theme Development",
+          "Drupal Module Development",
+          "Drupal Commerce Solutions",
+          "Drupal Migration and Upgrade"
+        ],
+        "bannerImage": "/Drupal.png",
+        "cards": [
+          {
+            "img": "Icons.drupalDev",
+            "head": "Custom Drupal Website Development",
+            "content": "We build sophisticated Drupal websites tailored to meet your organization's specific requirements and scalability needs."
+          },
+          {
+            "img": "Icons.themeDev",
+            "head": "Drupal Theme Development",
+            "content": "Create custom Drupal themes that enhance the appearance and functionality of your website."
+          },
+          {
+            "img": "Icons.moduleDev",
+            "head": "Drupal Module Development",
+            "content": "Develop custom Drupal modules to extend the capabilities of your website and meet specific business needs."
+          },
+          {
+            "img": "Icons.commerceSolutions",
+            "head": "Drupal Commerce Solutions",
+            "content": "Implement comprehensive e-commerce solutions using Drupal Commerce to drive your online business success."
+          },
+          {
+            "img": "Icons.migration",
+            "head": "Drupal Migration and Upgrade",
+            "content": "Ensure a smooth transition to the latest version of Drupal with our migration and upgrade services."
+          }
+        ]
+      },
+      "squarespace": {
+        "title": "Squarespace Development Services",
+        "description": "Create beautiful, professional websites quickly with Squarespace's intuitive platform.",
+        "description2": "Our Squarespace experts design and customize stunning websites that showcase your brand and content effectively.",
+        "services": [
+          "Squarespace Website Design",
+          "Squarespace Template Customization",
+          "Squarespace E-commerce Setup",
+          "Squarespace SEO Optimization",
+          "Squarespace Content Migration"
+        ],
+        "bannerImage": "/Squarespace.png",
+        "cards": [
+          {
+            "img": "Icons.squarespaceDesign",
+            "head": "Squarespace Website Design",
+            "content": "We create visually appealing and functional Squarespace websites that align with your brand and business goals."
+          },
+          {
+            "img": "Icons.templateCustomization",
+            "head": "Squarespace Template Customization",
+            "content": "Customize existing Squarespace templates to better reflect your brand and meet your specific requirements."
+          },
+          {
+            "img": "Icons.ecommerceSetup",
+            "head": "Squarespace E-commerce Setup",
+            "content": "Set up a complete e-commerce store on Squarespace, optimized for conversions and user experience."
+          },
+          {
+            "img": "Icons.seoOptimization",
+            "head": "Squarespace SEO Optimization",
+            "content": "Optimize your Squarespace website for search engines to improve visibility and attract more visitors."
+          },
+          {
+            "img": "Icons.contentMigration",
+            "head": "Squarespace Content Migration",
+            "content": "Migrate your content to Squarespace efficiently and without data loss, ensuring a smooth transition."
+          }
+        ]
+      },
+      "hubspot": {
+        "title": "HubSpot Development Services",
+        "description": "Maximize your inbound marketing and sales efforts with HubSpot's powerful CRM platform.",
+        "description2": "Our HubSpot certified developers create custom solutions to streamline your marketing, sales, and service processes.",
+        "services": [
+          "HubSpot CMS Website Development",
+          "HubSpot Integration Services",
+          "Custom HubSpot Template Design",
+          "HubSpot Workflow Automation",
+          "HubSpot Reporting and Analytics Setup"
+        ],
+        "bannerImage": "/hubspot.png",
+        "cards": [
+          {
+            "img": "Icons.hubspotDev",
+            "head": "HubSpot CMS Website Development",
+            "content": "We build custom HubSpot CMS websites that integrate seamlessly with your marketing and sales processes."
+          },
+          {
+            "img": "Icons.integrationServices",
+            "head": "HubSpot Integration Services",
+            "content": "Integrate HubSpot with your existing systems to streamline operations and enhance efficiency."
+          },
+          {
+            "img": "Icons.templateDesign",
+            "head": "Custom HubSpot Template Design",
+            "content": "Design custom HubSpot templates that reflect your brand and improve user engagement."
+          },
+          {
+            "img": "Icons.workflowAutomation",
+            "head": "HubSpot Workflow Automation",
+            "content": "Automate your marketing, sales, and service workflows to save time and increase productivity."
+          },
+          {
+            "img": "Icons.reportingAnalytics",
+            "head": "HubSpot Reporting and Analytics Setup",
+            "content": "Set up detailed reporting and analytics in HubSpot to track your performance and make data-driven decisions."
+          }
+        ]
+      },
+      "woocommerce": {
+        "title": "WooCommerce Development Services",
+        "description": "Transform your WordPress site into a powerful e-commerce platform with WooCommerce.",
+        "description2": "Our WooCommerce experts create customized online stores that are feature-rich, scalable, and designed for optimal user experience.",
+        "services": [
+          "Custom WooCommerce Store Development",
+          "WooCommerce Theme Customization",
+          "WooCommerce Plugin Development",
+          "Payment Gateway Integration",
+          "WooCommerce Performance Optimization"
+        ],
+        "bannerImage": "/Woocommerce.png",
+        "cards": [
+          {
+            "img": "Icons.wooStore",
+            "head": "Custom WooCommerce Store Development",
+            "content": "We build tailor-made WooCommerce stores that align with your brand identity and business requirements."
+          },
+          {
+            "img": "Icons.themeCustomization",
+            "head": "WooCommerce Theme Customization",
+            "content": "Customize WooCommerce themes to enhance the look and functionality of your online store."
+          },
+          {
+            "img": "Icons.pluginDevelopment",
+            "head": "WooCommerce Plugin Development",
+            "content": "Develop custom WooCommerce plugins to add unique features and capabilities to your store."
+          },
+          {
+            "img": "Icons.paymentGateway",
+            "head": "Payment Gateway Integration",
+            "content": "Integrate secure and reliable payment gateways into your WooCommerce store for smooth transactions."
+          },
+          {
+            "img": "Icons.performanceOptimization",
+            "head": "WooCommerce Performance Optimization",
+            "content": "Optimize your WooCommerce store for faster load times and better performance."
+          }
+        ]
+      },
+      "shopify": {
+        "title": "Shopify Development Services",
+        "description": "Create powerful and scalable online stores with Shopify's leading e-commerce platform.",
+        "description2": "Our Shopify experts design and develop custom online stores that drive sales and enhance customer experience.",
+        "services": [
+          "Custom Shopify Store Development",
+          "Shopify Theme Design and Customization",
+          "Shopify App Development",
+          "Shopify Plus Development",
+          "Shopify Migration Services"
+        ],
+        "bannerImage": "/shopify.png",
+        "cards": [
+          {
+            "img": "Icons.shopifyStore",
+            "head": "Custom Shopify Store Development",
+            "content": "We create bespoke Shopify stores that reflect your brand and optimize the shopping experience for your customers."
+          },
+          {
+            "img": "Icons.themeDesign",
+            "head": "Shopify Theme Design and Customization",
+            "content": "Design and customize Shopify themes to create a unique and engaging online store."
+          },
+          {
+            "img": "Icons.appDevelopment",
+            "head": "Shopify App Development",
+            "content": "Develop custom Shopify apps to add new functionalities and enhance your store's capabilities."
+          },
+          {
+            "img": "Icons.plusDevelopment",
+            "head": "Shopify Plus Development",
+            "content": "Leverage Shopify Plus for advanced e-commerce solutions that support high-growth businesses."
+          },
+          {
+            "img": "Icons.migrationServices",
+            "head": "Shopify Migration Services",
+            "content": "Migrate your existing store to Shopify seamlessly, ensuring data integrity and minimal downtime."
+          }
+        ]
+      },
+      "magento": {
+        "title": "Magento Development Services",
+        "description": "Build robust and scalable e-commerce solutions with Magento's powerful platform.",
+        "description2": "Our Magento certified developers create custom online stores that cater to complex business requirements and high-volume transactions.",
+        "services": [
+          "Custom Magento Store Development",
+          "Magento Theme Development",
+          "Magento Extension Development",
+          "Magento 2 Migration",
+          "Magento Performance Optimization"
+        ],
+        "bannerImage": "/Magento.png",
+        "cards": [
+          {
+            "img": "Icons.magentoDev",
+            "head": "Custom Magento Store Development",
+            "content": "We develop feature-rich Magento stores tailored to your specific business needs and scalability requirements."
+          },
+          {
+            "img": "Icons.themeDevelopment",
+            "head": "Magento Theme Development",
+            "content": "Create custom Magento themes that enhance your store's appearance and functionality."
+          },
+          {
+            "img": "Icons.extensionDevelopment",
+            "head": "Magento Extension Development",
+            "content": "Develop custom Magento extensions to add new features and capabilities to your store."
+          },
+          {
+            "img": "Icons.migration",
+            "head": "Magento 2 Migration",
+            "content": "Migrate to Magento 2 seamlessly, ensuring data integrity and minimal downtime."
+          },
+          {
+            "img": "Icons.performanceOptimization",
+            "head": "Magento Performance Optimization",
+            "content": "Optimize your Magento store for better performance, faster load times, and enhanced user experience."
+          }
+        ]
+      },
+      "bigcommerce": {
+        "title": "BigCommerce Development Services",
+        "description": "Launch and scale your online store with BigCommerce's robust e-commerce platform.",
+        "description2": "Our BigCommerce experts create customized online stores that leverage the platform's powerful features for optimal performance and growth.",
+        "services": [
+          "Custom BigCommerce Store Development",
+          "BigCommerce Theme Design",
+          "BigCommerce App Development",
+          "BigCommerce Migration Services",
+          "BigCommerce API Integration"
+        ],
+        "bannerImage": "/bigCommerce.png",
+        "cards": [
+          {
+            "img": "Icons.bigcommerceDev",
+            "head": "Custom BigCommerce Store Development",
+            "content": "We build tailored BigCommerce stores that align with your brand and business objectives, ensuring a seamless shopping experience."
+          },
+          {
+            "img": "Icons.themeDesign",
+            "head": "BigCommerce Theme Design",
+            "content": "Design custom BigCommerce themes that enhance your store's look and functionality."
+          },
+          {
+            "img": "Icons.appDevelopment",
+            "head": "BigCommerce App Development",
+            "content": "Develop custom BigCommerce apps to add unique features and improve your store's capabilities."
+          },
+          {
+            "img": "Icons.migrationServices",
+            "head": "BigCommerce Migration Services",
+            "content": "Migrate your existing store to BigCommerce seamlessly, ensuring data integrity and minimal downtime."
+          },
+          {
+            "img": "Icons.apiIntegration",
+            "head": "BigCommerce API Integration",
+            "content": "Integrate BigCommerce with your existing systems using powerful APIs to streamline operations."
+          }
+        ]
+      },
+      "cscart": {
+        "title": "CS-Cart Development Services",
+        "description": "Create flexible and feature-rich online stores with CS-Cart's e-commerce platform.",
+        "description2": "Our CS-Cart developers customize and extend the platform to create unique online shopping experiences tailored to your business needs.",
+        "services": [
+          "Custom CS-Cart Store Development",
+          "CS-Cart Theme Design and Customization",
+          "CS-Cart Add-on Development",
+          "CS-Cart Multi-Vendor Marketplace Development",
+          "CS-Cart Upgrade and Migration"
+        ],
+        "bannerImage": "/CS Cart.png",
+        "cards": [
+          {
+            "img": "Icons.cscartDev",
+            "head": "Custom CS-Cart Store Development",
+            "content": "We build custom CS-Cart stores with unique designs and functionalities to match your business requirements."
+          },
+          {
+            "img": "Icons.cscartTheme",
+            "head": "CS-Cart Theme Design and Customization",
+            "content": "Enhance your online store's look and feel with our professional CS-Cart theme design and customization services."
+          },
+          {
+            "img": "Icons.cscartAddon",
+            "head": "CS-Cart Add-on Development",
+            "content": "Extend your CS-Cart store's capabilities with custom add-ons developed to meet your specific needs."
+          },
+          {
+            "img": "Icons.cscartMultiVendor",
+            "head": "CS-Cart Multi-Vendor Marketplace Development",
+            "content": "Create a robust multi-vendor marketplace using CS-Cart's powerful platform, tailored to your requirements."
+          },
+          {
+            "img": "Icons.cscartUpgrade",
+            "head": "CS-Cart Upgrade and Migration",
+            "content": "Seamlessly upgrade and migrate your CS-Cart store to the latest version with minimal downtime."
+          }
+        ]
+      },
+      "php": {
+        "title": "PHP Development Services",
+        "description": "Harness the power of PHP for robust web application development.",
+        "description2": "Our skilled PHP developers create scalable, secure, and high-performance solutions tailored to your business needs.",
+        "services": [
+          "Custom PHP Web Application Development",
+          "PHP Framework Development (Laravel, Symfony, CodeIgniter)",
+          "PHP CMS Development",
+          "PHP E-commerce Solutions",
+          "PHP API Development"
+        ],
+        "bannerImage": "/PHP.png",
+        "cards": [
+          {
+            "img": "Icons.phpWebApp",
+            "head": "Custom PHP Web Application Development",
+            "content": "We create bespoke PHP web applications that cater to your specific business requirements, ensuring scalability and security."
+          },
+          {
+            "img": "Icons.phpFramework",
+            "head": "PHP Framework Development",
+            "content": "Specializing in Laravel, Symfony, and CodeIgniter, our developers build powerful web applications with PHP frameworks."
+          },
+          {
+            "img": "Icons.phpCMS",
+            "head": "PHP CMS Development",
+            "content": "Develop dynamic and scalable content management systems with our expert PHP CMS development services."
+          },
+          {
+            "img": "Icons.phpEcommerce",
+            "head": "PHP E-commerce Solutions",
+            "content": "Create robust and scalable e-commerce platforms tailored to your business needs using PHP."
+          },
+          {
+            "img": "Icons.phpAPI",
+            "head": "PHP API Development",
+            "content": "Develop secure and efficient APIs to integrate your PHP applications with other systems."
+          }
+        ]
+      },
+      "laravel": {
+        "title": "Laravel Development Services",
+        "description": "Build powerful web applications with Laravel, the elegant PHP framework.",
+        "description2": "Our Laravel experts create robust, scalable, and maintainable web solutions that leverage the framework's extensive features and ecosystem.",
+        "services": [
+          "Custom Laravel Web Application Development",
+          "Laravel API Development",
+          "Laravel E-commerce Solutions",
+          "Laravel CMS Development",
+          "Laravel Package Development"
+        ],
+        "bannerImage": "/Laravel.png",
+        "cards": [
+          {
+            "img": "Icons.laravelWebApp",
+            "head": "Custom Laravel Web Application Development",
+            "content": "We develop tailor-made Laravel applications that align with your business logic and performance requirements."
+          },
+          {
+            "img": "Icons.laravelAPI",
+            "head": "Laravel API Development",
+            "content": "Build robust APIs with Laravel to integrate your applications seamlessly with other systems."
+          },
+          {
+            "img": "Icons.laravelEcommerce",
+            "head": "Laravel E-commerce Solutions",
+            "content": "Create scalable and feature-rich e-commerce platforms using the Laravel framework."
+          },
+          {
+            "img": "Icons.laravelCMS",
+            "head": "Laravel CMS Development",
+            "content": "Develop dynamic content management systems with Laravel, customized to your business needs."
+          },
+          {
+            "img": "Icons.laravelPackage",
+            "head": "Laravel Package Development",
+            "content": "Extend Laravel's capabilities with custom packages developed to meet your unique requirements."
+          }
+        ]
+      },
+      "node": {
+        "title": "Node.js Development Services",
+        "description": "Create scalable and high-performance applications with Node.js.",
+        "description2": "Our Node.js developers build fast, efficient, and real-time applications that can handle high concurrency and data-intensive operations.",
+        "services": [
+          "Custom Node.js Application Development",
+          "Node.js API Development",
+          "Real-time Application Development with Node.js",
+          "Node.js Microservices Architecture",
+          "Node.js Integration Services"
+        ],
+        "bannerImage": "/Node.js.png",
+        "cards": [
+          {
+            "img": "Icons.nodeApp",
+            "head": "Custom Node.js Application Development",
+            "content": "We build scalable and efficient Node.js applications tailored to your specific business needs and performance requirements."
+          },
+          {
+            "img": "Icons.nodeAPI",
+            "head": "Node.js API Development",
+            "content": "Develop high-performance APIs with Node.js for seamless integration with other systems."
+          },
+          {
+            "img": "Icons.nodeRealtime",
+            "head": "Real-time Application Development with Node.js",
+            "content": "Create real-time applications that deliver instant, responsive user experiences using Node.js."
+          },
+          {
+            "img": "Icons.nodeMicroservices",
+            "head": "Node.js Microservices Architecture",
+            "content": "Implement a microservices architecture with Node.js to build scalable and maintainable applications."
+          },
+          {
+            "img": "Icons.nodeIntegration",
+            "head": "Node.js Integration Services",
+            "content": "Integrate your Node.js applications with other systems and platforms for seamless functionality."
+          }
+        ]
+      },
+      "codeigniter": {
+        "title": "CodeIgniter Development Services",
+        "description": "Develop robust web applications with CodeIgniter's lightweight and powerful PHP framework.",
+        "description2": "Our CodeIgniter experts create efficient, secure, and scalable web solutions that leverage the framework's simplicity and flexibility.",
+        "services": [
+          "Custom CodeIgniter Web Application Development",
+          "CodeIgniter CMS Development",
+          "CodeIgniter E-commerce Solutions",
+          "CodeIgniter REST API Development",
+          "CodeIgniter Migration and Upgrade"
+        ],
+        "bannerImage": "/codeignite.png",
+        "cards": [
+          {
+            "img": "Icons.ciWebApp",
+            "head": "Custom CodeIgniter Web Application Development",
+            "content": "We develop tailored CodeIgniter applications that meet your specific business requirements and performance needs."
+          },
+          {
+            "img": "Icons.ciCMS",
+            "head": "CodeIgniter CMS Development",
+            "content": "Create dynamic and scalable content management systems with our expert CodeIgniter CMS development services."
+          },
+          {
+            "img": "Icons.ciEcommerce",
+            "head": "CodeIgniter E-commerce Solutions",
+            "content": "Build robust e-commerce platforms with CodeIgniter, tailored to your business needs."
+          },
+          {
+            "img": "Icons.ciAPI",
+            "head": "CodeIgniter REST API Development",
+            "content": "Develop secure and efficient REST APIs to integrate your CodeIgniter applications with other systems."
+          },
+          {
+            "img": "Icons.ciMigration",
+            "head": "CodeIgniter Migration and Upgrade",
+            "content": "Seamlessly upgrade and migrate your CodeIgniter applications to the latest version with minimal downtime."
+          }
+        ]
+      },
+      "symfony": {
+        "title": "Symfony Development Services",
+        "description": "Build high-performance web applications with Symfony's powerful PHP framework.",
+        "description2": "Our Symfony developers create robust, scalable, and maintainable web solutions that leverage the framework's extensive components and best practices.",
+        "services": [
+          "Custom Symfony Web Application Development",
+          "Symfony API Development",
+          "Symfony E-commerce Solutions",
+          "Symfony CMS Development",
+          "Symfony Integration and Migration Services"
+        ],
+        "bannerImage": "/symfony.jpg",
+        "cards": [
+          {
+            "img": "Icons.symfonyWebApp",
+            "head": "Custom Symfony Web Application Development",
+            "content": "We create bespoke Symfony applications that align with your business logic and scalability requirements."
+          },
+          {
+            "img": "Icons.symfonyAPI",
+            "head": "Symfony API Development",
+            "content": "Build robust APIs with Symfony to integrate your applications seamlessly with other systems."
+          },
+          {
+            "img": "Icons.symfonyEcommerce",
+            "head": "Symfony E-commerce Solutions",
+            "content": "Create scalable and feature-rich e-commerce platforms using the Symfony framework."
+          },
+          {
+            "img": "Icons.symfonyCMS",
+            "head": "Symfony CMS Development",
+            "content": "Develop dynamic content management systems with Symfony, customized to your business needs."
+          },
+          {
+            "img": "Icons.symfonyIntegration",
+            "head": "Symfony Integration and Migration Services",
+            "content": "Integrate and migrate your Symfony applications with other systems seamlessly."
+          }
+        ]
+      },
+      "html": {
+        "title": "HTML Services",
+        "description": "Get access to world-class HTML development services empowering high-end applications for diverse business verticals. We understand the significance of HTML5 in shaping modern web experiences, and we're committed to delivering exceptional results that exceed our clients' expectations. Looking for a highly skilled HTML development partner? Book a call now.",
+        "description2": "We believe in the power of customization. Whether you need a responsive website, a dynamic web application, or interactive multimedia content, we have the skills and creativity to bring your vision to life. Our custom HTML5 solutions are designed to enhance user engagement, improve usability, and drive business growth.",
+        "services": [
+          "Responsive HTML Website Development",
+          "HTML5/CSS3 Web Development",
+          "PSD to HTML Conversion",
+          "Custom HTML Development",
+          "HTML Maintenance and Support"
+        ],
+        "bannerImage": "/HTML.jpg",
+        "cards": [
+          {
+            "img": "Icons.htmlResponsive",
+            "head": "Responsive HTML Website Development",
+            "content": "Create mobile-friendly and responsive websites using HTML. We ensure your website looks great and functions seamlessly across all devices, enhancing user experience and engagement."
+          },
+          {
+            "img": "Icons.htmlCSS3",
+            "head": "HTML5/CSS3 Web Development",
+            "content": "Build modern and visually appealing websites with HTML5 and CSS3. Our developers leverage the latest web technologies to deliver websites that are both attractive and high-performing."
+          },
+          {
+            "img": "Icons.htmlPSD",
+            "head": "PSD to HTML Conversion",
+            "content": "Convert your PSD designs into pixel-perfect HTML websites. We maintain design integrity and ensure cross-browser compatibility, delivering websites that meet your exact specifications."
+          },
+          {
+            "img": "Icons.htmlCustom",
+            "head": "Custom HTML Development",
+            "content": "Get tailored HTML solutions for your unique business requirements. Whether you need custom web applications or specific functionality, our HTML developers deliver solutions that align with your goals."
+          },
+          {
+            "img": "Icons.htmlMaintenance",
+            "head": "HTML Maintenance and Support",
+            "content": "Ensure your HTML websites run smoothly with our maintenance and support services. We provide updates, security patches, and performance optimizations to keep your websites functioning at their best."
+          }
+        ]
+      },
+      "css": {
+        "title": "CSS Services",
+        "description": "ScilianTech offers comprehensive CSS development services to enhance the visual appeal and functionality of your websites. Our CSS experts create stunning designs and ensure seamless integration to deliver exceptional user experiences.",
+        "description2": "ScilianTech gives you unmatched personalized solutions. With us, you can hire CSS developers who effectively blend innovation with creativity. Our CSS design and developed solution match all the latest UI design trends. Take a closer look to get more ideas about our all CSS3 development solutions",
+        "services": [
+          "CSS Framework Development",
+          "Responsive CSS Design",
+          "CSS Preprocessing",
+          "Custom CSS Development",
+          "CSS Maintenance and Support"
+        ],
+        "bannerImage": "/CSS.png",
+        "cards": [
+          {
+            "img": "Icons.cssFramework",
+            "head": "CSS Framework Development",
+            "content": "Develop custom CSS frameworks tailored to your project requirements. Our frameworks ensure consistency, scalability, and efficiency in your web design and development processes."
+          },
+          {
+            "img": "Icons.cssResponsive",
+            "head": "Responsive CSS Design",
+            "content": "Create responsive and mobile-first designs with CSS. We optimize your website's layout and functionality across various devices, ensuring a seamless user experience on desktops, tablets, and smartphones."
+          },
+          {
+            "img": "Icons.cssPreprocessing",
+            "head": "CSS Preprocessing",
+            "content": "Utilize CSS preprocessors like Sass or Less to streamline your stylesheet development process. We enhance maintainability, reusability, and scalability of your CSS code for efficient web design."
+          },
+          {
+            "img": "Icons.cssCustom",
+            "head": "Custom CSS Development",
+            "content": "Get bespoke CSS solutions tailored to your specific design requirements. Our CSS developers create unique styles and layouts that reflect your brand identity and enhance user engagement."
+          },
+          {
+            "img": "Icons.cssMaintenance",
+            "head": "CSS Maintenance and Support",
+            "content": "Ensure your CSS stylesheets are optimized and error-free with our maintenance and support services. We provide ongoing updates, bug fixes, and optimizations to keep your website running smoothly."
+          }
+        ]
+      },
+      "javascript": {
+        "title": "JavaScript Services",
+        "description": "ScilianTech offers comprehensive JavaScript development services to create interactive and dynamic web applications. Our JavaScript experts leverage the latest frameworks and libraries to deliver scalable solutions that meet your business objectives.",
+        "description2": "We are delivering enterprise-grade JavaScript Development services around the globe. With a wide range of solutions, you can pick the most suitable services for your business. Not sure where you start, ask our JavaScript Development experts now.",
+        "services": [
+          "JavaScript Web Development",
+          "Frontend Frameworks (React, Vue.js, Angular)",
+          "Node.js Development",
+          "Custom JavaScript Development",
+          "JavaScript Maintenance and Support"
+        ],
+        "bannerImage": "/JS.png",
+        "cards": [
+          {
+            "img": "Icons.jsWeb",
+            "head": "JavaScript Web Development",
+            "content": "Build dynamic and interactive web applications using JavaScript. Our developers use modern JavaScript frameworks and libraries to create engaging user interfaces and seamless user experiences."
+          },
+          {
+            "img": "Icons.jsFrameworks",
+            "head": "Frontend Frameworks (React, Vue.js, Angular)",
+            "content": "Harness the power of popular frontend frameworks like React, Vue.js, and Angular for scalable and efficient web development. Our expertise ensures optimal performance and functionality for your applications."
+          },
+          {
+            "img": "Icons.jsNode",
+            "head": "Node.js Development",
+            "content": "Develop server-side applications and APIs with Node.js. Our Node.js developers create lightweight and scalable solutions that handle concurrent requests efficiently, ensuring high performance and reliability."
+          },
+          {
+            "img": "Icons.jsCustom",
+            "head": "Custom JavaScript Development",
+            "content": "Get tailored JavaScript solutions for your unique project requirements. Whether you need custom functionalities or complex web applications, our JavaScript developers deliver solutions that align with your business goals."
+          },
+          {
+            "img": "Icons.jsMaintenance",
+            "head": "JavaScript Maintenance and Support",
+            "content": "Ensure your JavaScript applications run smoothly with our maintenance and support services. We provide ongoing updates, bug fixes, and performance optimizations to keep your applications performing at their best."
+          }
+        ]
+      },
+      "vuejs": {
+        "title": "Vue.js Services",
+        "description": "ScilianTech offers Vue.js development services to create interactive and scalable single-page applications (SPAs). Our Vue.js developers leverage Vue.js framework capabilities to deliver responsive and high-performance web applications.",
+        "description2": "At ScilianTech, we believe in a personalized approach for each client. Our Vue.js development experts craft visually captivating and responsive web and mobile applications. Ready to unlock the power of Vue.js for your next project? Contact ScilianTech today and let our expert Vue.js developers bring your vision to life!",
+        "services": [
+          "Vue.js Single Page Application Development",
+          "Vue.js Component Development",
+          "Vue.js Integration Services",
+          "Vue.js Migration Services",
+          "Vue.js Maintenance and Support"
+        ],
+        "bannerImage": "/Vue.js.png",
+        "cards": [
+          {
+            "img": "Icons.vueSPADevelopment",
+            "head": "Vue.js Single Page Application Development",
+            "content": "Build interactive and responsive single-page applications (SPAs) using Vue.js. Our Vue.js developers create scalable solutions that provide a seamless user experience across devices."
+          },
+          {
+            "img": "Icons.vueComponent",
+            "head": "Vue.js Component Development",
+            "content": "Develop custom Vue.js components to enhance the functionality and performance of your web applications. Our Vue.js development services ensure modular and reusable components for efficient development."
+          },
+          {
+            "img": "Icons.vueIntegration",
+            "head": "Vue.js Integration Services",
+            "content": "Integrate Vue.js applications with other systems and platforms seamlessly. Our integration services ensure smooth data flow and enhanced functionality, optimizing your application's performance."
+          },
+          {
+            "img": "Icons.vueMigration",
+            "head": "Vue.js Migration Services",
+            "content": "Migrate your existing applications to Vue.js for improved performance and scalability. Our migration services ensure a smooth transition with minimal disruption to your operations."
+          },
+          {
+            "img": "Icons.vueMaintenance",
+            "head": "Vue.js Maintenance and Support",
+            "content": "Ensure your Vue.js applications run smoothly with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your applications performing at their best."
+          }
+        ]
+      },
+      "angular": {
+        "title": "Angular Services",
+        "description": "ScilianTech provides Angular development services to build scalable and feature-rich web applications. Our Angular developers leverage Angular framework capabilities to deliver dynamic and interactive user experiences.",
+        "description2": "At ScilianTech, Our Angular developers offer future-ready solutions that ensure your business growth. Our team comprises skilled developers with extensive experience in Angular development. We stay updated with the latest Angular releases, best practices, and emerging trends to deliver solutions that are not just functional but also future-proof",
+        "services": [
+          "Angular Web Application Development",
+          "Angular UI/UX Design",
+          "Angular Integration Services",
+          "Angular Migration Services",
+          "Angular Maintenance and Support"
+        ],
+        "bannerImage": "/Angular.png",
+        "cards": [
+          {
+            "img": "Icons.angularAppDevelopment",
+            "head": "Angular Web Application Development",
+            "content": "Build scalable and dynamic web applications with Angular. Our Angular developers use best practices and cutting-edge technologies to deliver robust solutions that meet your business requirements."
+          },
+          {
+            "img": "Icons.angularUIUX",
+            "head": "Angular UI/UX Design",
+            "content": "Create intuitive and visually appealing interfaces with our Angular UI/UX design services. We focus on delivering engaging designs that enhance user experience and drive user satisfaction."
+          },
+          {
+            "img": "Icons.angularIntegration",
+            "head": "Angular Integration Services",
+            "content": "Integrate your Angular applications with external services and APIs seamlessly. Our integration services ensure smooth data exchange and enhanced functionality, optimizing your application's performance."
+          },
+          {
+            "img": "Icons.angularMigration",
+            "head": "Angular Migration Services",
+            "content": "Migrate your existing applications to Angular for improved scalability and performance. Our migration services ensure a seamless transition with minimal disruption to your business operations."
+          },
+          {
+            "img": "Icons.angularMaintenance",
+            "head": "Angular Maintenance and Support",
+            "content": "Ensure your Angular applications run smoothly with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your applications performing at their best."
+          }
+        ]
+      },
+      "android": {
+        "title": "Android App Development",
+        "description": "ScilianTech offers professional Android app development services to create innovative and scalable mobile applications. Our Android developers leverage their expertise to deliver high-quality apps that meet your business goals and engage your users.",
+        "description2": "At ScilianTech, we pride ourselves on our deep understanding and proficiency in the latest technologies. Our team of experienced developers is well-versed in Kotlin, Java, and other relevant programming languages for Android app development. We leverage industry-leading frameworks and libraries to build scalable, robust, and feature-rich Android applications that meet your business requirements.",
+        "services": [
+          "Native Android App Development",
+          "Hybrid App Development",
+          "Android UI/UX Design",
+          "Android App Testing & QA",
+          "Android App Maintenance & Support"
+        ],
+        "bannerImage": "/Android.png",
+        "cards": [
+          {
+            "img": "Icons.androidNativeApp",
+            "head": "Native Android App Development",
+            "content": "Build native Android applications tailored to your specific business requirements. Our Android developers leverage Java or Kotlin to create high-performance apps with robust features and functionalities."
+          },
+          {
+            "img": "Icons.androidHybridApp",
+            "head": "Hybrid App Development",
+            "content": "Develop hybrid mobile applications that run on multiple platforms using a single codebase. Our hybrid app development services ensure cross-platform compatibility and reduced development costs."
+          },
+          {
+            "img": "Icons.androidUIUX",
+            "head": "Android UI/UX Design",
+            "content": "Create visually appealing and intuitive user interfaces for your Android applications. Our UI/UX design services focus on enhancing usability and delivering seamless user experiences."
+          },
+          {
+            "img": "Icons.androidTestingQA",
+            "head": "Android App Testing & QA",
+            "content": "Ensure the quality and performance of your Android applications with comprehensive testing and quality assurance services. We conduct rigorous testing to identify and fix bugs, ensuring a flawless user experience."
+          },
+          {
+            "img": "Icons.androidMaintenance",
+            "head": "Android App Maintenance & Support",
+            "content": "Ensure your Android applications remain up-to-date and perform efficiently with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your apps running smoothly."
+          }
+        ]
+      },
+      "ios": {
+        "title": "iOS App Development",
+        "description": "ScilianTech specializes in iOS app development services to create elegant and feature-rich applications for iPhone and iPad devices. Our iOS developers leverage Swift and Objective-C to deliver high-performance apps that captivate users.",
+        "description2": "As a custom iOS app development agency in India, ScilianTech helps you reach your potential with our specialized services. Our state-of-the-art technology, coupled with expert professionals, ensures that the best solutions are tailored to meet your requirements. Unlock the power of innovation today with our customized mobile application development solutions and competent iOS app development services",
+        "services": [
+          "Native iOS App Development",
+          "Swift App Development",
+          "iOS UI/UX Design",
+          "iOS App Testing & QA",
+          "iOS App Maintenance & Support"
+        ],
+        "bannerImage": "/ios.png",
+        "cards": [
+          {
+            "img": "Icons.iosNativeApp",
+            "head": "Native iOS App Development",
+            "content": "Build native iOS applications that deliver exceptional performance and user experience. Our iOS developers use Swift or Objective-C to create feature-rich apps that meet your business requirements."
+          },
+          {
+            "img": "Icons.iosSwiftApp",
+            "head": "Swift App Development",
+            "content": "Leverage Swift programming language for developing fast and efficient iOS applications. Our Swift app development services ensure clean code, scalability, and compatibility with the latest iOS versions."
+          },
+          {
+            "img": "Icons.iosUIUX",
+            "head": "iOS UI/UX Design",
+            "content": "Create visually appealing and intuitive user interfaces for your iOS applications. Our UI/UX design services focus on enhancing usability and delivering seamless user experiences across iPhone and iPad devices."
+          },
+          {
+            "img": "Icons.iosTestingQA",
+            "head": "iOS App Testing & QA",
+            "content": "Ensure the quality and reliability of your iOS applications with thorough testing and quality assurance services. We conduct comprehensive testing to identify and fix issues, ensuring flawless performance on Apple devices."
+          },
+          {
+            "img": "Icons.iosMaintenance",
+            "head": "iOS App Maintenance & Support",
+            "content": "Ensure your iOS applications remain up-to-date and perform optimally with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your apps running smoothly."
+          }
+        ]
+      },
+      "reactnative": {
+        "title": "React Native App Development",
+        "description": "ScilianTech offers expert React Native app development services to build cross-platform mobile applications. Our React Native developers create high-performance apps that offer native-like experiences on both iOS and Android platforms.",
+        "description2": "With an experienced team of skilled React Native developers, ScilianTech has a complete spectrum of React Native Development Services. We have a proven track record of delivering high-quality mobile applications that leverage the power of React Native to provide seamless user experiences across iOS and Android platforms",
+        "services": [
+          "Custom React Native App Development",
+          "React Native UI/UX Design",
+          "React Native Integration Services",
+          "React Native App Testing & QA",
+          "React Native App Maintenance & Support"
+        ],
+        "bannerImage": "/react.png",
+        "cards": [
+          {
+            "img": "Icons.reactNativeCustomApp",
+            "head": "Custom React Native App Development",
+            "content": "Build cross-platform mobile applications using React Native that run seamlessly on both iOS and Android devices. Our React Native developers leverage JavaScript and React framework to create efficient and scalable apps."
+          },
+          {
+            "img": "Icons.reactNativeUIUX",
+            "head": "React Native UI/UX Design",
+            "content": "Create intuitive and visually appealing interfaces for your React Native applications. Our UI/UX design services focus on enhancing usability and delivering engaging user experiences across platforms."
+          },
+          {
+            "img": "Icons.reactNativeIntegration",
+            "head": "React Native Integration Services",
+            "content": "Integrate your React Native applications with third-party services and APIs seamlessly. Our integration services ensure smooth data exchange and enhanced functionality, optimizing your app's performance."
+          },
+          {
+            "img": "Icons.reactNativeTestingQA",
+            "head": "React Native App Testing & QA",
+            "content": "Ensure the quality and reliability of your React Native applications with comprehensive testing and quality assurance services. We conduct rigorous testing to identify and fix issues, ensuring optimal performance."
+          },
+          {
+            "img": "Icons.reactNativeMaintenance",
+            "head": "React Native App Maintenance & Support",
+            "content": "Ensure your React Native applications remain up-to-date and perform efficiently with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your apps running smoothly."
+          }
+        ]
+      },
+      "ionic": {
+        "title": "Ionic App Development",
+        "description": "ScilianTech provides Ionic app development services to create hybrid mobile applications that run seamlessly on multiple platforms. Our Ionic developers use web technologies like HTML, CSS, and JavaScript to deliver cross-platform apps with native-like performance.",
+        "description2": "ScilianTech is a leading Ionic app development company in India. Our dedicated team of experts creates scalable cross-platform solutions that are custom-made to your unique requirements. Experience top-notch quality, speed, and accuracy with our Ionic-skilled team. We are the top-rated ionic developers who offer the best solution to meet your unique requirements. Share your details with us.",
+        "services": [
+          "Custom Ionic App Development",
+          "Ionic UI/UX Design",
+          "Ionic Integration Services",
+          "Ionic App Testing & QA",
+          "Ionic App Maintenance & Support"
+        ],
+        "bannerImage": "/ionic.png",
+        "cards": [
+          {
+            "img": "Icons.ionicCustomApp",
+            "head": "Custom Ionic App Development",
+            "content": "Build hybrid mobile applications using Ionic framework that run smoothly on iOS and Android platforms. Our Ionic developers leverage web technologies to create feature-rich apps with native-like performance."
+          },
+          {
+            "img": "Icons.ionicUIUX",
+            "head": "Ionic UI/UX Design",
+            "content": "Create visually appealing and intuitive interfaces for your Ionic applications. Our UI/UX design services focus on delivering seamless user experiences and enhancing engagement across platforms."
+          },
+          {
+            "img": "Icons.ionicIntegration",
+            "head": "Ionic Integration Services",
+            "content": "Integrate your Ionic applications with external services and APIs seamlessly. Our integration services ensure smooth data exchange and enhanced functionality, optimizing your app's performance."
+          },
+          {
+            "img": "Icons.ionicTestingQA",
+            "head": "Ionic App Testing & QA",
+            "content": "Ensure the quality and reliability of your Ionic applications with comprehensive testing and quality assurance services. We conduct thorough testing to identify and fix issues, ensuring optimal performance on all platforms."
+          },
+          {
+            "img": "Icons.ionicMaintenance",
+            "head": "Ionic App Maintenance & Support",
+            "content": "Ensure your Ionic applications remain up-to-date and perform efficiently with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your apps running smoothly."
+          }
+        ]
+      },
+      "flutter": {
+        "title": "Flutter App Development",
+        "description": "ScilianTech offers Flutter app development services to build beautiful and functional cross-platform applications. Our Flutter developers leverage Dart programming language and Flutter framework to create visually appealing apps with native-like performance on iOS and Android platforms.",
+        "description2": "Unleash your business potential with ScilianTech's Flutter app development services in India. Our experts use modern technology to create customized solutions that cater to your business requirements. Trust us to deliver the next-gen mobile app using Flutter app development.",
+        "services": [
+          "Custom Flutter App Development",
+          "Flutter UI/UX Design",
+          "Flutter Integration Services",
+          "Flutter App Testing & QA",
+          "Flutter App Maintenance & Support"
+        ],
+        "bannerImage": "/Flutter.png",
+        "cards": [
+          {
+            "img": "Icons.flutterCustomApp",
+            "head": "Custom Flutter App Development",
+            "content": "Build visually stunning cross-platform applications using Flutter framework. Our Flutter developers create high-performance apps that offer native-like experiences on both iOS and Android platforms."
+          },
+          {
+            "img": "Icons.flutterUIUX",
+            "head": "Flutter UI/UX Design",
+            "content": "Create engaging and intuitive interfaces for your Flutter applications. Our UI/UX design services focus on delivering seamless user experiences and enhancing user satisfaction across platforms."
+          },
+          {
+            "img": "Icons.flutterIntegration",
+            "head": "Flutter Integration Services",
+            "content": "Integrate your Flutter applications with third-party services and APIs seamlessly. Our integration services ensure smooth data exchange and enhanced functionality, optimizing your app's performance."
+          },
+          {
+            "img": "Icons.flutterTestingQA",
+            "head": "Flutter App Testing & QA",
+            "content": "Ensure the quality and reliability of your Flutter applications with comprehensive testing and quality assurance services. We conduct rigorous testing to identify and fix issues, ensuring optimal performance."
+          },
+          {
+            "img": "Icons.flutterMaintenance",
+            "head": "Flutter App Maintenance & Support",
+            "content": "Ensure your Flutter applications remain up-to-date and perform efficiently with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your apps running smoothly."
+          }
+        ]
+      },
+      "database": {
+        "title": "Database Development Services",
+        "description": "ScilianTech offers comprehensive database development services to build scalable and efficient database solutions. Our database developers specialize in designing and optimizing databases that cater to your business needs.",
+        "description2": "Explore our range of database services, including database design, optimization, migration, and maintenance. Contact us to discuss your database project requirements!",
+        "services": [
+          "Database Design",
+          "Database Optimization",
+          "Database Migration",
+          "Database Maintenance"
+        ],
+        "bannerImage": "/database.png",
+        "cards": [
+          {
+            "img": "Icons.databaseDesign",
+            "head": "Database Design",
+            "content": "Design scalable and efficient database solutions tailored to your business requirements. Our database design services focus on creating robust architectures that optimize data storage and retrieval."
+          },
+          {
+            "img": "Icons.databaseOptimization",
+            "head": "Database Optimization",
+            "content": "Optimize your existing databases for improved performance and scalability. Our database optimization services include index tuning, query optimization, and storage management."
+          },
+          {
+            "img": "Icons.databaseMigration",
+            "head": "Database Migration",
+            "content": "Migrate your databases seamlessly to new platforms or architectures. Our database migration services ensure minimal downtime and data integrity during the transition process."
+          },
+          {
+            "img": "Icons.databaseMaintenance",
+            "head": "Database Maintenance",
+            "content": "Ensure your databases run smoothly with our maintenance and support services. We provide regular updates, performance monitoring, and backup solutions to keep your data secure and accessible."
+          }
+        ]
+      },
+      "cloudaws": {
+        "title": "Cloud & AWS Services",
+        "description": "ScilianTech offers Cloud and AWS services to help businesses leverage the power of cloud computing. Our cloud solutions enable scalability, flexibility, and cost-efficiency for your applications and infrastructure.",
+        "description2": "Explore our comprehensive range of cloud services, including AWS cloud migration, architecture design, serverless computing, and cloud security. Contact us to discuss your cloud project requirements!",
+        "services": [
+          "AWS Cloud Migration",
+          "Cloud Architecture Design",
+          "Serverless Computing",
+          "Cloud Security"
+        ],
+        "bannerImage": "/AWS & Cloud.png",
+        "cards": [
+          {
+            "img": "Icons.cloudAWSCloudMigration",
+            "head": "AWS Cloud Migration",
+            "content": "Migrate your applications and data to AWS cloud for enhanced scalability and performance. Our AWS migration services ensure a seamless transition with minimal downtime and maximum efficiency."
+          },
+          {
+            "img": "Icons.cloudAWSArchitectureDesign",
+            "head": "Cloud Architecture Design",
+            "content": "Design scalable and resilient cloud architectures tailored to your business needs. Our cloud architecture services focus on optimizing performance, reliability, and cost-efficiency."
+          },
+          {
+            "img": "Icons.cloudAWSServerlessComputing",
+            "head": "Serverless Computing",
+            "content": "Implement serverless solutions on AWS for reduced operational overhead and improved resource utilization. Our serverless computing services include architecture design and implementation."
+          },
+          {
+            "img": "Icons.cloudAWSSecurity",
+            "head": "Cloud Security",
+            "content": "Enhance the security of your cloud infrastructure with our AWS cloud security services. We implement robust security measures to protect your applications, data, and users from cyber threats."
+          }
+        ]
+      },
+      "testing": {
+        "title": "Testing & Quality Assurance Services",
+        "description": "ScilianTech offers comprehensive testing and quality assurance services to ensure the reliability and performance of your applications. Our QA engineers employ industry best practices to deliver high-quality software solutions.",
+        "description2": "Explore our range of testing services, including functional testing, performance testing, automation testing, and QA consulting. Contact us to discuss your testing and QA requirements!",
+        "services": [
+          "Functional Testing",
+          "Performance Testing",
+          "Automation Testing",
+          "QA Consulting"
+        ],
+        "bannerImage": "/testing QA.png",
+        "cards": [
+          {
+            "img": "Icons.testingQAFunctionalTesting",
+            "head": "Functional Testing",
+            "content": "Ensure the functionality and usability of your applications with our functional testing services. We conduct rigorous testing to identify and fix bugs, ensuring seamless user experiences."
+          },
+          {
+            "img": "Icons.testingQAPerformanceTesting",
+            "head": "Performance Testing",
+            "content": "Assess the performance and scalability of your applications with our performance testing services. We simulate real-world conditions to optimize performance and enhance user satisfaction."
+          },
+          {
+            "img": "Icons.testingQAAutomationTesting",
+            "head": "Automation Testing",
+            "content": "Automate your testing processes to improve efficiency and accuracy with our automation testing services. We implement automated tests for regression testing, integration testing, and more."
+          },
+          {
+            "img": "Icons.testingQAConsulting",
+            "head": "QA Consulting",
+            "content": "Gain expert insights and guidance on QA best practices with our QA consulting services. We help you establish QA processes, frameworks, and strategies to deliver high-quality software solutions."
+          }
+        ]
+      },
+      "websitemaintenance": {
+        "title": "Website Maintenance Services",
+        "description": "ScilianTech offers comprehensive website maintenance services to ensure your website remains secure, updated, and optimized for performance. Our maintenance services help you maximize your online presence and user engagement.",
+        "description2": "Explore our range of website maintenance services, including content updates, security patches, performance optimization, and SEO maintenance. Contact us to discuss your website maintenance requirements!",
+        "services": [
+          "Content Updates",
+          "Security Patches",
+          "Performance Optimization",
+          "SEO Maintenance"
+        ],
+        "bannerImage": "/Website Maintainance.png",
+        "cards": [
+          {
+            "img": "Icons.websiteMaintenanceContentUpdates",
+            "head": "Content Updates",
+            "content": "Keep your website content fresh and relevant with our content update services. We ensure your visitors find up-to-date information that enhances user engagement and drives conversions."
+          },
+          {
+            "img": "Icons.websiteMaintenanceSecurityPatches",
+            "head": "Security Patches",
+            "content": "Protect your website from vulnerabilities and cyber threats with our security patching services. We apply timely updates and fixes to ensure your website remains secure and resilient."
+          },
+          {
+            "img": "Icons.websiteMaintenancePerformanceOptimization",
+            "head": "Performance Optimization",
+            "content": "Optimize the performance of your website to deliver fast load times and smooth user experiences. Our performance optimization services include caching, image compression, and code optimization."
+          },
+          {
+            "img": "Icons.websiteMaintenanceSEOMaintenance",
+            "head": "SEO Maintenance",
+            "content": "Improve your website's search engine rankings and visibility with our SEO maintenance services. We implement SEO best practices to attract organic traffic and enhance your online presence."
+          }
+        ]
+      },
+      "organicseo": {
+        "title": "Organic SEO Services",
+        "description": "ScilianTech offers organic SEO services to help businesses improve their search engine rankings and attract more organic traffic. Our SEO experts employ proven strategies to enhance your online visibility and drive growth.",
+        "description2": "Explore our range of SEO services, including keyword research, on-page SEO, off-page SEO, and SEO audits. Contact us to discuss your SEO requirements and boost your digital presence!",
+        "services": [
+          "Keyword Research",
+          "On-Page SEO",
+          "Off-Page SEO",
+          "SEO Audits"
+        ],
+        "bannerImage": "/organic SEO.jpg",
+        "cards": [
+          {
+            "img": "Icons.organicSEOKeywordResearch",
+            "head": "Keyword Research",
+            "content": "Identify relevant keywords and search terms to optimize your website content and attract targeted traffic. Our keyword research services help you rank higher in search engine results."
+          },
+          {
+            "img": "Icons.organicSEOOnPageSEO",
+            "head": "On-Page SEO",
+            "content": "Optimize your website's on-page elements, such as meta tags, headings, and content, to improve search engine rankings. Our on-page SEO services focus on enhancing visibility and relevance."
+          },
+          {
+            "img": "Icons.organicSEOOffPageSEO",
+            "head": "Off-Page SEO",
+            "content": "Enhance your website's authority and credibility with our off-page SEO services. We build quality backlinks and citations to improve your site's reputation and search engine rankings."
+          },
+          {
+            "img": "Icons.organicSEOSEOAudits",
+            "head": "SEO Audits",
+            "content": "Evaluate and analyze your website's SEO performance with our SEO audit services. We identify areas for improvement and recommend actionable strategies to boost your organic traffic."
+          }
+        ]
+      },
+      "pwa": {
+        "title": "Progressive Web App (PWA) Development",
+        "description": "ScilianTech offers Progressive Web App (PWA) development services to deliver fast, reliable, and engaging web applications. Our PWAs combine the best features of web and mobile apps for seamless user experiences.",
+        "description2": "Explore our range of PWA development services, including PWA design, development, optimization, and maintenance. Contact us to discuss your PWA project requirements and enhance user engagement!",
+        "services": [
+          "PWA Design",
+          "PWA Development",
+          "PWA Optimization",
+          "PWA Maintenance"
+        ],
+        "bannerImage": "/PWA.jpg",
+        "cards": [
+          {
+            "img": "Icons.PWADesign",
+            "head": "PWA Design",
+            "content": "Design intuitive and user-friendly PWAs that deliver a seamless experience across all devices. Our PWA design services focus on creating engaging interfaces and enhancing user interaction."
+          },
+          {
+            "img": "Icons.PWADevelopment",
+            "head": "PWA Development",
+            "content": "Develop fast and reliable PWAs that work offline and deliver native app-like experiences. Our PWA development services include progressive enhancement and responsive design principles."
+          },
+          {
+            "img": "Icons.PWAOptimization",
+            "head": "PWA Optimization",
+            "content": "Optimize the performance and speed of your PWAs to deliver exceptional user experiences. Our PWA optimization services include caching strategies, performance tuning, and responsive design."
+          },
+          {
+            "img": "Icons.PWAMaintenance",
+            "head": "PWA Maintenance",
+            "content": "Ensure your PWAs run smoothly with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to keep your applications at their best."
+          }
+        ]
+      },
+      "customwebdevelopment": {
+        "title": "Custom Web Development Services",
+        "description": "Sicilian specializes in custom web development services to create tailored solutions that meet your unique business requirements. Our custom web development services encompass a wide range of technologies and frameworks.",
+        "description2": "Explore our comprehensive range of custom web development services, including frontend and backend development, CMS integration, and third-party API integration. Contact us to discuss your custom web development project!",
+        "services": [
+          "Custom Frontend Development",
+          "Custom Backend Development",
+          "CMS Integration",
+          "Third-Party API Integration"
+        ],
+        "bannerImage": "/customwebdevelopment.png",
+        "cards": [
+          {
+            "img": "Icons.customFrontendDevelopment",
+            "head": "Custom Frontend Development",
+            "content": "Build responsive and user-friendly frontend solutions tailored to your business needs. Our frontend development services focus on creating intuitive interfaces that enhance user experience."
+          },
+          {
+            "img": "Icons.customBackendDevelopment",
+            "head": "Custom Backend Development",
+            "content": "Develop robust and scalable backend architectures for your web applications. Our backend development services include database design, API development, and server-side logic implementation."
+          },
+          {
+            "img": "Icons.CMSIntegration",
+            "head": "CMS Integration",
+            "content": "Integrate content management systems (CMS) like WordPress, Drupal, or Joomla into your website. Our CMS integration services ensure seamless content publishing and management."
+          },
+          {
+            "img": "Icons.thirdPartyAPIIntegration",
+            "head": "Third-Party API Integration",
+            "content": "Integrate third-party APIs and services to extend the functionality of your web applications. Our API integration services include payment gateways, social media APIs, and more."
+          }
+        ]
+      },
+      "webdevelopment": {
+        "title": "Web Development Services",
+        "description": "Sicilian offers comprehensive web development services to create high-performance, scalable, and secure web solutions. Our web development services cover frontend and backend development using the latest technologies.",
+        "description2": "Explore our range of web development services, including custom web development, e-commerce solutions, CMS development, and web application development. Contact us to discuss your web development project requirements!",
+        "services": [
+          "Custom Web Development",
+          "E-commerce Solutions",
+          "CMS Development",
+          "Web Application Development"
+        ],
+        "bannerImage": "/webdevelopment.png",
+        "cards": [
+          {
+            "img": "Icons.customWebDevelopment",
+            "head": "Custom Web Development",
+            "content": "Create bespoke web solutions tailored to your business requirements. Our custom web development services include frontend and backend development, ensuring high performance and scalability."
+          },
+          {
+            "img": "Icons.eCommerceSolutions",
+            "head": "E-commerce Solutions",
+            "content": "Build scalable and feature-rich e-commerce websites that drive business growth. Our e-commerce development services include shopping cart integration, payment gateway setup, and product management."
+          },
+          {
+            "img": "Icons.CMSDevelopment",
+            "head": "CMS Development",
+            "content": "Develop custom content management systems (CMS) tailored to your organization's needs. Our CMS development services focus on usability, flexibility, and content publishing efficiency."
+          },
+          {
+            "img": "Icons.webApplicationDevelopment",
+            "head": "Web Application Development",
+            "content": "Design and develop robust web applications using cutting-edge technologies. Our web application development services include cloud integration, API development, and user-friendly interfaces."
+          }
+        ]
+      },
+      "ecommercedevelopment": {
+        "title": "E-commerce Development Services",
+        "description": "Sicilian specializes in e-commerce development services to create scalable, secure, and user-friendly online stores. Our e-commerce solutions are tailored to enhance customer experience and drive sales.",
+        "description2": "Explore our comprehensive range of e-commerce development services, including platform customization, payment gateway integration, and shopping cart development. Contact us to discuss your e-commerce project!",
+        "services": [
+          "Platform Customization",
+          "Payment Gateway Integration",
+          "Shopping Cart Development",
+          "E-commerce Maintenance"
+        ],
+        "bannerImage": "/ecommercedevelopment.png",
+        "cards": [
+          {
+            "img": "Icons.platformCustomization",
+            "head": "Platform Customization",
+            "content": "Customize e-commerce platforms like Shopify, WooCommerce, Magento, and more to align with your business requirements. Our platform customization services include theme integration and module development."
+          },
+          {
+            "img": "Icons.paymentGatewayIntegration",
+            "head": "Payment Gateway Integration",
+            "content": "Integrate secure and reliable payment gateways into your e-commerce website. Our payment gateway integration services ensure seamless transaction processing and enhanced user trust."
+          },
+          {
+            "img": "Icons.shoppingCartDevelopment",
+            "head": "Shopping Cart Development",
+            "content": "Develop intuitive and user-friendly shopping carts for seamless online shopping experiences. Our shopping cart development services focus on usability, performance, and conversion optimization."
+          },
+          {
+            "img": "Icons.ecommerceMaintenance",
+            "head": "E-commerce Maintenance",
+            "content": "Ensure your e-commerce store runs smoothly with our maintenance and support services. We provide regular updates, bug fixes, and performance optimizations to maximize your online sales."
+          }
+        ]
+      },
+      "mobileappdevelopment": {
+        "title": "Mobile App Development Services",
+        "description": "Sicilian offers custom mobile app development services to create innovative and user-centric mobile solutions. Our mobile app development services cover iOS, Android, and cross-platform app development using native and hybrid frameworks.",
+        "description2": "Explore our range of mobile app development services, including UI/UX design, app testing, maintenance, and enterprise app solutions. Contact us to discuss your mobile app development project requirements!",
+        "services": [
+          "iOS App Development",
+          "Android App Development",
+          "Cross-platform App Development",
+          "Enterprise App Solutions"
+        ],
+        "bannerImage": "/mobileappdevelopment.png",
+        "cards": [
+          {
+            "img": "Icons.iOSAppDevelopment",
+            "head": "iOS App Development",
+            "content": "Build native iOS applications that offer seamless performance and intuitive user experiences. Our iOS app development services include Swift programming, UI/UX design, and App Store deployment."
+          },
+          {
+            "img": "Icons.androidAppDevelopment",
+            "head": "Android App Development",
+            "content": "Develop high-quality Android applications that cater to a diverse range of devices and user preferences. Our Android app development services include Kotlin programming, Material Design, and Google Play deployment."
+          },
+          {
+            "img": "Icons.crossPlatformAppDevelopment",
+            "head": "Cross-platform App Development",
+            "content": "Create cross-platform mobile applications using frameworks like React Native, Flutter, or Xamarin. Our cross-platform app development services ensure code reusability, fast development cycles, and broad device compatibility."
+          },
+          {
+            "img": "Icons.enterpriseAppSolutions",
+            "head": "Enterprise App Solutions",
+            "content": "Develop scalable and secure enterprise-grade applications tailored to your business needs. Our enterprise app solutions include CRM integration, data analytics, and enterprise mobility management."
+          }
+        ]
+      },
+      "dedicateddevelopmentteam": {
+        "title": "Dedicated Development Team Services",
+        "description": "Sicilian offers dedicated development team services to extend your in-house team with experienced developers. Our dedicated teams work as an extension of your business, providing flexible and scalable solutions.",
+        "description2": "Explore our dedicated development team services, including full-stack developers, frontend and backend specialists, UI/UX designers, and QA engineers. Contact us to build your dedicated development team!",
+        "services": [
+          "Full-stack Developers",
+          "Frontend Specialists",
+          "Backend Specialists",
+          "UI/UX Designers",
+          "QA Engineers"
+        ],
+        "bannerImage": "/dedicateddevelopmentteam.png",
+        "cards": [
+          {
+            "img": "Icons.fullStackDevelopers",
+            "head": "Full-stack Developers",
+            "content": "Hire full-stack developers with expertise in frontend and backend technologies. Our full-stack development teams deliver end-to-end solutions, from architecture design to deployment and maintenance."
+          },
+          {
+            "img": "Icons.frontendSpecialists",
+            "head": "Frontend Specialists",
+            "content": "These engineers work with designers to develop and test the user interface and its traits. They manage the “look and feel” of the project."
+          },
+          {
+            "img": "Icons.backendSpecialists",
+            "head": "Backend Specialists",
+            "content": "Server components and application architectures are the areas of expertise for these experts who design, construct, and maintain them."
+          },
+          {
+            "img": "Icons.UIUXDesigners",
+            "head": "UI/UX Designers",
+            "content": "They assure your customers and partners that they will have an extensive experience when they use your products."
+          },
+          {
+            "img": "Icons.QAEngineers",
+            "head": "QA Engineers",
+            "content": "They monitor everything in the development cycle to ensure that your items seamlessly function before they are released to customers."
+          }
+        ]
+      },
+      "apidevelopment": {
+        "title": "API Development Services",
+        "description": "Sicilian provides API development services to create secure, scalable, and efficient APIs that power modern applications. Our API development services cover RESTful APIs, GraphQL APIs, and microservices architecture.",
+        "description2": "Explore our range of API development services, including API design, development, integration, and documentation. Contact us to discuss your API development project requirements!",
+        "services": [
+          "API Design",
+          "API Development",
+          "API Integration",
+          "API Documentation"
+        ],
+        "bannerImage": "/apidevelopment.png",
+        "cards": [
+          {
+            "img": "Icons.apiDesign",
+            "head": "API Design",
+            "content": "Design robust and scalable APIs that meet your application's requirements. Our API design services focus on defining clear endpoints, data structures, and authentication mechanisms."
+          },
+          {
+            "img": "Icons.apiDevelopment",
+            "head": "API Development",
+            "content": "Develop secure and efficient APIs using best practices and modern technologies. Our API development services include backend integration, performance optimization, and version control."
+          },
+          {
+            "img": "Icons.apiIntegration",
+            "head": "API Integration",
+            "content": "Integrate third-party APIs and services into your applications for enhanced functionality. Our API integration services ensure seamless communication between different systems and platforms."
+          },
+          {
+            "img": "Icons.apiDocumentation",
+            "head": "API Documentation",
+            "content": "Create comprehensive documentation for your APIs to facilitate easy integration and usage. Our API documentation services include clear explanations, code samples, and API endpoint details."
+          }
+        ]
+      },
+      "webdesign": {
+        "title": "Web Design Services",
+        "description": "Sicilian offers creative web design services to create visually appealing and user-friendly websites. Our web design services focus on enhancing brand identity, user experience, and conversion rates.",
+        "description2": "Explore our range of web design services, including UI/UX design, responsive web design, graphic design, and branding. Contact us to discuss your web design project requirements!",
+        "services": [
+          "UI/UX Design",
+          "Responsive Web Design",
+          "Graphic Design",
+          "Branding"
+        ],
+        "bannerImage": "/Webdesign.png",
+        "cards": [
+          {
+            "img": "Icons.UIUXDesign",
+            "head": "UI/UX Design",
+            "content": "Create intuitive and engaging user interfaces with our UI/UX design services. Our designers focus on usability, accessibility, and aesthetics to deliver exceptional user experiences."
+          },
+          {
+            "img": "Icons.responsiveWebDesign",
+            "head": "Responsive Web Design",
+            "content": "Design websites that adapt seamlessly to various screen sizes and devices. Our responsive web design services ensure optimal viewing experiences across desktops, tablets, and smartphones."
+          },
+          {
+            "img": "Icons.graphicDesign",
+            "head": "Graphic Design",
+            "content": "Enhance your brand identity with creative graphic design solutions. Our graphic designers create compelling visuals, logos, icons, and illustrations that resonate with your target audience."
+          },
+          {
+            "img": "Icons.branding",
+            "head": "Branding",
+            "content": "Develop a strong brand identity that reflects your company values and resonates with your audience. Our branding services include logo design, brand guidelines, and brand strategy development."
+          }
+        ]
+      },
+      "uiuxdesign": {
+        "title": "UI/UX Design Services",
+        "description": "Sicilian offers UI/UX design services to create intuitive and visually appealing interfaces that enhance user experience. Our UI/UX design process focuses on usability, accessibility, and aesthetics.",
+        "description2": "Explore our range of UI/UX design services, including wireframing, prototyping, user research, and usability testing. Contact us to discuss your UI/UX design project requirements and drive engagement!",
+        "services": [
+          "Wireframing",
+          "Prototyping",
+          "User Research",
+          "Usability Testing"
+        ],
+        "bannerImage": "/uiuxdesign.jpg",
+        "cards": [
+          {
+            "img": "Icons.wireframing",
+            "head": "Wireframing",
+            "content": "Create visual blueprints of your website or application with our wireframing services. Our wireframes outline the layout and structure to guide the development process and align with your business goals."
+          },
+          {
+            "img": "Icons.prototyping",
+            "head": "Prototyping",
+            "content": "Build interactive prototypes to visualize and test your design concepts. Our prototyping services help validate ideas, gather feedback, and refine user interfaces before development."
+          },
+          {
+            "img": "Icons.userResearch",
+            "head": "User Research",
+            "content": "Understand user needs and behaviors with our user research services. We conduct qualitative and quantitative research to uncover insights that inform design decisions and improve user experiences."
+          },
+          {
+            "img": "Icons.usabilityTesting",
+            "head": "Usability Testing",
+            "content": "Evaluate the usability and effectiveness of your interfaces with our usability testing services. We conduct user tests to identify usability issues and optimize your design for intuitive interactions."
+          }
+        ]
+      },
+      "designtowebsite": {
+        "title": "Design to Website Services",
+        "description": "Sicilian converts your design concepts into functional and responsive websites. Our design to website services ensure pixel-perfect implementation, seamless functionality, and optimal user experience.",
+        "description2": "Explore our design to website services, including PSD to HTML conversion, Sketch to HTML, Figma to HTML, and XD to HTML. Contact us to discuss your design to website conversion project requirements!",
+        "services": [
+          "PSD to HTML Conversion",
+          "Sketch to HTML",
+          "Figma to HTML",
+          "XD to HTML"
+        ],
+        "bannerImage": "/designtowebsite.png",
+        "cards": [
+          {
+            "img": "Icons.PSDtoHTMLConversion",
+            "head": "PSD to HTML Conversion",
+            "content": "Convert your Photoshop (PSD) designs into responsive HTML/CSS templates. Our PSD to HTML conversion services ensure pixel-perfect rendering, cross-browser compatibility, and W3C validation."
+          },
+          {
+            "img": "Icons.SketchtoHTML",
+            "head": "Sketch to HTML",
+            "content": "Transform your Sketch designs into interactive HTML/CSS layouts. Our Sketch to HTML services preserve design fidelity and ensure responsive implementation across different devices."
+          },
+          {
+            "img": "Icons.FigmatoHTML",
+            "head": "Figma to HTML",
+            "content": "Convert your Figma designs into functional HTML/CSS websites. Our Figma to HTML services focus on maintaining design consistency, accessibility, and usability across web platforms."
+          },
+          {
+            "img": "Icons.XDtoHTML",
+            "head": "XD to HTML",
+            "content": "Translate your Adobe XD prototypes into responsive HTML/CSS websites. Our XD to HTML services ensure smooth transitions, interactive elements, and optimal user experience on all devices."
+          }
+        ]
+      },
+      "logodesign": {
+        "title": "Logo Design Services",
+        "description": "Sicilian offers professional logo design services to create unique and impactful logos that represent your brand identity. Our logo design services focus on creativity, originality, and brand recognition.",
+        "description2": "Explore our logo design services, including brand logos, business logos, mascot logos, and icon designs. Contact us to discuss your logo design project requirements and establish a memorable brand identity!",
+        "services": [
+          "Brand Logos",
+          "Business Logos",
+          "Mascot Logos",
+          "Icon Designs"
+        ],
+        "bannerImage": "/logodesign.png",
+        "cards": [
+          {
+            "img": "Icons.brandLogos",
+            "head": "Brand Logos",
+            "content": "Create distinctive brand logos that reflect your company values and resonate with your target audience. Our brand logo design services focus on visual appeal, simplicity, and memorability."
+          },
+          {
+            "img": "Icons.businessLogos",
+            "head": "Business Logos",
+            "content": "Design professional logos that establish a strong visual identity for your business. Our business logo design services emphasize uniqueness, relevance, and scalability across marketing channels."
+          },
+          {
+            "img": "Icons.mascotLogos",
+            "head": "Mascot Logos",
+            "content": "Develop character-based mascot logos that personify your brand's personality and engage your audience. Our mascot logo design services combine creativity with brand storytelling to create memorable identities."
+          },
+          {
+            "img": "Icons.iconDesigns",
+            "head": "Icon Designs",
+            "content": "Design custom icons that enhance usability and visual appeal across digital platforms. Our icon design services focus on clarity, consistency, and scalability for web and mobile applications."
+          }
+        ]
+      }
+  }

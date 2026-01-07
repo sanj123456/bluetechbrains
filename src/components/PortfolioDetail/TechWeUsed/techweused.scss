@@ -1,0 +1,120 @@
+@import "../../../styles/mixin.scss";
+
+$colors: (
+  linear-gradient(147.14deg, #00cfde 6.95%, #05a660 93.05%),
+  linear-gradient(90deg, #ff6900 0%, #e63535 100%),
+  linear-gradient(147.14deg, #5b8def 6.95%, #0063f7 93.05%),
+  linear-gradient(145.51deg, #fddd48 7.21%, #00b7c4 94.47%),
+  linear-gradient(147.14deg, #3e7bfa 6.95%, #60c 93.05%)
+);
+
+#techweused {
+  background: $primary-color;
+  @include wrapper-padding;
+  overflow: hidden;
+
+  .tech-container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 32px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include media-tablet {
+      grid-template-columns: 1fr;
+    }
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      justify-content: flex-start;
+
+      h3 {
+        margin-bottom: 28px;
+        line-height: 140%;
+        font-size: 1.75em;
+
+        @include media-sm-laptop {
+          font-size: 22px;
+        }
+        @include media-tablet {
+          margin-bottom: 15px;
+        }
+      }
+
+      .tech-listing {
+        display: flex;
+        align-items: center;
+        grid-gap: 30px;
+        flex-wrap: wrap;
+        list-style: none;
+
+        @include media-xlg-laptop {
+          grid-gap: 15px;
+        }
+
+        li {
+          justify-content: center;
+          width: 68px;
+          height: 68px;
+          border-radius: 50%;
+          padding: 15px;
+          display: flex;
+          align-items: center;
+          color: #fff;
+          font-size: 30px;
+
+          @include media-sm-laptop {
+            width: 50px;
+            height: 50px;
+            padding: 12px;
+          }
+
+          &:nth-child(5n + 1) {
+            background: nth($colors, 1);
+          }
+          &:nth-child(5n + 2) {
+            background: nth($colors, 2);
+          }
+          &:nth-child(5n + 3) {
+            background: nth($colors, 3);
+          }
+          &:nth-child(5n + 4) {
+            background: nth($colors, 4);
+          }
+          &:nth-child(5n + 5) {
+            background: nth($colors, 5);
+          }
+        }
+      }
+      .responsible-list-box {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+
+        @include media-tablet {
+          grid-template-columns: 1fr;
+        }
+        li {
+          position: relative;
+          padding-left: 20px;
+          line-height: 1.5;
+          position: relative;
+
+          &::before {
+            content: url("../../../assets/Icons/bullet.svg");
+            font-size: 10px;
+            position: absolute;
+            left: 0;
+            top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

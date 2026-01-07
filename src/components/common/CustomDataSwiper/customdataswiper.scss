@@ -1,0 +1,239 @@
+@import "../../../styles/mixin.scss";
+
+$theme-blue-bg: $primary-color;
+$theme-blue-color: $primary-color;
+$theme-white-bg: linear-gradient(
+  180deg,
+  rgba(248, 247, 246, 0) 29.73%,
+  #f8f7f6 97.06%
+);
+$theme-white-color: #ffffff;
+
+#data-swiper {
+  // padding: 100px 0;
+  @include wrapper-padding;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(248, 247, 246, 0) 29.73%,
+  //   #f8f7f6 97.06%
+  // );
+    background:  transparent;
+  counter-reset: my-sec-counter;
+
+  // @include media-lg-laptop {
+  //   padding: 80px 0;
+  // }
+
+  // @include media-tablet {
+  //   padding: 48px 0;
+  // }
+
+  .services-container {
+    display: flex;
+
+    @include media-sm-laptop {
+      flex-direction: column;
+    }
+
+    .info {
+      padding-left: 32px;
+      width: 100%;
+      max-width: 25%;
+      display: flex;
+      flex-direction: column;
+      transition: opacity 0.4s ease;
+
+      @include media-sm-laptop {
+        max-width: 100%;
+        padding: 0 32px;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        color: $content-color;
+        margin-bottom: 20px;
+
+        @include media-sm-laptop {
+          margin-bottom: 32px;
+        }
+        @include media-sm-mobile {
+          align-items: center;
+        }
+
+        .head-span {
+          color: $content-color;
+          position: relative;
+          text-transform: uppercase;
+          padding-left: 44px;
+          margin-bottom: 10px;
+          @include custom-font(500, 16px, 1.5);
+          @include media-sm-mobile {
+            padding-left: 0;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            background: #c7c9d9;
+            width: 37px;
+            height: 1px;
+            left: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            @include media-sm-mobile {
+              display: none;
+            }
+          }
+        }
+        .title {
+          @include custom-font(600, 50px, 59px);
+          margin-bottom: 24px;
+
+          @include media-xlg-laptop {
+            @include custom-font(600, 40px, 45px);
+          }
+
+          @include media-sm-laptop {
+            @include custom-font(600, 30px, 32px);
+          }
+
+          @include media-tablet {
+            @include custom-font(600, 28px, 30px);
+          }
+          @include media-sm-mobile {
+            margin-bottom: 0;
+            text-align: center;
+          }
+        }
+        .detail {
+          color: #12141d;
+          @include custom-font(400, 16px, 24px);
+          margin: 24px 0;
+
+          @include media-sm-mobile {
+            text-align: center;
+          }
+        }
+      }
+      .swiper-buttons {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+
+        @include media-sm-laptop {
+          display: none;
+        }
+
+        .swipe-btn {
+          width: 56px;
+          height: 32px;
+          border-radius: 16px;
+          padding: 10px;
+          color: #9f9f9f;
+          background: 0 0;
+          border: 1px solid #9f9f9f;
+          -webkit-transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+          -o-transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+          transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          &:hover {
+            background: $primary-color;
+            color: $content-color;
+            border-color: $primary-color;
+          }
+        }
+      }
+    }
+    .right-box {
+      display: flex;
+      flex-direction: column;
+      max-width: 75%;
+      width: 100%;
+
+      @include media-sm-laptop {
+        max-width: 100%;
+      }
+
+      .swiper-container {
+        user-select: none;
+        // padding-top: 32px;
+        width: 100%;
+        padding-left: 140px;
+        position: static;
+
+        @include media-lg-laptop {
+          padding-left: 60px;
+        }
+
+        @include media-sm-laptop {
+          max-width: 100%;
+          padding-left: 32px;
+        }
+
+        .swiper-slide {
+          transition: all 0.6s ease;
+          display: flex;
+          height: auto;
+          .card-box {
+            width: 100%;
+            height: 100%;
+            flex: 1;
+            margin: auto;
+            transition: all 0.6s ease;
+          }
+          .scale-down {
+            transform: scale(0.9);
+          }
+        }
+        .swiper-pagination {
+          display: none;
+          @include media-sm-laptop {
+            position: sticky;
+            display: block;
+            margin: auto;
+            margin-top: 22px;
+          }
+
+          .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            background: #a0a0a6;
+            transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+          }
+          .swiper-pagination-bullet-active {
+            background: $hover-active-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.theme-blue {
+  background-color: $primary-color !important;
+  // background-color: transparent !important;
+
+  .content {
+    color: $content-color;
+
+    .head-span {
+      color: $content-color;
+
+      &::before {
+        background: $content-color;
+      }
+    }
+
+    .detail {
+      color: $content-color;
+    }
+  }
+}

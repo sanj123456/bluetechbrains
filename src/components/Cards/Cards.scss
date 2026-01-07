@@ -1,0 +1,177 @@
+@import "../../styles/mixin.scss";
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  text-align: left;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  img {
+    -webkit-transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+    -o-transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+    transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+  }
+  img:hover {
+    cursor: pointer;
+    filter: grayscale(60%);
+  }
+  .card-info {
+    .short-info {
+      margin: 16px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      align-items: center;
+      flex-wrap: wrap;
+      grid-gap: 10px;
+      font-size: 0.875em;
+      ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        margin: 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+        padding: 0;
+        li {
+          border: 1px solid #e4e4eb;
+          padding: 3px 14px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 50px;
+          -webkit-transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+          -o-transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+          transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+          &:hover {
+            cursor: pointer;
+            color: $hover-active-color;
+          }
+        }
+      }
+    }
+    .heading {
+      margin-bottom: 14px;
+      margin: 0 0 24px;
+      line-height: 140%;
+      color: $content-color;
+      font-size: 1.5em;
+      -webkit-transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+      -o-transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+      transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+      &:hover {
+        cursor: pointer;
+      }
+      @include media-sm-laptop {
+        font-size: 1.125em;
+        margin-bottom: 10px;
+      }
+      a {
+        color: $content-color;
+      }
+    }
+    .details {
+      margin: 0 0 30px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #12141d;
+      @include media-sm-laptop {
+        margin: 0px 0px 75px;
+      }
+    }
+  }
+  .image-link {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    position: relative;
+    transition: none;
+    overflow: hidden;
+
+    .work-image-box {
+      padding-top: 61%;
+      display: block;
+      width: 100%;
+
+      &:hover {
+        .hover-bg-img {
+          transform: translate3d(0px, 0px, 0px) skew(90deg, 0deg)
+            scale(0, 0);
+          transform: translate(0, 0);
+          filter: brightness(100%);
+          opacity: 1;
+        }
+        .work-img {
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          @include media-mobile{
+            clip-path: none;
+          }
+        }
+      }
+
+      .hover-bg-img {
+        transition: all 0.6s ease-in-out;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        max-width: 100%;
+        color: transparent;
+        transform-origin: 50% 50%;
+        transform: skew(15deg, 0deg) scale(2, 2);
+        filter: brightness(600%);
+        opacity: 0;
+
+        @include media-mobile{
+          display: none;
+        }
+      }
+
+      .work-img {
+        transition: all 0.6s ease-in-out;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        object-fit: contain;
+        will-change: clip-path;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        filter: brightness(100%);
+      }
+    }
+  }
+}
+.swiper-pagination {
+  // display: none;
+  // @include media-tablet {
+  //   position: static;
+  //   display: block;
+  //   margin-top: 22px;
+  // }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #a0a0a6;
+    transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+  }
+  .swiper-pagination-bullet-active {
+    background: $hover-active-color;
+  }
+}

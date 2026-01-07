@@ -1,0 +1,106 @@
+@import "../../styles/mixin.scss";
+
+@keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes textOut {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.home-text {
+  // display: flex;
+  transition: width 500ms ease-in-out;
+  font-family: $font-bressay-regular;
+
+  @include media-mobile{
+    flex-direction: column;
+    text-align: center
+  }
+  .fallback-text{
+    @include custom-font(600, 60px, 70px);
+    text-wrap: wrap;
+    letter-spacing: -2px;
+    white-space: nowrap;
+    // background: -webkit-linear-gradient(#FAF8F5, #DCCEB9);
+    background: $content-color;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: fill;
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0;
+    color: transparent;
+
+    @include media-lg-laptop {
+      @include custom-font(600, 50px, 60px);
+    }
+    @include media-sm-laptop{
+      text-align: center;
+    }
+
+    @include media-tablet {
+      @include custom-font(600, 42px, 50px);
+    }
+    @include media-mobile {
+      @include custom-font(200, 30px, 38px);
+    }
+  }
+
+  h1,
+  span {
+    @include custom-font(600, 60px, 70px);
+    text-wrap: wrap;
+    letter-spacing: -2px;
+    white-space: nowrap;
+    // background: -webkit-linear-gradient(#FAF8F5, #DCCEB9);
+    background: $content-color;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: fill;
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0;
+    color: transparent;
+
+    @include media-lg-laptop {
+      @include custom-font(600, 50px, 60px);
+    }
+    @include media-sm-laptop{
+      text-align: center;
+    }
+
+    @include media-tablet {
+      @include custom-font(600, 42px, 50px);
+    }
+    @include media-mobile {
+      @include custom-font(200, 30px, 38px);
+    }
+  }
+
+  p {
+    margin: 0;
+    overflow: hidden;
+
+    span {
+      // margin-left: 10px;
+      display: none;
+      transition: width 500ms ease-in-out;
+    }
+
+    .text-in {
+      display: block;
+      animation: textIn 0.5s ease;
+    }
+    .text-out {
+      animation: textOut 0.5s ease;
+    }
+  }
+}

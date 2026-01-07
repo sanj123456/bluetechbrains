@@ -1,0 +1,33 @@
+@import "../../styles/mixin.scss";
+.bottom-terms-wrapper {
+  padding: 75px 0;
+  overflow: clip;
+  @include media-mobile{
+    padding: 50px 0;
+  }
+  .bottom-terms-mini-wrapper {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+    // max-width: 1024px;
+    .policy-wrapper {
+      .policy-heading {
+        font-size: 2.5em;
+        margin: 0 0 24px;
+        line-height: 140%;
+      }
+    }
+    .sub-headings {
+      .content {
+        margin: 0 0 30px;
+        line-height: 1.5;
+        font-weight: 400;
+      }
+      .small-headings {
+        font-size: 1.5em;
+        margin: 0 0 24px;
+        line-height: 140%;
+      }
+    }
+  }
+}

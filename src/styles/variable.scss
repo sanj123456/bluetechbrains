@@ -1,0 +1,56 @@
+@import "../assets/fonts/Averta/fonts.scss";
+@import "../../public/fonts/fonts.scss";
+
+//value
+$navbar-height: 88px;
+$padding-lg: 60px;
+$padding-md: 40px;
+
+//fonts
+$font-averta-regular: "Averta";
+$font-averta-bold: "Averta-Bold";
+$font-avenir-regular: "Avenir-Next";
+$font-bressay-regular: "Bressay-Display";
+// color
+$primary-color: #f5f0eb;
+$secondary-color: #faf8f5;
+$content-color: #12141ddb;
+$cta-color: #ebe3d7;
+$hover-active-color: rgb(234, 211, 174);
+// $hover-active-color: #e8d5b7;
+$title-before-after-color: #aeb1c4;
+
+
+$text-white: #fff;
+$text-light-white: #cfcefb;
+
+$border-color: #a8726b;
+// media q
+$xxxxs-min-width: 320px;
+
+//container width
+$max-container-width: 1440px;
+$xxxxs-max-width: 360px;
+$xxs-min-width: 425px;
+$xxxxxs-max-width: 425px;
+$xxxs-max-width: 475px;
+$xxs-max-width: 576px;
+$xs-min-width: 577px;
+$xs-max-width: 768px;
+//max-width changed from 767 to 768 for about section
+$sm-min-width: 768px;
+$sm-max-width: 991px;
+$md-min-width: 992px;
+$mdd-min-width: 1025px;
+$mdd-max-width: 1024px;
+$md-max-width: 1199px;
+$lg-min-width: 1200px;
+$lg-max-width: 1440px;
+$xlg-min-width: 1441px;
+$xxlg-min-width: 1800px;
+$xxlg-max-width: 1920px;
+$xlg-max-width: 1081px;
+
+//custom
+$xmd-max-width: 1237px;
+$xxxlg-max-width: 1315px;

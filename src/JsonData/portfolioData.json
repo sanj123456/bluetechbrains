@@ -1,0 +1,696 @@
+{
+    "AllPortfolioData": [
+      {
+        "industryName": "Architecture & Design Industry",
+        "projectName": "Aster Pharmacy",
+        "productType": "Websites",
+        "slug": "aster-pharmacy",
+        "technologies": [
+          { "name": "Shopify", "techImg": "AppImages.Html" },
+          { "name": "HTML", "techImg": "AppImages.Html" },
+          { "name": "CSS", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" },
+          { "name": "JQuery", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"asterpharmacy.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"asterpharmacy.in_.png\"",
+        "description": "Aster Pharmacy had sought a website redesign to enhance certain features and drive more conversions. We thoroughly analyzed their requirements and implemented all the essential features they desired. After the site's launch, the client was delighted to witness the swift and positive response from visitors.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.website_mockup + \"asterpharmacy.png\"",
+          "PublicPath.desktop_mockup + \"asterpharmacy.png\"",
+          "PublicPath.all_device + \"asterpharmacy.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Frontend Development",
+          "Shopify Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "User-Friendly E-commerce Solution",
+            "image": "PublicPath.website_mockup + \"asterpharmacy.png\"",
+            "paragraphs": [
+              "Aster Pharmacy's new website offers a seamless online shopping experience, allowing customers to easily browse and purchase healthcare products from the comfort of their homes.",
+              "The redesigned interface prioritizes user experience, with intuitive navigation and clear product categorization to help customers find what they need quickly and efficiently."
+            ]
+          },
+          {
+            "title": "Mobile-Responsive Design",
+            "image": "PublicPath.desktop_mockup + \"asterpharmacy.png\"",
+            "paragraphs": [
+              "Our mobile-responsive design ensures that Aster Pharmacy's website looks great and functions flawlessly across all devices, from desktop computers to smartphones and tablets.",
+              "The adaptive layout and optimized images provide a consistent brand experience and maintain fast loading times, crucial for retaining mobile users and improving SEO performance."
+            ]
+          },
+          {
+            "title": "Enhanced Product Information and Recommendations",
+            "image": "PublicPath.all_device + \"asterpharmacy.png\"",
+            "paragraphs": [
+              "We implemented detailed product pages with comprehensive information, including usage instructions, side effects, and customer reviews, helping customers make informed decisions about their purchases.",
+              "An intelligent recommendation system was integrated, suggesting related products and frequently bought together items, increasing cross-selling opportunities and improving the overall shopping experience."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Healthcare Industry",
+        "projectName": "Camali Clinic",
+        "productType": "Mobile Apps",
+        "slug": "camali-clinic",
+        "technologies": [
+          { "name": "React Native", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" },
+          { "name": "Node.js", "techImg": "AppImages.Html" },
+          { "name": "MongoDB", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"camaliclinic.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"camaliclinic.com_.png\"",
+        "description": "Camali Clinic required a mobile app to enhance patient engagement and streamline their healthcare services. We developed a comprehensive solution that improved appointment management, patient communication, and access to health information.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"camaliclinic.png\"",
+          "PublicPath.website_mockup + \"camaliclinic.png\"",
+          "PublicPath.desktop_mockup + \"camaliclinic.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Mobile App Development",
+          "Backend Integration"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Streamlined Appointment Booking",
+            "image": "PublicPath.all_device + \"camaliclinic.png\"",
+            "paragraphs": [
+              "The Camali Clinic mobile app features an intuitive appointment booking system, allowing patients to easily schedule and manage their appointments with just a few taps.",
+              "Our user-centric design approach ensures that patients can quickly find available time slots, choose their preferred healthcare provider, and receive instant confirmation, improving overall patient satisfaction."
+            ]
+          },
+          {
+            "title": "Secure Patient Portal",
+            "image": "PublicPath.website_mockup + \"camaliclinic.png\"",
+            "paragraphs": [
+              "We implemented a robust and secure patient portal within the app, giving users easy access to their medical records, test results, and treatment plans.",
+              "The portal's design prioritizes data privacy and security while maintaining a user-friendly interface, empowering patients to take an active role in managing their healthcare."
+            ]
+          },
+          {
+            "title": "Telemedicine Integration",
+            "image": "PublicPath.desktop_mockup + \"camaliclinic.png\"",
+            "paragraphs": [
+              "In response to the growing demand for remote healthcare services, we integrated a telemedicine feature that allows patients to consult with their doctors via secure video calls.",
+              "The telemedicine module includes features such as pre-consultation questionnaires, document sharing, and post-consultation follow-ups, ensuring a comprehensive virtual care experience."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Healthcare Industry",
+        "projectName": "Asterdm Healthcare",
+        "productType": "Websites",
+        "slug": "asterdm-healthcare",
+        "technologies": [
+          { "name": "React", "techImg": "AppImages.Html" },
+          { "name": "Node.js", "techImg": "AppImages.Html" },
+          { "name": "Express", "techImg": "AppImages.Html" },
+          { "name": "MongoDB", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"asterdmhealthcare.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"www.asterdmhealthcare.com_.png\"",
+        "description": "Asterdm Healthcare required a comprehensive website redesign to improve user engagement and provide better access to healthcare information. We implemented a range of features to meet their needs and enhance the overall user experience.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"asterdmhealthcare.png\"",
+          "PublicPath.website_mockup + \"asterdmhealthcare.png\"",
+          "PublicPath.desktop_mockup + \"asterdmhealthcare.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Frontend Development",
+          "Backend Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Interactive Health Services Directory",
+            "image": "PublicPath.all_device + \"asterdmhealthcare.png\"",
+            "paragraphs": [
+              "We developed an interactive directory of health services, allowing users to easily explore and find the specific medical care they need across Asterdm's network of facilities.",
+              "The directory features advanced filtering options, detailed service descriptions, and integration with the appointment booking system, streamlining the patient's journey from research to consultation."
+            ]
+          },
+          {
+            "title": "Responsive Telemedicine Platform",
+            "image": "PublicPath.website_mockup + \"asterdmhealthcare.png\"",
+            "paragraphs": [
+              "Our team integrated a state-of-the-art telemedicine platform into the Asterdm Healthcare website, enabling patients to consult with healthcare professionals remotely.",
+              "The platform is fully responsive, ensuring a seamless experience across all devices, and includes features such as secure video consultations, digital prescription services, and follow-up scheduling."
+            ]
+          },
+          {
+            "title": "Health Information Portal",
+            "image": "PublicPath.desktop_mockup + \"asterdmhealthcare.png\"",
+            "paragraphs": [
+              "We created a comprehensive health information portal that provides patients with access to reliable, up-to-date medical information and resources.",
+              "The portal includes features such as a symptom checker, health risk assessments, and educational content on various medical conditions, empowering patients to make informed decisions about their health."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Transportation Industry",
+        "projectName": "Eddielimo",
+        "productType": "Websites",
+        "slug": "eddielimo",
+        "technologies": [
+          { "name": "WordPress", "techImg": "AppImages.Html" },
+          { "name": "PHP", "techImg": "AppImages.Html" },
+          { "name": "MySQL", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"eddielimo.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"eddielimo.com_.png\"",
+        "description": "Eddielimo sought a website redesign to showcase their luxury transportation services and streamline the booking process. We delivered a sleek, user-friendly website that highlights their fleet and simplifies reservations.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"eddielimo.png\"",
+          "PublicPath.website_mockup + \"eddielimo.png\"",
+          "PublicPath.desktop_mockup + \"eddielimo.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "WordPress Development",
+          "Custom Plugin Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Elegant Fleet Showcase",
+            "image": "PublicPath.all_device + \"eddielimo.png\"",
+            "paragraphs": [
+              "We designed a visually striking fleet showcase that allows potential clients to explore Eddielimo's range of luxury vehicles in stunning detail.",
+              "The showcase features high-quality images, 360-degree views, and detailed specifications for each vehicle, helping clients make informed decisions about their transportation needs."
+            ]
+          },
+          {
+            "title": "Intuitive Booking System",
+            "image": "PublicPath.website_mockup + \"eddielimo.png\"",
+            "paragraphs": [
+              "Our team developed a user-friendly booking system that simplifies the reservation process, allowing clients to select their preferred vehicle, date, time, and route with ease.",
+              "The system includes real-time availability checks, instant price quotes, and secure payment integration, providing a seamless end-to-end booking experience for Eddielimo's clientele."
+            ]
+          },
+          {
+            "title": "Custom Route Planning Tool",
+            "image": "PublicPath.desktop_mockup + \"eddielimo.png\"",
+            "paragraphs": [
+              "We created a custom route planning tool that allows clients to visualize and plan their journey, including multiple stops and estimated travel times.",
+              "The tool integrates with mapping services to provide accurate distance calculations and traffic estimates, helping clients and Eddielimo staff to plan efficient and comfortable trips."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Electronics Industry",
+        "projectName": "CASIO",
+        "productType": "Websites",
+        "slug": "casio",
+        "technologies": [
+          { "name": "Magento", "techImg": "AppImages.Html" },
+          { "name": "PHP", "techImg": "AppImages.Html" },
+          { "name": "MySQL", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"CASIO.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"www.casio.com_sg_ (8).png\"",
+        "description": "CASIO required a website overhaul to better showcase their diverse product range and improve the online shopping experience. We delivered a modern, user-centric design that highlights CASIO's innovative products and brand legacy.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"CASIO.png\"",
+          "PublicPath.website_mockup + \"CASIO.png\"",
+          "PublicPath.desktop_mockup + \"CASIO.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Magento Development",
+          "Custom Module Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Dynamic Product Catalog",
+            "image": "PublicPath.all_device + \"CASIO.png\"",
+            "paragraphs": [
+              "We developed a dynamic product catalog that showcases CASIO's extensive range of products, from watches to calculators and musical instruments.",
+              "The catalog features advanced filtering options, detailed product comparisons, and high-quality imagery, allowing customers to easily find and explore CASIO's innovative offerings."
+            ]
+          },
+          {
+            "title": "Immersive Brand Story",
+            "image": "PublicPath.website_mockup + \"CASIO.png\"",
+            "paragraphs": [
+              "Our design team created an engaging brand story section that highlights CASIO's rich history of innovation and technological advancements.",
+              "Through interactive timelines, video content, and compelling narratives, we helped CASIO connect with their audience on a deeper level, reinforcing brand loyalty and showcasing their industry leadership."
+            ]
+          },
+          {
+            "title": "Personalized Product Recommendations",
+            "image": "PublicPath.desktop_mockup + \"CASIO.png\"",
+            "paragraphs": [
+              "We implemented a sophisticated recommendation engine that suggests products based on user browsing history, purchase patterns, and similar customer preferences.",
+              "This feature not only enhances the shopping experience by helping customers discover relevant products but also increases cross-selling opportunities for CASIO."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Retail Industry",
+        "projectName": "IKEA",
+        "productType": "Websites",
+        "slug": "ikea",
+        "technologies": [
+          { "name": "React", "techImg": "AppImages.Html" },
+          { "name": "Node.js", "techImg": "AppImages.Html" },
+          { "name": "GraphQL", "techImg": "AppImages.Html" },
+          { "name": "PostgreSQL", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"IKEA.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"www.ikea.com_in_en_.png\"",
+        "description": "IKEA sought to enhance their online presence with a website that would showcase their product range and provide an engaging shopping experience. We developed a feature-rich, user-friendly platform that aligns with IKEA's brand identity and meets the needs of their diverse customer base.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"IKEA.png\"",
+          "PublicPath.website_mockup + \"IKEA.png\"",
+          "PublicPath.desktop_mockup + \"IKEA.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Frontend Development",
+          "Backend Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Interactive Room Planner",
+            "image": "PublicPath.all_device + \"IKEA.png\"",
+            "paragraphs": [
+              "We developed an innovative room planner tool that allows customers to visualize IKEA products in their own space before making a purchase.",
+              "The tool uses augmented reality technology to place furniture items in real-time camera views, helping customers make confident buying decisions and reducing return rates."
+            ]
+          },
+          {
+            "title": "Streamlined E-commerce Experience",
+            "image": "PublicPath.website_mockup + \"IKEA.png\"",
+            "paragraphs": [
+              "Our team redesigned the e-commerce flow to create a seamless shopping experience, from product discovery to checkout.",
+              "We implemented features such as quick view, persistent shopping cart, and one-page checkout to reduce friction and improve conversion rates."
+            ]
+          },
+          {
+            "title": "Personalized Content Delivery",
+            "image": "PublicPath.desktop_mockup + \"IKEA.png\"",
+            "paragraphs": [
+              "We integrated a machine learning-based recommendation system that personalizes product suggestions and content based on user behavior and preferences.",
+              "This system not only enhances the user experience by showing relevant products but also increases average order value and customer engagement."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Hospitality Industry",
+        "projectName": "Inside Burjalarab",
+        "productType": "Mobile Apps",
+        "slug": "inside-burjalarab",
+        "technologies": [
+          { "name": "React Native", "techImg": "AppImages.Html" },
+          { "name": "Firebase", "techImg": "AppImages.Html" },
+          { "name": "Node.js", "techImg": "AppImages.Html" },
+          { "name": "MongoDB", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"insideburjalarab.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"keycma.com_ (14).png\"",
+        "description": "Inside Burjalarab required a mobile app to enhance guest experience and streamline hotel services. We developed a comprehensive solution that offers virtual tours, in-room controls, and personalized concierge services.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"insideburjalarab.png\"",
+          "PublicPath.website_mockup + \"insideburjalarab.png\"",
+          "PublicPath.desktop_mockup + \"insideburjalarab.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Mobile App Development",
+          "Backend Integration"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Virtual Hotel Tour",
+            "image": "PublicPath.all_device + \"insideburjalarab.png\"",
+            "paragraphs": [
+              "We created an immersive virtual tour feature that allows guests to explore the Burj Al Arab's luxurious facilities before and during their stay.",
+              "The tour includes 360-degree views of rooms, restaurants, and amenities, enhancing the guest's anticipation and helping them make informed choices about their stay."
+            ]
+          },
+          {
+            "title": "Smart Room Controls",
+            "image": "PublicPath.website_mockup + \"insideburjalarab.png\"",
+            "paragraphs": [
+              "Our team integrated smart room control features, allowing guests to adjust lighting, temperature, and entertainment systems directly from their mobile devices.",
+              "This system enhances guest comfort and contributes to energy efficiency by enabling precise control over room environments."
+            ]
+          },
+          {
+            "title": "Personalized Concierge Services",
+            "image": "PublicPath.desktop_mockup + \"insideburjalarab.png\"",
+            "paragraphs": [
+              "We developed an AI-powered concierge service that provides personalized recommendations for dining, activities, and services based on guest preferences and behavior.",
+              "The feature includes real-time chat support, allowing guests to make requests or ask questions 24/7, enhancing the luxury experience of the Burj Al Arab."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Education Technology",
+        "projectName": "Kanzi",
+        "productType": "Mobile Apps",
+        "slug": "kanzi",
+        "technologies": [
+          { "name": "Flutter", "techImg": "AppImages.Html" },
+          { "name": "Dart", "techImg": "AppImages.Html" },
+          { "name": "Firebase", "techImg": "AppImages.Html" },
+          { "name": "TensorFlow Lite", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"kanzi.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"www.kanziapp.com_ (8).png\"",
+        "description": "Kanzi approached us to develop an innovative language learning app that uses AI and gamification to make learning Arabic fun and effective. We created a feature-rich, engaging mobile app that caters to learners of all levels.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"kanzi.png\"",
+          "PublicPath.website_mockup + \"kanzi.png\"",
+          "PublicPath.desktop_mockup + \"kanzi.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Mobile App Development",
+          "AI Integration"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Adaptive Learning Paths",
+            "image": "PublicPath.all_device + \"kanzi.png\"",
+            "paragraphs": [
+              "We implemented an AI-driven adaptive learning system that tailors lesson plans and difficulty levels to each user's progress and learning style.",
+              "This personalized approach ensures that learners are always challenged at the right level, maximizing engagement and learning outcomes."
+            ]
+          },
+          {
+            "title": "Interactive Speaking Exercises",
+            "image": "PublicPath.website_mockup + \"kanzi.png\"",
+            "paragraphs": [
+              "Our team integrated advanced speech recognition technology to provide real-time feedback on pronunciation and intonation.",
+              "Users can engage in simulated conversations with AI characters, enhancing their speaking skills in practical, real-world scenarios."
+            ]
+          },
+          {
+            "title": "Gamified Learning Experience",
+            "image": "PublicPath.desktop_mockup + \"kanzi.png\"",
+            "paragraphs": [
+              "We designed a gamification system with points, levels, and achievements to keep learners motivated and engaged throughout their language learning journey.",
+              "The app includes mini-games and challenges that reinforce vocabulary and grammar in a fun, interactive way, making learning feel less like work and more like play."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Food & Beverage Industry",
+        "projectName": "Kettle And Fire",
+        "productType": "E-commerce Website",
+        "slug": "kettle-and-fire",
+        "technologies": [
+          { "name": "Shopify Plus", "techImg": "AppImages.Html" },
+          { "name": "Liquid", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" },
+          { "name": "SCSS", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"kettleandfire.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"www.kettleandfire.com_ (8).png\"",
+        "description": "Kettle And Fire needed a robust e-commerce platform to showcase their range of bone broths and soups while educating customers about the health benefits of their products. We delivered a high-performance Shopify Plus store with custom features to meet their unique needs.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"kettleandfire.png\"",
+          "PublicPath.website_mockup + \"kettleandfire.png\"",
+          "PublicPath.desktop_mockup + \"kettleandfire.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Shopify Plus Development",
+          "Custom App Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Educational Product Pages",
+            "image": "PublicPath.all_device + \"kettleandfire.png\"",
+            "paragraphs": [
+              "We designed informative product pages that not only showcase Kettle And Fire's products but also educate customers about the health benefits of bone broth and collagen.",
+              "Each page includes nutritional information, preparation tips, and customer reviews, helping potential buyers make informed decisions and increasing conversion rates."
+            ]
+          },
+          {
+            "title": "Subscription Management System",
+            "image": "PublicPath.website_mockup + \"kettleandfire.png\"",
+            "paragraphs": [
+              "Our team developed a custom subscription management system that allows customers to easily subscribe to regular deliveries of their favorite products.",
+              "The system includes features like flexible delivery schedules, easy plan modifications, and automatic discounts for subscribers, enhancing customer loyalty and increasing lifetime value."
+            ]
+          },
+          {
+            "title": "Recipe and Lifestyle Blog Integration",
+            "image": "PublicPath.desktop_mockup + \"kettleandfire.png\"",
+            "paragraphs": [
+              "We integrated a content-rich blog featuring recipes, health tips, and lifestyle articles that showcase the versatility of Kettle And Fire's products.",
+              "The blog is seamlessly connected to the e-commerce functionality, allowing readers to easily add featured products to their cart, thus bridging content marketing with direct sales opportunities."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Entertainment Industry",
+        "projectName": "Wild Wadi",
+        "productType": "Mobile Apps",
+        "slug": "wild-wadi",
+        "technologies": [
+          { "name": "React Native", "techImg": "AppImages.Html" },
+          { "name": "Node.js", "techImg": "AppImages.Html" },
+          { "name": "Express", "techImg": "AppImages.Html" },
+          { "name": "MongoDB", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + \"Wild Wadi.png\"",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + \"wildwadi.com_en_ (8).png\"",
+        "description": "Wild Wadi Water Park required a mobile app to enhance visitor experience, streamline ticket purchases, and provide real-time information about attractions. We developed a comprehensive solution that brings the excitement of the park to users' fingertips.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + \"Wild Wadi.png\"",
+          "PublicPath.website_mockup + \"Wild Wadi.png\"",
+          "PublicPath.desktop_mockup + \"Wild Wadi.png\""
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Mobile App Development",
+          "Backend Integration"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Interactive Park Map",
+            "image": "PublicPath.all_device + \"Wild Wadi.png\"",
+            "paragraphs": [
+              "We created an interactive, GPS-enabled map that helps visitors navigate the park efficiently and locate attractions, restaurants, and facilities with ease.",
+              "The map includes real-time wait times for rides and allows users to set reminders for shows and events, maximizing their enjoyment of the park."
+            ]
+          },
+          {
+            "title": "Seamless Ticketing System",
+            "image": "PublicPath.website_mockup + \"Wild Wadi.png\"",
+            "paragraphs": [
+              "Our team implemented a user-friendly ticketing system that allows visitors to purchase and store digital tickets directly in the app.",
+              "The system includes features like fast-track options, group discounts, and the ability to easily upgrade tickets, enhancing the pre-visit experience and reducing queue times at the park entrance."
+            ]
+          },
+          {
+            "title": "Personalized Activity Planner",
+            "image": "PublicPath.desktop_mockup + \"Wild Wadi.png\"",
+            "paragraphs": [
+              "We developed a smart activity planner that helps visitors create personalized itineraries based on their preferences, group composition, and available time.",
+              "The planner suggests optimal routes through the park, factors in meal times, and adapts to real-time conditions like ride closures or weather changes, ensuring visitors make the most of their day at Wild Wadi."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Healthcare Industry",
+        "projectName": "Medcare",
+        "productType": "Websites",
+        "slug": "medcare",
+        "technologies": [
+          { "name": "Angular", "techImg": "AppImages.Html" },
+          { "name": "Node.js", "techImg": "AppImages.Html" },
+          { "name": "Express", "techImg": "AppImages.Html" },
+          { "name": "PostgreSQL", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + 'medcare.png'",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + 'www.medcare.ae_en (2).png'",
+        "description": "Medcare required a comprehensive website redesign to improve patient engagement, streamline appointment booking, and provide easy access to health information. We delivered a user-centric platform that enhances the digital healthcare experience for Medcare's patients.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + 'medcare.png'",
+          "PublicPath.website_mockup + 'medcare.png'",
+          "PublicPath.desktop_mockup + 'medcare.png'"
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Frontend Development",
+          "Backend Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Intelligent Doctor Search",
+            "image": "PublicPath.all_device + 'medcare.png'",
+            "paragraphs": [
+              "We developed an advanced search functionality that allows patients to find the right healthcare professional based on speciality, location, languages spoken, and available time slots.",
+              "The search feature includes doctor profiles with detailed information, patient reviews, and the option to book appointments directly, streamlining the patient's journey from search to consultation."
+            ]
+          },
+          {
+            "title": "Integrated Telemedicine Platform",
+            "image": "PublicPath.website_mockup + 'medcare.png'",
+            "paragraphs": [
+              "Our team implemented a secure, HIPAA-compliant telemedicine platform that enables patients to consult with healthcare providers remotely.",
+              "The platform includes features such as video consultations, secure messaging, and the ability to share medical documents, providing a comprehensive virtual care experience."
+            ]
+          },
+          {
+            "title": "Personalized Health Dashboard",
+            "image": "PublicPath.desktop_mockup + 'medcare.png'",
+            "paragraphs": [
+              "We created a customizable health dashboard that gives patients a holistic view of their health journey, including upcoming appointments, medication reminders, and recent test results.",
+              "The dashboard also provides personalized health tips and articles based on the patient's medical history and preferences, promoting proactive health management."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Agriculture Industry",
+        "projectName": "Woningmark",
+        "productType": "Mobile Apps",
+        "slug": "woningmark",
+        "technologies": [
+          { "name": "Shopify", "techImg": "AppImages.Html" },
+          { "name": "HTML", "techImg": "AppImages.Html" },
+          { "name": "CSS", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" },
+          { "name": "JQuery", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + 'woningmark.png'",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + 'www.woningmarkt.nl_.png'",
+        "description": "Camali clinic had sought a website redesign to enhance certain features and drive more conversions. We thoroughly analyzed their requirements and implemented all the essential features they desired. After the site's launch, the client was delighted to witness the swift and positive response from visitors.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + 'woningmark.png'",
+          "PublicPath.website_mockup + 'woningmark.png'",
+          "PublicPath.desktop_mockup + 'woningmark.png'"
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Frontend Development",
+          "Shopify Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Innovative Agriculture App Design",
+            "image": "PublicPath.all_device + 'woningmark.png'",
+            "paragraphs": [
+              "Our team developed a cutting-edge mobile application for Woningmark, revolutionizing the agriculture industry. The app incorporates advanced features that allow farmers to efficiently manage their crops and livestock.",
+              "Using a combination of Shopify, HTML, CSS, JavaScript, and jQuery, we created a user-friendly interface that provides real-time data and insights, helping farmers make informed decisions and optimize their agricultural practices."
+            ]
+          },
+          {
+            "title": "Seamless Cross-Platform Integration",
+            "image": "PublicPath.website_mockup + 'woningmark.png'",
+            "paragraphs": [
+              "The Woningmark app was designed to work flawlessly across various devices, ensuring that farmers can access critical information whether they're in the field or at their desks.",
+              "Our responsive design approach guarantees a consistent user experience on smartphones, tablets, and desktop computers, maximizing the app's utility and accessibility for all users."
+            ]
+          },
+          {
+            "title": "Data-Driven Agricultural Solutions",
+            "image": "PublicPath.desktop_mockup + 'woningmark.png'",
+            "paragraphs": [
+              "We implemented robust data analytics features within the Woningmark app, enabling farmers to track crop yields, monitor weather patterns, and analyze market trends all in one place.",
+              "The integration of these data-driven tools has significantly improved decision-making processes for farmers, leading to increased productivity and profitability in their agricultural operations."
+            ]
+          }
+        ]
+      },
+      {
+        "industryName": "Agriculture Industry",
+        "projectName": "Yyppee",
+        "productType": "Mobile Apps",
+        "slug": "yyppee",
+        "technologies": [
+          { "name": "Shopify", "techImg": "AppImages.Html" },
+          { "name": "HTML", "techImg": "AppImages.Html" },
+          { "name": "CSS", "techImg": "AppImages.Html" },
+          { "name": "JavaScript", "techImg": "AppImages.Html" },
+          { "name": "JQuery", "techImg": "AppImages.Html" }
+        ],
+        "cardImage": "PublicPath.all_device + 'yyppee.png'",
+        "bannerImage": "PublicPath.PortFolio_Banner_images + 'www.yyppee.com_ (6).png'",
+        "description": "Camali clinic had sought a website redesign to enhance certain features and drive more conversions. We thoroughly analyzed their requirements and implemented all the essential features they desired. After the site's launch, the client was delighted to witness the swift and positive response from visitors.",
+        "liveUrl": "#",
+        "images": [
+          "PublicPath.all_device + 'yyppee.png'",
+          "PublicPath.website_mockup + 'yyppee.png'",
+          "PublicPath.desktop_mockup + 'yyppee.png'"
+        ],
+        "responsibleFor": [
+          "UX Research",
+          "UX Design",
+          "Frontend Development",
+          "Shopify Development"
+        ],
+        "portfolioDetail": [
+          {
+            "title": "Revolutionizing Agricultural E-commerce",
+            "image": "PublicPath.all_device + 'yyppee.png'",
+            "paragraphs": [
+              "Yyppee represents a paradigm shift in agricultural e-commerce, offering a platform where farmers can directly connect with consumers and other businesses in the agricultural supply chain.",
+              "Our team leveraged Shopify's powerful features along with custom HTML, CSS, and JavaScript to create a user-friendly marketplace that simplifies the buying and selling process for agricultural products."
+            ]
+          },
+          {
+            "title": "Mobile-First Approach for Modern Farmers",
+            "image": "PublicPath.website_mockup + 'yyppee.png'",
+            "paragraphs": [
+              "Recognizing the increasing reliance on mobile devices in the agricultural sector, we adopted a mobile-first design strategy for Yyppee. This ensures that farmers can manage their listings and transactions efficiently, even when in the field.",
+              "The app's responsive design adapts seamlessly to different screen sizes, providing an optimal user experience whether accessed via smartphone, tablet, or desktop computer."
+            ]
+          },
+          {
+            "title": "Integrated Supply Chain Management",
+            "image": "PublicPath.desktop_mockup + 'yyppee.png'",
+            "paragraphs": [
+              "Yyppee goes beyond a simple marketplace by incorporating advanced supply chain management tools. These features allow farmers to track their inventory, manage orders, and coordinate logistics all within the app.",
+              "By streamlining these processes, Yyppee helps reduce waste, improve efficiency, and ultimately increase profitability for farmers and other stakeholders in the agricultural industry."
+            ]
+          }
+        ]
+      }
+    ]
+}

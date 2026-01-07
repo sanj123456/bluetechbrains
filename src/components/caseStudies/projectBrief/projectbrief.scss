@@ -1,0 +1,119 @@
+@import "../../../styles/mixin.scss";
+
+#projectBrief {
+  @include wrapper-padding;
+  padding-inline: 32px;
+
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 32px;
+
+    @include media-sm-laptop {
+      grid-template-columns: 400px 1fr;
+    }
+    @include media-tablet {
+      grid-template-columns: 1fr;
+    }
+    .left {
+      .box {
+        width: 100%;
+        position: sticky;
+        top: 90px;
+        .head-span {
+          color: $content-color;
+          position: relative;
+          text-transform: uppercase;
+          padding-left: 44px;
+          margin-bottom: 10px;
+          @include custom-font(500, 16px, 1.5);
+          @include media-sm-mobile {
+            padding-left: 0;
+          }
+
+          &::before {
+            content: "";
+            position: absolute;
+            background: #c7c9d9;
+            width: 37px;
+            height: 1px;
+            left: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            @include media-sm-mobile {
+              display: none;
+            }
+          }
+        }
+        .title {
+          @include custom-font(600, 50px, 59px);
+          margin-bottom: 24px;
+
+          @include media-xlg-laptop {
+            @include custom-font(600, 40px, 45px);
+          }
+
+          @include media-sm-laptop {
+            @include custom-font(600, 30px, 32px);
+          }
+
+          @include media-tablet {
+            @include custom-font(600, 28px, 30px);
+          }
+        }
+        figure {
+          max-width: 400px;
+          width: 100%;
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 0;
+
+          @include media-tablet {
+            display: none;
+          }
+
+          img {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .right {
+      h5 {
+        color: $content-color;
+        font-size: 1.25em;
+        margin: 0 0 24px;
+        line-height: 140%;
+      }
+      p {
+        color: $content-color;
+        margin: 0 0 30px;
+      }
+
+      .listing {
+        font-size: 1em;
+        list-style: none;
+        line-height: 1.5;
+
+        li {
+          height: 100%;
+          position: relative;
+          padding-left: 25px;
+          margin-bottom: 15px;
+
+          &::before {
+            content: url("../../../assets/Icons/bullet.svg");
+            font-size: 10px;
+            position: absolute;
+            left: 0;
+            top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

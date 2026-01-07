@@ -1,0 +1,109 @@
+@import "../../../styles/variable.scss";
+.link-hover-container {
+  height: 100%;
+
+  .link-hover {
+    display: grid;
+    height: 100%;
+    color: $content-color;
+    text-align: center;
+    font-size: 14px;
+    padding: 32px 0;
+
+    position: relative;
+
+    align-content: center;
+    font-weight: 600;
+    transition: none;
+    transition: color 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+    .icon {
+      grid-area: 1/2;
+      margin-top: 2px;
+      margin-left: 2px;
+      svg {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 200ms ease-in-out;
+        -o-transition: 200ms ease-in-out;
+        transition: 200ms ease-in-out;
+      }
+    }
+    .block {
+      height: 100%;
+      grid-area: 1/1;
+      transition: opacity 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95),
+        transform 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+      .char {
+        height: 100%;
+        margin-right: .6px;
+        display: inline-block;
+        transform-origin: 50% 50% 0.4em;
+        transition: transform 0.5s cubic-bezier(0.5, 0, 0, 1);
+        backface-visibility: hidden;
+
+        // Using SCSS loop to apply delay
+        @for $i from 1 through 51 {
+          &:nth-child(#{$i}) {
+            height: 100%;
+            transition-delay: 0.015s * ($i - 1);
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .char {
+          height: 100%;
+          transform: rotate3d(1, -0.5, 0, 90deg);
+        }
+      }
+    }
+    // color: black;
+
+    //   margin-bottom: 300px;
+    &:hover {
+      color: $content-color;
+      .icon {
+        svg {
+          -webkit-transform: rotate(-180deg);
+          -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+          -webkit-transition: 200ms ease-in-out;
+          -o-transition: 200ms ease-in-out;
+          transition: 200ms ease-in-out;
+        }
+      }
+      .block:nth-child(1) {
+        opacity: 0;
+        .char {
+          transform: rotate3d(1, 0.3, 0, -90deg);
+        }
+      }
+      .block:nth-child(2) {
+        opacity: 1;
+        .char {
+          transform: rotate3d(0, 0, 0, 90deg);
+        }
+      }
+    }
+
+    &.active {
+      color: $secondary-color;
+
+      .block:nth-child(1) {
+        opacity: 0;
+        .char {
+          transform: rotate3d(1, 0.3, 0, -90deg);
+        }
+      }
+
+      .block:nth-child(2) {
+        opacity: 1;
+        .char {
+          transform: rotate3d(0, 0, 0, 90deg);
+        }
+      }
+    }
+  }
+}

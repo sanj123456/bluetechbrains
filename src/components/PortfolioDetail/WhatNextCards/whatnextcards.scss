@@ -1,0 +1,177 @@
+@import "../../../styles/mixin.scss";
+
+#suggested-cards {
+  background: $text-white;
+  position: relative;
+  @include wrapper-padding;
+  overflow: hidden;
+
+  .wrapper {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+
+    .cards-box {
+      position: relative;
+      grid-gap: 70px 70px;
+      grid-template-columns: repeat(3, 1fr);
+      display: grid;
+
+      @include media-lg-laptop {
+        grid-gap: 50px 50px;
+      }
+
+
+      @include media-sm-laptop {
+        grid-gap: 30px;
+      }
+
+      @include media-tablet {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @include media-mobile {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .card {
+        width: 100%;
+        position: relative;
+
+        .image-link {
+          border-radius: 5px;
+          display: block;
+          width: 100%;
+          position: relative;
+          transition: none;
+          overflow: hidden;
+
+          .work-image-box {
+            padding-top: 70%;
+            display: block;
+            width: 100%;
+
+            &:hover {
+              .hover-bg-img {
+                transform: translate3d(0px, 0px, 0px) skew(90deg, 0deg)
+                  scale(0, 0);
+                transform: translate(0, 0);
+                filter: brightness(100%);
+                opacity: 1;
+              }
+              .work-img {
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                @include media-mobile {
+                  clip-path: none;
+                }
+              }
+            }
+
+            .hover-bg-img {
+              transition: all 0.6s ease-in-out;
+              position: absolute;
+              left: 0;
+              background-color: white;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+              max-width: 100%;
+              color: transparent;
+              translate: none;
+              rotate: none;
+              scale: none;
+              transform-origin: 50% 50%;
+              transform: skew(15deg, 0deg) scale(2, 2);
+              filter: brightness(600%);
+              opacity: 0;
+              @include media-mobile {
+                display: none;
+              }
+            }
+
+            .work-img {
+              background-color: white;
+              transition: all 0.6s ease-in-out;
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              max-width: 100%;
+              height: 100%;
+              object-fit: contain;
+              will-change: clip-path;
+              clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+              filter: brightness(100%);
+            }
+          }
+        }
+
+        .work-content {
+          color: #555770;
+          margin-top: 25px;
+          position: relative;
+          z-index: 1;
+
+          .work-title {
+            color: $content-color;
+            @include custom-font(600, 25px, 28px);
+            margin: 0 0 15px;
+            cursor: pointer;
+            transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+
+            &:hover {
+              color: $hover-active-color;
+            }
+
+            @include media-sm-mobile {
+              @include custom-font(600, 22px, 24px);
+            }
+          }
+
+           .short-info {
+            font-weight: 400;
+            line-height: 130%;
+            color: #000;
+            margin: 15px 0;
+            font-size: 1.2em;
+            display: -webkit-box;
+            -ms-flex-item-align: start;
+            align-self: flex-start;
+            height: 50px;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+          }
+
+          .technologies {
+            margin: 16px 0;
+            ul {
+              display: flex;
+              list-style: none;
+              gap: 10px;
+              flex-wrap: wrap;
+              align-items: center;
+
+              li {
+                @include custom-font(400, 14px, 1.5);
+                border: 1px solid #e4e4eb;
+                padding: 3px 14px;
+                display: flex;
+                justify-content: center;
+                border-radius: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .load-more {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

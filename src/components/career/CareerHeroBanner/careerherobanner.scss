@@ -1,0 +1,96 @@
+@import "../../../styles/mixin.scss";
+
+#career-hero-banner {
+  min-height: 485px;
+  position: relative;
+  @include wrapper-padding;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+
+  @include media-mobile{
+    min-height: 400px;
+  }
+
+  figure {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    display: inherit;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.55);
+      width: 100%;
+      z-index: 1;
+    }
+
+    img {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      max-width: 100%;
+    }
+  }
+
+  .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1055px;
+    padding: 0 32px;
+    color: $text-white;
+
+    .top-title {
+      @include custom-font(700, 26px, 1.5);
+
+      @include media-xlg-laptop {
+        @include custom-font(700, 24px, 1.5);
+      }
+      @include media-sm-laptop {
+        @include custom-font(700, 18px, 1.5);
+      }
+    }
+
+    h1 {
+      @include custom-font(400, 80px, 1);
+      margin-bottom: 24px;
+
+      @include media-xlg-laptop{
+      @include custom-font(400, 60px, 1);
+      }
+
+      @include media-sm-laptop {
+        @include custom-font(400, 30px, 1);
+      }
+    }
+    .career-btn{
+      .button{
+        &:hover{
+          color: $text-white;
+
+          svg{
+            color: $content-color;
+          }
+        }
+      }
+    }
+  }
+}

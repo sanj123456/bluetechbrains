@@ -1,0 +1,29 @@
+ .backLink-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .backlink {
+        cursor: pointer;
+            color: #a8726b;
+
+      
+        transition: all 0.3s ease;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+
+        span {
+          // border-bottom: 1px solid transparent;
+            border-bottom: 1px solid #a8726b7a;
+
+          transition: all 0.3s ease;
+          &:hover {
+            // border-bottom: 1px solid #a8726b7a;
+       
+          }
+        }
+      }
+    }

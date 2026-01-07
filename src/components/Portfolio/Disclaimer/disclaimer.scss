@@ -1,0 +1,37 @@
+@import "../../../styles/mixin.scss";
+
+.disclaimer-wrapper{
+  margin-bottom: 60px;
+
+  @include media-1200{
+    margin-bottom: 40px;
+  }
+}
+
+#disclaimer {
+  padding-inline: 32px;
+  .disclaimer-box {
+    padding: 35px;
+    width: 100%;
+    margin: 0 auto;
+    background: $primary-color;
+    align-items: flex-start;
+    grid-gap: 32px;
+    display: flex;
+
+    @include media-mobile {
+      flex-wrap: wrap;
+      grid-gap: 10px;
+      padding: 32px;
+    }
+
+    .disclaimer-info {
+      h6 {
+        color: $content-color;
+        margin-bottom: 5px;
+        @include custom-font(600, 16px, 140%);
+      }
+ 
+    }
+  }
+}

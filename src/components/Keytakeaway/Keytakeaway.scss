@@ -1,0 +1,78 @@
+@import "../../styles/mixin.scss";
+.Keytakeaway-container {
+  background: $secondary-color;
+  @include wrapper-padding;
+  .wrapper-div {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+    .heading-div {
+      margin-bottom: 48px;
+      max-width: 560px;
+      line-height: 1.5;
+      font-weight: 400;
+      .heading-h3 {
+        // color: #fff;
+        font-size: 1.75em;
+        margin: 0;
+        line-height: 140%;
+      }
+    }
+    .bottom-container-div {
+      //   display: -webkit-box;
+      //   display: -ms-flexbox;
+      //   display: flex;
+      //   -ms-flex-wrap: wrap;
+      //   flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      width: 100%;
+      grid-gap: 32px;
+      text-align: center;
+      @include media-sm-laptop {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @include media-510 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      //   -webkit-box-pack: justify;
+      //   -ms-flex-pack: justify;
+      //   justify-content: space-between;
+      .image-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        translate: none;
+        rotate: none;
+        scale: none;
+        transform: translate3d(0px, 0px, 0px);
+        .figureforimage {
+          margin: 0;
+          margin-bottom: 15px;
+          display: inline-block;
+          vertical-align: top;
+          width: 100%;
+          .figuresimage {
+            display: inline-block;
+            vertical-align: top;
+            width: 50px;
+            height: 50px;
+            -o-object-fit: contain;
+            object-fit: contain;
+            max-width: 100%;
+          }
+        }
+        .figures-h5 {
+          font-size: 1.25em;
+          max-width: 130px;
+          text-align: center;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

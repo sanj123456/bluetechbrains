@@ -1,0 +1,19 @@
+#born-in-india{
+    h2{
+        font-size: 3.25em;
+        // text-transform: none;
+        // -webkit-transform: translateY(-30%) scale(8);
+        // -ms-transform: translateY(-30%) scale(8);
+        // transform: translateY(-30%) scale(8);
+        contain: layout;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        right: 0;
+        text-align: center;
+        color: rgba(85,87,112,.08);
+        font-weight: 300
+    }
+}

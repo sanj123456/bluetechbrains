@@ -1,0 +1,401 @@
+@import "../../styles/mixin.scss";
+$actveNavBarLinkColor: $hover-active-color;
+
+#header-container {
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $secondary-color;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  @media (width<=500px) {
+    padding: 0 15px;
+  }
+  &.scrolled {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+    .link-hover-container {
+      .link-hover {
+        padding: 25px 0 !important;
+      }
+    }
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: $secondary-color;
+    max-width: $max-container-width;
+    margin: 0 auto;
+    width: 100%;
+    .header-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        color: $content-color;
+
+        font-size: 2.5rem;
+        line-height: 2.6rem;
+        text-wrap: nowrap;
+        font-weight: bold;
+
+        @include media-1200 {
+          font-size: 2rem;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .link-hover-container {
+      .link-hover {
+        transition: padding 0.5s ease;
+        padding: 32px 0; // Initial padding
+      }
+    }
+
+    .right-side {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+      column-gap: 1rem;
+      height: 100%;
+      @include media-1039 {
+        display: none;
+      }
+
+      .navitem {
+        display: flex;
+
+        list-style-type: none;
+        height: 100%;
+        .activeLink {
+          .link-hover {
+            position: relative;
+            &::after {
+              position: absolute;
+              content: "";
+              bottom: 15px;
+              height: 2px;
+              width: 100%;
+              background-color: $actveNavBarLinkColor;
+            }
+          }
+          .link-hover-container > * {
+            color: $actveNavBarLinkColor;
+          }
+        }
+        > li {
+          display: flex;
+
+          height: 100%;
+          padding: 0 9px;
+          &:hover {
+            .link-hover-container > * {
+              color: $actveNavBarLinkColor;
+            }
+          }
+          @include media-1200 {
+            padding: 0 6px;
+          }
+        }
+        .services,
+        .about-desk {
+          display: inline;
+          height: 100%;
+          z-index: 2;
+          .servicesDropDown {
+            visibility: hidden;
+            height: auto;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0.9;
+            transition: all 0.3s ease-in;
+          }
+          &:hover {
+            @for $i from 1 through 100 {
+              .subList:nth-of-type(#{$i}) {
+                animation: ServiceDropDownswindowSlide 0.5s backwards;
+                animation-delay: $i * 0.05s;
+              }
+              .aboutSublist {
+                li:nth-of-type(#{$i}) {
+                  transform: translateX(-10%);
+                  animation: aboutUsListwindowSlide ($i * 0.1s) forwards;
+                  opacity: 0;
+                }
+              }
+            }
+            .left .list {
+              animation: aboutUsListwindowSlide (0.6s) forwards;
+              opacity: 0;
+            }
+
+            .servicesDropDown {
+              visibility: visible;
+              max-height: 80vh;
+              overflow: auto;
+              opacity: 1;
+            }
+          }
+        }
+        .about-desk {
+          .aboutDropDown-main {
+            .trans {
+              visibility: hidden;
+            }
+
+            .aboutSublist {
+              visibility: hidden;
+              opacity: 0;
+              max-height: 0px;
+              overflow: hidden !important;
+              transition: all 0.3s ease-in-out;
+              background-color: white;
+            }
+          }
+
+          &:hover {
+            .aboutDropDown-main {
+              .trans {
+                visibility: visible;
+              }
+
+              .aboutSublist {
+                visibility: visible;
+                max-height: 400px;
+                overflow: auto;
+                opacity: 1;
+                overflow: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+    details > summary {
+      list-style: none;
+    }
+    details > summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .burger {
+      cursor: pointer;
+      display: none;
+      padding: 15px 0;
+
+      @include media-1039 {
+        display: unset;
+      }
+      &[open] {
+        .line {
+          transform: translateX(-40%);
+          animation: windowWhiteSlide 0.2s ease-out forwards;
+        }
+        .mobileSideBar .sideItem-container ul {
+          @for $i from 1 through 10 {
+            > .list-item:nth-of-type(#{$i}) {
+              animation: SideBarMenuItemsWindoSlide 0.2s ease-in;
+              animation-delay: ($i * 0.06s);
+              animation-fill-mode: backwards;
+            }
+          }
+        }
+      }
+      details[open] {
+        @for $i from 1 through 200 {
+          .subList:nth-of-type(#{$i}) {
+            animation: ServiceDropDownswindowSlide 0.5s backwards;
+            animation-delay: $i * 0.05s;
+          }
+
+          .aboutSublist {
+            li:nth-of-type(#{$i}) {
+              transform: translateX(-10%);
+              animation: aboutUsListwindowSlide ($i * 0.1s) forwards;
+              opacity: 0;
+            }
+          }
+        }
+        .left .list {
+          animation: aboutUsListwindowSlide (0.6s) forwards;
+          opacity: 0;
+        }
+
+        @keyframes SideBarMenuItemsWindoSlide {
+          from {
+            transform: translateX(-20%);
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+
+            transform: translateX(0%);
+          }
+        }
+        @keyframes windowWhiteSlide {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+            background-color: white;
+            transform: translateX(0%);
+          }
+        }
+      }
+    }
+
+    .mobileSideBar {
+      position: absolute;
+      right: 0;
+      cursor: auto;
+      top: 0;
+      height: 100vh;
+      width: 100%;
+      z-index: 1;
+
+      .lines-container {
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 0.1fr;
+        grid-template-rows: 1fr;
+        position: absolute;
+        background-color: rgb(223, 223, 223);
+        width: 100%;
+        height: 100vh;
+
+        .line {
+          visibility: 0;
+          border-right: 1.7px rgba(197, 197, 197, 0.402) solid;
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+      .corss-container {
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+        width: 100%;
+        position: relative;
+        .cross {
+          margin-right: 4%;
+          cursor: pointer;
+        }
+      }
+      .sideItem-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-left: 4%;
+        ul.sideBar {
+          display: flex;
+          flex-direction: column;
+          row-gap: 0.7rem;
+          align-items: start;
+          width: 100%;
+          .activeLink {
+            border-bottom: 2px solid $actveNavBarLinkColor;
+            .link-hover-container > * {
+              color: $actveNavBarLinkColor;
+            }
+          }
+          > li {
+            list-style-type: none;
+            &:hover {
+              .link-hover-container > * {
+                color: $actveNavBarLinkColor;
+              }
+            }
+          }
+          .sidebar-services,
+          .sidebar-about {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .icon {
+              margin-right: 4%;
+
+              cursor: pointer;
+              .service-data,
+              .about-data {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100vh;
+              }
+              .about-data {
+                background-color: #fafafc;
+
+                width: 100%;
+                height: 100vh;
+              }
+              .goArrow {
+                transform: rotate(-90deg);
+              }
+
+              .backBtn {
+                top: 17px;
+                right: 30px;
+                z-index: 111;
+                font-weight: 700;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                color: $content-color;
+              }
+            }
+          }
+          @media (width<=500px) {
+            .sidebar-services {
+              .backBtn {
+                background-color: $cta-color;
+                padding-left: 3px;
+                padding-right: 3px;
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+
+        .link-hover {
+          font-size: 18px;
+          font-weight: 700;
+          color: $content-color;
+          padding: 0px 2px;
+        }
+      }
+    }
+    @keyframes ServiceDropDownswindowSlide {
+      from {
+        transform: translateX(-10%);
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+
+        transform: translateX(0%);
+      }
+    }
+
+    @keyframes aboutUsListwindowSlide {
+      from {
+      }
+      to {
+        opacity: 1;
+
+        transform: translateX(0%);
+      }
+    }
+  }
+}

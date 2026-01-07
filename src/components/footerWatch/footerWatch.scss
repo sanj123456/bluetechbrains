@@ -1,0 +1,107 @@
+@import "../../styles/mixin.scss";
+.FooterwatchMain {
+  @include wrapper-padding;
+  padding-inline: 32px;
+  padding-bottom: 80px;
+  background-color: #faf9f8;
+  display: flex;
+  width: 100%;
+  .wrapper {
+    width: 100%;
+    // display: flex;
+    // align-items: center;
+    // flex-wrap: wrap;
+    // gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2.3fr 1.2fr;
+    column-gap: 0.3rem;
+    align-items: center;
+    @media (width<=1035px) {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .logoLink {
+      font-size: 14px;
+      line-height: 21px;
+      color: $content-color;
+
+       h1 {
+      // height: 30.375px;  
+      font-size: 2.5rem;
+      line-height: 2.6rem;
+      text-wrap: nowrap;
+      font-weight:bold;
+      color: $content-color;
+    }
+    }
+    .center {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 0 10px;
+
+      border-left: 1px solid rgba(151, 150, 150, 0.329);
+      border-right: 1px solid rgba(151, 150, 150, 0.329);
+      display: grid;
+      grid-template-columns: 0.9fr auto;
+      justify-content: space-evenly;
+      align-items: center;
+
+      @media (width<=560px) {
+        grid-template-columns: 1fr;
+        padding: unset;
+        border: none;
+        gap: 1rem;
+      }
+
+      p {
+        // display: flex;
+        // flex-wrap: wrap;
+        // text-wrap: wrap;
+        // max-width: 50ch;
+        // @media (width<=1174) {
+        //   max-width: 45ch;
+        // }
+        // @media (width<=1090) {
+        //   max-width: 40ch;
+        // }
+        // @media (width<=1035) {
+        //   flex-wrap: wrap;
+
+        //   // justify-content: start;
+        // }
+        @media (width<=600px) {
+          // flex-wrap: wrap;
+          max-width: unset;
+          // justify-content: start;
+        }
+      }
+    }
+    .clock-container {
+      position: relative;
+      background-color: #faf9f8;
+      width: 105px;
+      height: 105px;
+      overflow: hidden;
+    }
+    .last-peragraph {
+      max-width: 60ch;
+      display: flex;
+      padding-left: 0.3rem;
+      flex-wrap: wrap;
+      align-items: start;
+      flex-direction: column;
+      gap: 0.3rem;
+      p {
+        font-size: 14px;
+        line-height: 21px;
+
+        width: fit-content;
+      }
+      h5 {
+        font-size: 16px;
+        font-weight: 700;
+        color: $content-color;
+      }
+    }
+  }
+}

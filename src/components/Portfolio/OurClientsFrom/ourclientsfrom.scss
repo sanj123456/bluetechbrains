@@ -1,0 +1,127 @@
+@import "../../../styles/mixin.scss";
+
+#our-clients {
+  @include wrapper-padding;
+  width: 100%;
+  padding-inline: 32px;
+
+  .section-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    @include media-mobile{
+      align-items: center;
+    }
+
+    h2 {
+      text-align: center;
+      color: $content-color;
+    }
+    h4 {
+      @include custom-font(600, 24px, 140%);
+
+      @include media-sm-laptop {
+        @include custom-font(600, 20px, 140%);
+      }
+
+      @include media-tablet {
+        @include custom-font(600, 18px, 140%);
+      }
+      @include media-mobile{
+        text-align: center;
+      }
+      span {
+        color: $content-color;
+      }
+    }
+    p {
+      margin-top: 20px;
+      margin-bottom: 45px;
+      @include custom-font(400, 16px, 140%);
+      @include media-mobile{
+        text-align: center;
+      }
+    }
+  }
+
+  .counter-container {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px 50px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f0efec;
+
+    @include media-tablet {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 25px 0px;
+    }
+
+    .counter-box {
+      h2 {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 2px;
+          background: $secondary-color;
+        }
+
+        span {
+          color: $content-color;
+          @include custom-font(700, 28px, 28px);
+          padding-left: 12px;
+
+          margin-bottom: 5px;
+        }
+      }
+      span {
+        @include custom-font(400, 14px, 1.5);
+        padding-left: 12px;
+        color: #8f90a6;
+
+        @include media-sm-mobile{
+        white-space: nowrap;
+        }
+      }
+    }
+  }
+  .countries-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px 50px;
+
+    @include media-tablet {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 25px 30px;
+    }
+    @include media-mobile {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 25px 25px;
+    }
+
+    .country-box {
+      figure {
+        display: flex;
+        align-items: center;
+        grid-gap: 8px;
+
+        img {
+          width: 32px;
+          height: 24px;
+          object-fit: cover;
+          border: 1px solid #f2f2f2;
+        }
+
+        figcaption {
+          @include custom-font(400, 14px, 1.5);
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "pixlogix-clone-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo --port 3002",
+    "rowdev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^14.2.5",
+    "framer-motion": "^11.3.2",
+    "gsap": "^3.12.5",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-globe.gl": "^2.27.2",
+    "react-icons": "^5.2.1",
+    "react-intersection-observer": "^9.13.0",
+    "react-select": "^5.8.0",
+    "sass": "^1.77.6",
+    "sharp": "^0.33.4",
+    "sweetalert2": "^11.12.3",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^11.1.4",
+    "three": "^0.167.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  }
+}

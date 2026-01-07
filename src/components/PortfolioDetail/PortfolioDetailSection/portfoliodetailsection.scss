@@ -1,0 +1,129 @@
+@import "../../../styles/mixin.scss";
+
+#portfoliodetailsection {
+  @include wrapper-padding;
+  padding-inline: 32px;
+  .card-box {
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 100px;
+    }
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+
+      .left {
+        > h1 {
+          padding-left: 10px;
+          padding-right: 0px;
+        }
+        .overlap-box {
+          margin-left: -20%;
+
+          @include media-sm-laptop {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+
+    @include media-sm-laptop {
+      flex-direction: column-reverse !important;
+      justify-content: center;
+      max-width: 720px;
+    }
+    @include media-mobile {
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+    }
+
+    .left {
+      width: 40%;
+      position: relative;
+      @include media-sm-laptop {
+        width: 100%;
+      }
+      > h1 {
+        font-size: 32;
+        padding-right: 10px;
+        @include media-sm-laptop {
+          display: none;
+        }
+      }
+
+      .overlap-box {
+        margin-top: 24px;
+        margin-bottom: 32px;
+        width: 120%;
+        border-radius: 5px;
+        padding: 35px;
+        background-color: $primary-color;
+        box-shadow: 0px 16px 32px #0000001d;
+        @include media-lg-laptop {
+          padding: 24px;
+        }
+        @include media-1200 {
+          padding: 16px;
+        }
+        @include media-sm-laptop {
+          width: 100%;
+          margin-top: 0;
+        }
+
+        > h1 {
+          display: none;
+          font-size: 30px;
+          margin-bottom: 10px;
+          @include media-sm-laptop {
+            display: block;
+          }
+          @include media-mobile {
+            font-size: 22px;
+          }
+        }
+
+        p {
+          margin-bottom: 15px;
+          color: $content-color;
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+        li {
+          list-style-type: none;
+          height: 100%;
+          line-height: 1.5;
+          position: relative;
+          padding-left: 20px;
+
+           &::before {
+            content: url("../../../assets/Icons/bullet.svg");
+            font-size: 10px;
+            position: absolute;
+            left: 0;
+            top: 4px;
+          }
+        }
+      }
+    }
+    .right {
+      width: 60%;
+      @include media-sm-laptop {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        max-height: 480px;
+        object-fit: contain;
+      }
+    }
+  }
+}

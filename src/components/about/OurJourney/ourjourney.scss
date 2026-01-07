@@ -1,0 +1,210 @@
+@import "../../../styles/mixin.scss";
+
+#our-journey {
+  @include wrapper-padding;
+  overflow: hidden;
+
+  .journey-swiper-box {
+    width: 100%;
+    position: relative;
+    padding: 0 100px;
+    z-index: 1;
+
+    @include media-xlg-laptop {
+      padding: 0 32px;
+    }
+
+    .swiper {
+      overflow: visible;
+      user-select: none;
+
+      .swiper-wrapper {
+        counter-reset: philosophy-counter;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        box-sizing: content-box;
+        position: relative;
+        z-index: 1;
+
+        .journey-box {
+          .journey-year {
+            position: relative;
+            padding-bottom: 15px;
+
+            &::before {
+              content: "";
+              position: absolute;
+              right: 35px;
+              top: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+              border: 1px dashed #555770;
+              width: calc(100% - 242px);
+
+              @include media-sm-laptop {
+                width: calc(100% - 170px);
+                right: 12px;
+              }
+            }
+
+            h2 {
+              @include custom-font(600, 78px, 140%);
+              width: 172px;
+              // -webkit-text-stroke: 1px $content-color;
+              // color: transparent;
+              text-align: center;
+              margin-bottom: 0;
+
+              @include media-xlg-laptop {
+                @include custom-font(600, 60px, 140%);
+              }
+              @include media-sm-laptop {
+                width: 142px;
+              }
+            }
+
+            > span {
+              position: absolute;
+              right: 35px;
+              top: 5px;
+              width: calc(100% - 242px);
+              text-align: center;
+
+              @include media-sm-laptop {
+                width: calc(100% - 170px);
+                right: 12px;
+              }
+
+              img {
+                width: 42px;
+                max-width: 100%;
+                height: 30px;
+                object-fit: contain;
+              }
+            }
+          }
+          .journey-info-box {
+            display: flex;
+            width: 100%;
+            align-items: flex-start;
+            position: relative;
+
+            .journey-img {
+              min-width: 172px;
+              padding-top: 40px;
+              position: relative;
+
+              @include media-1200 {
+                min-width: 142px;
+              }
+
+              @include media-mobile {
+                min-width: 100px;
+              }
+
+              &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 1px;
+                height: 40px;
+                margin: 0 auto;
+                top: 0;
+                background: $primary-color;
+              }
+
+              &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 200vw;
+                height: 1px;
+                z-index: -1;
+                background-color: $primary-color;
+                left: -50vw;
+              }
+
+              figure {
+                width: 112px;
+                height: 112px;
+                border-radius: 50%;
+                margin: 0 auto;
+                overflow: hidden;
+
+                @include media-1200 {
+                  width: 90px;
+                  height: 90px;
+                }
+                @include media-mobile {
+                  width: 70px;
+                  height: 70px;
+                }
+
+                img {
+                  width: 100%;
+                  max-width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              }
+            }
+            .journey-details {
+              padding: 40px 0 0;
+              max-width: 300px;
+              width: 100%;
+
+              span {
+                position: relative;
+                margin-bottom: 10px;
+                display: flex;
+
+                &::before {
+                  counter-increment: philosophy-counter 1;
+                  content: "0" counter(philosophy-counter);
+                  font-weight: 900;
+                  font-size: 1.5em;
+                }
+              }
+              h4 {
+                color: $content-color;
+                @include custom-font(600, 20px, 118%);
+                position: relative;
+                padding-left: 40px;
+                margin-bottom: 15px;
+
+                @include media-1200 {
+                  font-size: 18px;
+                }
+                @include media-mobile {
+                  padding-left: 25px;
+                }
+
+                &::before {
+                  content: "";
+                  position: absolute;
+                  left: 0;
+                  top: 50%;
+                  width: 25px;
+                  height: 3px;
+                  background: $content-color;
+
+                  @include media-mobile {
+                    width: 15px;
+                  }
+                }
+              }
+              p {
+                @include custom-font(400, 15px, 1.5);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

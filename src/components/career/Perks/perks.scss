@@ -1,0 +1,108 @@
+@import "../../../styles/mixin.scss";
+#perks_container{
+    border-top: 1px solid #e4e4eb;
+ 
+  #perks {
+    @include wrapper-padding;
+  max-width: $max-container-width;
+      margin: 0 auto;
+
+    .section-container {
+      width: 100%;
+      padding: 0 32px;
+  
+      .perks-container {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 30px;
+  
+        .perk-box {
+          width: calc(16.6666% - 25px);
+          padding: 24px 20px;
+          text-align: center;
+  
+          @include media-1200 {
+            width: calc(20% - 24px);
+          }
+          @include media-sm-laptop {
+            width: calc(25% - 24px);
+            padding: 20px 15px;
+          }
+          @include media-tablet {
+            width: calc(33.33% - 20px);
+            padding: 20px 15px;
+          }
+          @include media-mobile {
+            width: calc(50% - 15px);
+            padding: 20px 15px;
+          }
+  
+          .perk-icon {
+            display: flex;
+            width: 94px;
+            height: 94px;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            align-items: center;
+            justify-content: center;
+  
+            @include media-sm-laptop {
+              width: 74px;
+              height: 74px;
+            }
+            @include media-mobile{
+              width: 64px;
+              height: 64px;
+              padding: 10px;
+            }
+  
+            figure {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              @include media-sm-laptop {
+                width: 35px;
+              }
+              @include media-mobile {
+                width: 30px;
+              }
+              img {
+                object-fit: contain;
+                max-width: 100%;
+              }
+            }
+          }
+          h6 {
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 140%;
+          }
+        }
+  
+        .blue-box {
+          background: #f2f8ff !important;
+          border-color: #136cf5;
+        }
+        .orange-box {
+          border-color: #ec4326;
+          background: #fff2f0 !important;
+        }
+        .purple-box {
+          border-color: #850cae;
+          background: #fdf8ff !important;
+        }
+        .green-box {
+          border-color: #04ad77;
+          background: #f1fbf2 !important;
+        }
+        .parrot-box {
+          background: #ebfcf8 !important;
+        }
+        .red-box {
+          border-color: #ef4821;
+          background: #fffbfa !important;
+        }
+      }
+    }
+  }
+}

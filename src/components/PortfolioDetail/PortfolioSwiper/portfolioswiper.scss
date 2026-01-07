@@ -1,0 +1,88 @@
+@import "../../../styles/mixin.scss";
+
+#portfolio-swiper {
+  @include wrapper-padding;
+  overflow-x: hidden; 
+
+  .mySwiper {
+    width: calc(100% - 42.1947%);
+    user-select: none;
+    overflow: visible;
+
+    @include media-tablet{
+        width: calc(100% - 21%);
+    }
+
+    .swiper-slide {
+      transition: 200ms ease-in;
+
+      figure {
+        padding-top: 68.1819%;
+
+        img {
+          position: absolute;
+          inset: 0;
+          width: 100% !important;
+          height: 100% !important;
+          object-fit: cover;
+          max-height: 470px !important;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  .swiper-button-next {
+    right: revert;
+    left: calc(100% + 20px);
+  }
+  .swiper-button {
+    margin: 0;
+    width: 56px;
+    height: 32px;
+    border-radius: 16px;
+    padding: 10px;
+    color: #c7c9d9;
+    border: 1px solid #c7c9d9;
+    transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+    background: 0 0;
+    top: calc(50% - 61px);
+
+    @include media-1200 {
+      display: none;
+    }
+
+    &:hover {
+      background: $primary-color;
+      color: #fff;
+      border-color: $primary-color;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .swiper-button-prev {
+    left: revert;
+    right: calc(100% + 20px);
+  }
+
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    margin-top: 24px;
+    position: static;
+    width: 100%;
+
+    .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      background: #a0a0a6;
+      transition: all 250ms cubic-bezier(0.75, 0.1, 0.6, 1);
+    }
+    .swiper-pagination-bullet-active {
+      background: $hover-active-color;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+@import "./variable.scss";
+
+/*mixins declared below*/
+
+@mixin media-desktop {
+  @media (min-width: 1441px) {
+    @content;
+  }
+}
+
+@mixin media-xlg-laptop {
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+
+@mixin media-lg-laptop {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin media-1200 {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin media-1039 {
+  @media (max-width: 1039px) {
+    @content;
+  }
+}
+
+@mixin media-laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-850 {
+  @media (max-width: 850px) {
+    @content;
+  }
+}
+
+@mixin media-sm-laptop {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin media-tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-510 {
+  @media (max-width: 510px) {
+    @content;
+  }
+}
+@mixin media-mobile {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
+
+//  upTo 577px breakpoint
+@mixin smMobile {
+  @media (max-width: #{$xs-min-width}) {
+    @content;
+  }
+}
+@mixin media-xs-mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin media-sm-mobile {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+@mixin media-350 {
+  @media (max-width: 350px) {
+    @content;
+  }
+}
+
+//***** all the font sizes *****//
+// font mixin creation
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin error {
+  text-align: left;
+  color: red;
+  font-size: 12px;
+}
+// font mixins
+@mixin custom-font($font-weight, $size, $line-height: 1rem) {
+  font-weight: $font-weight;
+  font-size: $size;
+  line-height: $line-height;
+}
+
+//wrapper padding mixin
+@mixin wrapper-padding {
+  padding-top: $padding-lg;
+  padding-bottom: $padding-lg;
+  @include media-1200 {
+    padding-top: $padding-md;
+    padding-bottom: $padding-md;
+  }
+}

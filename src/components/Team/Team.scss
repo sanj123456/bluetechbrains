@@ -1,0 +1,55 @@
+@import "../../styles/mixin.scss";
+.team-container {
+  @include wrapper-padding;
+  line-height: 1.5;
+  font-weight: 400;
+  .wrapper-div {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+    .content-wrapper {
+      text-align: center;
+      max-width: 100%;
+      margin-bottom: 48px;
+      @include media-tablet {
+        margin-bottom: 32px;
+      }
+      .team-heading {
+        margin: 0;
+        font-size: 3.125em;
+        line-height: 118%;
+        color: $content-color;
+        @include media-mobile {
+          font-size: 1.75em;
+        }
+      }
+      .th-bottom {
+        h4 {
+          margin: 24px auto 0;
+          font-size: 1.5em;
+          line-height: 140%;
+          color: $content-color;
+          @include media-mobile {
+            margin: 5px auto 0;
+          }
+        }
+        a {
+          color: $content-color;
+          text-decoration: underline;
+          transition: all cubic-bezier(0.15, 0.3, 0.2, 0.9) 250ms;
+          cursor: pointer;
+          &:hover {
+            color: #222926;
+          }
+        }
+      }
+    }
+  }
+  figure {
+    img {
+      display: flex;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

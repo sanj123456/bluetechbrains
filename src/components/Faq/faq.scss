@@ -1,0 +1,217 @@
+@import "../../styles/mixin.scss";
+
+#faq {
+  background: $primary-color;
+  color: $content-color;
+  @include wrapper-padding;
+  
+  .section-container {
+    width: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+    
+    .faq-box {
+      display: grid;
+      grid-template-columns: 488px 1fr;
+      grid-gap: 120px;
+      margin-top: 114px;
+      align-items: start;
+
+      @include media-xlg-laptop {
+        grid-gap: 40px;
+      }
+
+      @include media-sm-laptop {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+      }
+
+      .faq-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 488px;
+        width: 100%;
+
+        @media (min-width: 992px) {
+          position: sticky !important;
+          top: calc($navbar-height + 20px) !important;
+          // top: 100px;
+        }
+        @include media-sm-mobile{
+          align-items: center;
+        }
+
+        .info-title {
+          @include custom-font(600, 40px, 42px);
+          margin-bottom: 25px;
+
+          @include media-sm-laptop {
+            @include custom-font(600, 25px, 27px);
+          }
+        }
+        .info-detail {
+          margin: 0 0 30px;
+          color: $content-color;
+
+          @include media-sm-mobile{
+            text-align: center;
+          }
+        }
+      }
+
+      .faq-list {
+        counter-reset: my-sec-counter;
+
+        .faq-item {
+          border: 1px solid $secondary-color;
+          cursor: pointer;
+          margin: 0;
+          background: 0 0;
+          font-weight: 400;
+          position: relative;
+
+          .question {
+            @include custom-font(400, 18px, 140%);
+            cursor: pointer;
+            margin: 0;
+            background: 0 0;
+            padding: 20px 40px 20px 60px;
+            border: 0;
+            position: relative;
+            transition: all 350ms cubic-bezier(0.75, 0.1, 0.6, 1);
+
+            @include media-mobile {
+              @include custom-font(400, 16px, 140%);
+            }
+
+            &::before {
+              counter-increment: my-sec-counter;
+              content: counter(my-sec-counter);
+              position: absolute;
+              left: 20px;
+              top: 50%;
+              transform: translateY(-50%);
+              font-size: 16px;
+              border-radius: 4px;
+              width: 26px;
+              height: 26px;
+              // border: 1.5px solid #fff;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: all 350ms cubic-bezier(0.75, 0.1, 0.6, 1);
+
+              @include media-tablet {
+                font-size: 14px;
+                line-height: 1;
+                width: 20px;
+                height: 20px;
+                top: 30px;
+              }
+            }
+
+            &::after {
+              content: "";
+              position: absolute;
+              right: 20px;
+              top: 50%;
+              margin-top: -6px;
+              border-top: solid 8px $content-color;
+              border-left: solid 6px transparent;
+              border-right: solid 6px transparent;
+              z-index: 2;
+              transform: rotate(-90deg);
+              transition: all 350ms cubic-bezier(0.75, 0.1, 0.6, 1);
+            }
+          }
+          .open-question {
+            background: $secondary-color;
+            color: $content-color;
+
+            &::before {
+              color: $content-color;
+              border-color: $content-color;
+            }
+
+            &::after {
+              border-top-color: $content-color;
+              transform: rotate(0deg);
+            }
+          }
+
+          .answer {
+            max-height: 0px;
+            opacity: 0;
+            padding: 0 30px;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+
+            @include media-tablet {
+              padding: 0 20px;
+            }
+
+            .list-container {
+              list-style: none;
+              .list-para {
+                @include custom-font(400, 16px, 1.5);
+                // padding-left: 60px;
+                // counter-increment: alphabeticList;
+                position: relative;
+                color: $content-color;
+
+                @include media-tablet {
+                  padding-left: 40px;
+                }
+
+                &::before {
+                  content:  "";
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  font-size: 32px;
+                  font-weight: 700;
+                  color: $content-color;
+                  opacity: .8;
+                  line-height: 1;
+                }
+
+                ul {
+                  padding-top: 20px;
+                  list-style: none;
+
+                  li {
+                    margin-bottom: 10px;
+                    position: relative;
+                    padding-left: 20px;
+
+                    &::before {
+                      content: url("../../assets/Icons/bullet.svg");
+                      font-size: 10px;
+                      position: absolute;
+                      left: 0;
+                      top: 4px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .open-answer {
+            max-height: 600px;
+            opacity: 1;
+            padding: 28px 30px;
+            overflow: auto;
+            scrollbar-width: none;
+
+            @include media-tablet {
+              padding: 28px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

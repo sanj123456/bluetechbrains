@@ -1,0 +1,38 @@
+@import "../../../styles/mixin.scss";
+
+#jobApplyForm {
+  // @include wrapper-padding;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  
+  .section-title {
+    font-size: 2.5em;
+    line-height: 118%;
+    margin-bottom: 48px;
+  }
+
+  .form-grid {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 30px;
+    padding: 0 32px;
+    padding-bottom: 30px;
+
+    @include media-mobile{
+        grid-template-columns: 1fr;
+        grid-gap: 20px 32px;
+    }
+  }
+}
+.swal-title {
+  font-family: var(--font-bressay-regular) !important;
+}
+.swal-text{
+  font-family: var(--font-avenir-regular) !important;
+}
+.swal-confirm-button {
+  background-color: $hover-active-color !important;
+}

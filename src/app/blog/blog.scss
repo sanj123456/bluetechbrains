@@ -1,0 +1,72 @@
+@import "../../styles/mixin.scss";
+.blogsMain {
+  .searchAndTagline {
+    @include wrapper-padding;
+    display: flex;
+    flex-direction: column;
+
+    .searchBar-container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+
+      @include media-sm-laptop{
+        margin: 0;
+      }
+      
+      .searchbar {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border: 1px solid rgba(78, 78, 78, 0.486);
+        width: max-content;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 350px;
+
+        input {
+          padding: 1rem;
+          width: 100%;
+          padding-right: 0;
+          outline: none;
+          font-size: 1.3rem;
+          &::placeholder {
+            font-size: 1rem;
+          }
+          color: $content-color;
+          border: none;
+        }
+        .searchIcon {
+          z-index: 3;
+          color: rgba(24, 24, 24, 0.653);
+          margin-top: 8px;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  .blogs-container {
+    // margin-bottom: 62px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (width <=1200px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (width <=767px) {
+      grid-template-columns: 1fr ;
+          padding-left: 20px;
+    padding-right: 20px;
+    }
+    gap: 2.5rem;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include wrapper-padding;
+  }
+}

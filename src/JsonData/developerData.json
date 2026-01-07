@@ -1,0 +1,634 @@
+{
+    "DevelopersData": [   
+   {
+        "name": "Rahul Pandiya",
+        "designation": "Frontend Developer",
+        "technology": [
+            { "name": "React Js", "imgUrl": "/reactjs-icon-1.svg" },
+            { "name": "React Native", "imgUrl": "/reactnative-icon-1.svg" },
+            { "name": "TypeScript", "imgUrl": "/javascript-icon-1.svg" },
+            { "name": "Node Js", "imgUrl": "/nodejs-icon-1.svg" }
+        ],
+        "summary": "<><b>Experienced developer</b> with a strong background in various technologies.</>",
+        "connect": {
+            "email": "rahul.pandiya@example.com",
+            "mobile": "+1-123-456-7890",
+            "facebook": "https://www.facebook.com/rahul.pandiya",
+            "whatsApp": "+1-123-456-7890",
+            "instagram": "https://www.instagram.com/rahul.pandiya",
+            "linkdin": "https://www.linkedin.com/in/rahul.pandiya",
+            "github": "https://github.com/rahulpandiya"
+        },
+        "profileUrl": "/developer1.png",
+        "totalExperience":"7",
+        "workExperience": [
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Infosys",
+                "designation": "React.js Developer",
+                "startYear": "2020",
+                "endYear": "2022"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "TCS",
+                "designation": "Frontend Developer",
+                "startYear": "2018",
+                "endYear": "2020"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Wipro",
+                "designation": "Junior Developer",
+                "startYear": "2016",
+                "endYear": "2018"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project1"
+            },
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project2"
+            }
+        ]
+    },
+    {
+        "name": "John Doe",
+        "designation": "Flutter Developer",
+        "technology": [
+            { "name": "Angular", "imgUrl": "/angular-icon-1.svg" },
+            { "name": "TypeScript", "imgUrl": "/typescript-icon-1.svg" },
+            { "name": "Firebase", "imgUrl": "/firebase-icon-1.svg" }
+        ],
+        "summary": "<><b>Skilled engineer</b> with expertise in cutting-edge technologies.</>",
+        "connect": {
+            "email": "john.doe@example.com",
+            "mobile": "+1-987-654-3210",
+            "facebook": "https://www.facebook.com/john.doe",
+            "whatsApp": "+1-987-654-3210",
+            "instagram": "https://www.instagram.com/john.doe",
+            "linkdin": "https://www.linkedin.com/in/john.doe",
+            "github": "https://github.com/johndoe"
+        },
+        "profileUrl": "/developer2.png",
+        "totalExperience": "3",
+        "workExperience": [
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Dev Solutions",
+                "designation": "Frontend Developer",
+                "startYear": "2016",
+                "endYear": "2020"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Tech Innovators",
+                "designation": "Angular Developer",
+                "startYear": "2020",
+                "endYear": "2022"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "WebApp Masters",
+                "designation": "Senior Frontend Developer",
+                "startYear": "2022",
+                "endYear": "Present"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project3"
+            }
+        ]
+    },
+    {
+        "name": "Jane Smith",
+        "designation": "java Developer",
+        "technology": [
+            { "name": "Vue Js", "imgUrl": "/vuejs-icon-1.svg" },
+            { "name": "Nuxt Js", "imgUrl": "/nuxtjs-icon-1.svg" },
+            { "name": "JavaScript", "imgUrl": "/javascript-icon-1.svg" }
+        ],
+        "summary": "<><b>Proficient developer</b> with a passion for modern web technologies.</>",
+        "connect": {
+            "email": "jane.smith@example.com",
+            "mobile": "+1-111-222-3333",
+            "facebook": "https://www.facebook.com/jane.smith",
+            "whatsApp": "+1-111-222-3333",
+            "instagram": "https://www.instagram.com/jane.smith",
+            "linkdin": "https://www.linkedin.com/in/jane.smith",
+            "github": "https://github.com/janesmith"
+        },
+        "profileUrl": "/developer3.png",
+        "totalExperience": "0",
+        "workExperience": [
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Web Innovators",
+                "designation": "Full Stack Developer",
+                "startYear": "2017",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Vue Masters",
+                "designation": "Vue.js Developer",
+                "startYear": "2021",
+                "endYear": "2023"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Nuxt Solutions",
+                "designation": "Senior Frontend Developer",
+                "startYear": "2023",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project3.png",
+                "projectUrl": "https://www.example.com/project4"
+            },
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project5"
+            }
+        ]
+    },
+    {
+        "name": "Michael Johnson",
+        "designation": "DBA",
+        "technology": [
+            { "name": "React Js", "imgUrl": "/reactjs-icon-1.svg" },
+            { "name": "Node Js", "imgUrl": "/nodejs-icon-1.svg" },
+            { "name": "MongoDB", "imgUrl": "/mongodb-icon-1.svg" }
+        ],
+        "summary": "<><b>Expert developer</b> with a solid background in full-stack development.</>",
+        "connect": {
+            "email": "michael.johnson@example.com",
+            "mobile": "+1-444-555-6666",
+            "facebook": "https://www.facebook.com/michael.johnson",
+            "whatsApp": "+1-444-555-6666",
+            "instagram": "https://www.instagram.com/michael.johnson",
+            "linkdin": "https://www.linkedin.com/in/michael.johnson",
+            "github": "https://github.com/michaeljohnson"
+        },
+        "profileUrl": "/developer4.png",
+        "totalExperience": "6",
+        "workExperience": [
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Tech Giants",
+                "designation": "Full Stack Developer",
+                "startYear": "2014",
+                "endYear": "2018"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "NodeJS Experts",
+                "designation": "Backend Developer",
+                "startYear": "2018",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "React Solutions",
+                "designation": "Lead Developer",
+                "startYear": "2021",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project6"
+            },
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project7"
+            }
+        ]
+    },
+    {
+        "name": "Emily Davis",
+        "designation": "Flutter Developer",
+        "technology": [
+            { "name": "Flutter", "imgUrl": "/flutter-icon-1.svg" },
+            { "name": "Dart", "imgUrl": "/dart-icon-1.svg" },
+            { "name": "Firebase", "imgUrl": "/firebase-icon-1.svg" }
+        ],
+        "summary": "<><b>Versatile developer</b> with experience in mobile and web development.</>",
+        "connect": {
+            "email": "emily.davis@example.com",
+            "mobile": "+1-555-666-7777",
+            "facebook": "https://www.facebook.com/emily.davis",
+            "whatsApp": "+1-555-666-7777",
+            "instagram": "https://www.instagram.com/emily.davis",
+            "linkdin": "https://www.linkedin.com/in/emily.davis",
+            "github": "https://github.com/emilydavis"
+        },
+        "profileUrl": "/developer3.png",
+        "totalExperience": "8",
+        "workExperience": [
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Mobile Solutions",
+                "designation": "Mobile Developer",
+                "startYear": "2018",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Flutter Experts",
+                "designation": "Senior Flutter Developer",
+                "startYear": "2021",
+                "endYear": "2023"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Cross-Platform Innovators",
+                "designation": "Lead Mobile Developer",
+                "startYear": "2023",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project3.png",
+                "projectUrl": "https://www.example.com/project8"
+            },
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project9"
+            }
+        ]
+    },
+    {
+        "name": "William Brown",
+        "designation": "Flutter Developer",
+        "technology": [
+            { "name": "Python", "imgUrl": "/python-icon-1.svg" },
+            { "name": "Django", "imgUrl": "/django-icon-1.svg" },
+            { "name": "PostgreSQL", "imgUrl": "/postgresql-icon-1.svg" }
+        ],
+        "summary": "<><b>Backend expert</b> with a focus on scalable web applications.</>",
+        "connect": {
+            "email": "william.brown@example.com",
+            "mobile": "+1-777-888-9999",
+            "facebook": "https://www.facebook.com/william.brown",
+            "whatsApp": "+1-777-888-9999",
+            "instagram": "https://www.instagram.com/william.brown",
+            "linkdin": "https://www.linkedin.com/in/william.brown",
+            "github": "https://github.com/williambrown"
+        },
+        "profileUrl": "/developer1.png",
+        "totalExperience": "1",
+        "workExperience": [
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Web Backend Solutions",
+                "designation": "Backend Developer",
+                "startYear": "2015",
+                "endYear": "2019"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Python Pros",
+                "designation": "Senior Python Developer",
+                "startYear": "2019",
+                "endYear": "2022"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Django Masters",
+                "designation": "Lead Backend Developer",
+                "startYear": "2022",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project10"
+            },
+            {
+                "projectImg": "/project3.png",
+                "projectUrl": "https://www.example.com/project11"
+            }
+        ]
+    },
+    {
+        "name": "Sophia Martinez",
+        "designation": "php Developer",
+        "technology": [
+            { "name": "PHP", "imgUrl": "/php-icon-1.svg" },
+            { "name": "Laravel", "imgUrl": "/laravel-icon-1.svg" },
+            { "name": "MySQL", "imgUrl": "/mysql-icon-1.svg" }
+        ],
+        "summary": "<><b>Seasoned developer</b> with extensive experience in web development.</>",
+        "connect": {
+            "email": "sophia.martinez@example.com",
+            "mobile": "+1-222-333-4444",
+            "facebook": "https://www.facebook.com/sophia.martinez",
+            "whatsApp": "+1-222-333-4444",
+            "instagram": "https://www.instagram.com/sophia.martinez",
+            "linkdin": "https://www.linkedin.com/in/sophia.martinez",
+            "github": "https://github.com/sophiamartinez"
+        },
+        "profileUrl": "/developer2.png",
+        "totalExperience": "2",
+        "workExperience": [
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Web Wizards",
+                "designation": "PHP Developer",
+                "startYear": "2013",
+                "endYear": "2018"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Laravel Solutions",
+                "designation": "Senior Laravel Developer",
+                "startYear": "2018",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Full Stack Innovators",
+                "designation": "Lead Web Developer",
+                "startYear": "2021",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project12"
+            }
+        ]
+    },
+    {
+        "name": "James Wilson",
+        "designation": "nodejs Developer",
+        "technology": [
+            { "name": "Node Js", "imgUrl": "/nodejs-icon-1.svg" },
+            { "name": "Ionic", "imgUrl": "/expressjs-icon-1.svg" },
+            { "name": "MongoDB", "imgUrl": "/mongodb-icon-1.svg" }
+        ],
+        "summary": "<><b>Proficient developer</b> specializing in modern web technologies.</>",
+        "connect": {
+            "email": "james.wilson@example.com",
+            "mobile": "+1-999-000-1111",
+            "facebook": "https://www.facebook.com/james.wilson",
+            "whatsApp": "+1-999-000-1111",
+            "instagram": "https://www.instagram.com/james.wilson",
+            "linkdin": "https://www.linkedin.com/in/james.wilson",
+            "github": "https://github.com/jameswilson"
+        },
+        "profileUrl": "/developer3.png",
+        "totalExperience": "4",
+        "workExperience": [
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Tech Innovators",
+                "designation": "Backend Developer",
+                "startYear": "2017",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Node.js Experts",
+                "designation": "Senior Node.js Developer",
+                "startYear": "2021",
+                "endYear": "2023"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "MERN Stack Solutions",
+                "designation": "Full Stack Developer",
+                "startYear": "2023",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project13"
+            },
+            {
+                "projectImg": "/project3.png",
+                "projectUrl": "https://www.example.com/project14"
+            }
+        ]
+    },
+    {
+        "name": "Oliver Thomas",
+        "designation": "javascript Developer",
+        "technology": [
+            { "name": "Python", "imgUrl": "/python-icon-1.svg" },
+            { "name": "Flask", "imgUrl": "/flask-icon-1.svg" },
+            { "name": "MySQL", "imgUrl": "/mysql-icon-1.svg" }
+        ],
+        "summary": "<><b>Dedicated developer</b> with a focus on backend technologies.</>",
+        "connect": {
+            "email": "oliver.thomas@example.com",
+            "mobile": "+1-333-444-5555",
+            "facebook": "https://www.facebook.com/oliver.thomas",
+            "whatsApp": "+1-333-444-5555",
+            "instagram": "https://www.instagram.com/oliver.thomas",
+            "linkdin": "https://www.linkedin.com/in/oliver.thomas",
+            "github": "https://github.com/oliverthomas"
+        },
+        "profileUrl": "/developer4.png",
+        "totalExperience": "10",
+        "workExperience": [
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Backend Masters",
+                "designation": "Backend Developer",
+                "startYear": "2018",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Python Solutions",
+                "designation": "Senior Python Developer",
+                "startYear": "2021",
+                "endYear": "2023"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Flask Innovators",
+                "designation": "Lead Backend Developer",
+                "startYear": "2023",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project15"
+            },
+            {
+                "projectImg": "/project3.png",
+                "projectUrl": "https://www.example.com/project16"
+            }
+        ]
+    },
+    {
+        "name": "Charlotte Lee",
+        "designation": "reactjs Developer",
+        "technology": [
+            { "name": "React Js", "imgUrl": "/reactjs-icon-1.svg" },
+            { "name": "Redux", "imgUrl": "/redux-icon-1.svg" },
+            { "name": "TypeScript", "imgUrl": "/typescript-icon-1.svg" }
+        ],
+        "summary": "<><b>Frontend developer</b> with expertise in modern JavaScript frameworks.</>",
+        "connect": {
+            "email": "charlotte.lee@example.com",
+            "mobile": "+1-555-666-7777",
+            "facebook": "https://www.facebook.com/charlotte.lee",
+            "whatsApp": "+1-555-666-7777",
+            "instagram": "https://www.instagram.com/charlotte.lee",
+            "linkdin": "https://www.linkedin.com/in/charlotte.lee",
+            "github": "https://github.com/charlottelee"
+        },
+        "profileUrl": "/developer1.png",
+        "workExperience": [
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Frontend Experts",
+                "designation": "Frontend Developer",
+                "startYear": "2015",
+                "endYear": "2019"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "React Masters",
+                "designation": "Senior React Developer",
+                "startYear": "2019",
+                "endYear": "2022"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "TypeScript Solutions",
+                "designation": "Lead Frontend Developer",
+                "startYear": "2022",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project17"
+            }
+        ]
+    },
+    {
+        "name": "Mia Walker",
+        "designation": "Frontend Developer",
+        "technology": [
+            { "name": "JavaScript", "imgUrl": "/javascript-icon-1.svg" },
+            { "name": "HTML", "imgUrl": "/html-icon-1.svg" },
+            { "name": "CSS", "imgUrl": "/css-icon-1.svg" }
+        ],
+        "summary": "<><b>Web developer</b> with a passion for creating beautiful websites.</>",
+        "connect": {
+            "email": "mia.walker@example.com",
+            "mobile": "+1-111-222-3333",
+            "facebook": "https://www.facebook.com/mia.walker",
+            "whatsApp": "+1-111-222-3333",
+            "instagram": "https://www.instagram.com/mia.walker",
+            "linkdin": "https://www.linkedin.com/in/mia.walker",
+            "github": "https://github.com/miawalker"
+        },
+        "profileUrl": "/developer2.png",
+        "workExperience": [
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Creative Web",
+                "designation": "Web Developer",
+                "startYear": "2016",
+                "endYear": "2020"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "UI/UX Innovators",
+                "designation": "Frontend Developer",
+                "startYear": "2020",
+                "endYear": "2022"
+            },
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Web Design Masters",
+                "designation": "Senior Web Developer",
+                "startYear": "2022",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project1.png",
+                "projectUrl": "https://www.example.com/project18"
+            },
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project19"
+            }
+        ]
+    },
+    {
+        "name": "Lucas Martinez",
+        "designation": "Full Stack Developer",
+        "technology": [
+            { "name": "Vue Js", "imgUrl": "/vuejs-icon-1.svg" },
+            { "name": "JavaScript", "imgUrl": "/javascript-icon-1.svg" },
+            { "name": "Node Js", "imgUrl": "/nodejs-icon-1.svg" }
+        ],
+        "summary": "<><b>Passionate developer</b> with expertise in modern web development.</>",
+        "connect": {
+            "email": "lucas.martinez@example.com",
+            "mobile": "+1-444-555-6666",
+            "facebook": "https://www.facebook.com/lucas.martinez",
+            "whatsApp": "+1-444-555-6666",
+            "instagram": "https://www.instagram.com/lucas.martinez",
+            "linkdin": "https://www.linkedin.com/in/lucas.martinez",
+            "github": "https://github.com/lucasmartinez"
+        },
+        "profileUrl": "/developer3.png",
+        "workExperience": [
+            {
+                "companyLogo": "/company3.png",
+                "companyName": "Web Solutions",
+                "designation": "Frontend Developer",
+                "startYear": "2017",
+                "endYear": "2021"
+            },
+            {
+                "companyLogo": "/company1.png",
+                "companyName": "Vue.js Experts",
+                "designation": "Senior Vue.js Developer",
+                "startYear": "2021",
+                "endYear": "2023"
+            },
+            {
+                "companyLogo": "/company2.png",
+                "companyName": "Full Stack Innovators",
+                "designation": "Lead Developer",
+                "startYear": "2023",
+                "endYear": "2024"
+            }
+        ],
+        "projects": [
+            {
+                "projectImg": "/project2.png",
+                "projectUrl": "https://www.example.com/project20"
+            }
+        ]
+    }
+]
+}

@@ -1,0 +1,98 @@
+@import "../../../styles/mixin.scss";
+
+#section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+
+  @include media-350 {
+    margin-bottom: unset;
+  }
+
+  .top-title {
+    @include custom-font(600, 16px, 18px);
+    padding: 0 44px;
+    color: $content-color;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include media-mobile {
+      padding: 0;
+      font-size: 14px;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      background: $title-before-after-color;
+      width: 37px;
+      height: 1px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      @include media-mobile {
+        display: none;
+      }
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      background: $title-before-after-color;
+      width: 37px;
+      height: 1px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      @include media-mobile {
+        display: none;
+      }
+    }
+  }
+  .main-title {
+    @include custom-font(600, 50px, 52px);
+    text-wrap: wrap;
+    text-align: center;
+    color: $content-color;
+    position: relative;
+    
+    @include media-lg-laptop {
+      @include custom-font(600, 40px, 42px);
+    }
+
+    @include media-sm-laptop {
+      @include custom-font(600, 30px, 118%);
+    }
+
+    @include media-tablet {
+      @include custom-font(600, 28px, 118%);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      bottom: -22px;
+      width: 40%;
+      height: 2px;
+      background: $content-color;
+
+      @include media-mobile{
+       display: none;
+      }
+    }
+  }
+}

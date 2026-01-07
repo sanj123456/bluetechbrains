@@ -1,0 +1,52 @@
+@import "../../../styles/mixin.scss";
+.aboutDropDown-main {
+  cursor: auto;
+  position: absolute;
+  .aboutSublist {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
+    align-items: start;
+    width: fit-content;
+    left: 0;
+
+    background-color: #fafafc;
+    padding: 1rem;
+    border-bottom-right-radius: 5px;
+
+    border-bottom-left-radius: 5px;
+    @include media-sm-laptop {
+      margin-top: 5rem;
+      margin-left: 2rem;
+      left: unset;
+      background-color: unset;
+    }
+    li {
+      list-style-type: none;
+      position: relative;
+      padding-left: 16px;
+
+      &::before {
+        content: url("../../../assets/Icons/bullet.svg");
+        font-size: 10px;
+        position: absolute;
+        left: 0;
+        top: 8px;
+      }
+
+      a {
+        color: $content-color;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 10px 10px 10px 5px;
+        border-radius: 5px;
+        text-wrap: nowrap;
+        &:hover {
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}

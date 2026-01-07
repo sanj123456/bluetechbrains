@@ -1,0 +1,158 @@
+@import "../../styles/mixin.scss";
+$topBgColor: #fafafa;
+#technologyWeWrapper {
+  background-color: $topBgColor;
+  @include wrapper-padding;
+  padding-bottom: 0 !important;
+  .swipebuttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    background-color: white;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+    }
+  }
+
+  .tab-data {
+    .custom-scroll {
+      margin-top: 2.5rem;
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      overflow: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      overflow-y: scroll;
+      //   display: flex;
+      //   justify-content: center;
+      .tab-nav {
+        display: flex;
+        justify-content: center;
+        min-width: -webkit-max-content;
+        min-width: -moz-max-content;
+        min-width: max-content;
+
+        .tab-inner-item {
+          display: flex;
+          column-gap: 0.3rem;
+          font-size: 16px;
+          align-items: center;
+          line-height: 24px;
+          text-wrap: nowrap;
+          
+          > img {
+            // filter: brightness(0) saturate(100%) invert(16%) sepia(23%)
+            //   saturate(2738%) hue-rotate(212deg) brightness(93%) contrast(101%);
+            
+            filter: brightness(0) saturate(100%) invert(5%) sepia(8%) saturate(3394%) hue-rotate(191deg) brightness(94%) contrast(93%);
+          }
+
+          &:hover {
+            // filter: brightness(0) saturate(100%) invert(60%) sepia(88%)
+            //   saturate(270%) hue-rotate(99deg) brightness(95%) contrast(92%);
+              // filter: invert(93%) sepia(9%) saturate(597%) hue-rotate(346deg) brightness(90%) contrast(92%);
+              filter: invert(56%) sepia(7%) saturate(2179%) hue-rotate(318deg) brightness(85%) contrast(86%);
+          }
+        }
+        .tab-li {
+          cursor: pointer;
+          padding: 15px 30px;
+          background-color: $topBgColor;
+          // border-bottom: 1.3px solid #9b9b9b3f;
+          white-space: nowrap;
+        }
+        .active {
+          background-color: white;
+          border: 1.3px solid #9b9b9b3f;
+          border-top-left-radius: 3px;
+          border-top-right-radius: 3px;
+          position: relative;
+
+          border-bottom: none !important;
+.tab-inner-item{
+                        filter: invert(56%) sepia(7%) saturate(2179%) hue-rotate(318deg) brightness(85%) contrast(86%) !important;
+
+}
+          img{
+            // filter: brightness(0) saturate(100%) invert(60%) sepia(88%)
+            //   saturate(270%) hue-rotate(99deg) brightness(95%) contrast(92%) !important;
+            //             filter: invert(56%) sepia(7%) saturate(2179%) hue-rotate(318deg) brightness(85%) contrast(86%) !important;
+
+
+          }
+          
+        }
+      }
+    }
+    .tab-container {
+      width: 100%;
+      background-color: white;
+      padding: 75px 0;
+      .technology-tab-content {
+        text-align: center;
+        .technology-list {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 7rem;
+          gap: 4rem;
+          align-items: center;
+          justify-content: center;
+          margin: 0 1rem;
+          @media (width<=750px) {
+            
+          }
+          #activeTechnologies1{
+            text-decoration: none;
+            color: $content-color;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 14px;
+            opacity: 0;
+            animation: activeTechnologies 0.6s ease-out forwards;
+            transition: all 0.3s ease;
+            &:hover {
+              .technology-img {
+                transform: scale(1.1);
+              }
+            }
+            .technology-img {
+              transition: all 0.3s ease;
+            }
+            @keyframes activeTechnologies {
+              to {
+                opacity: 1;
+              }
+            }
+          }
+          a {
+            text-decoration: none;
+            color: $content-color;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 14px;
+            opacity: 0;
+            animation: activeTechnologies 0.6s ease-out forwards;
+            transition: all 0.3s ease;
+            &:hover {
+              .technology-img {
+                transform: scale(1.1);
+              }
+            }
+            .technology-img {
+              transition: all 0.3s ease;
+            }
+            @keyframes activeTechnologies {
+              to {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
